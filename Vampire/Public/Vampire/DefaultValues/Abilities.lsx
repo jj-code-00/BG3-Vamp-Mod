@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Charisma"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="AbilityBonus"/>
+                    <attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/>
+                    <attribute id="UUID" type="guid" value="68898f38-db92-46b8-95fd-88ab160f5627"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

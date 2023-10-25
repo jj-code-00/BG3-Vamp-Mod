@@ -1,0 +1,28 @@
+// Magus Class Features //
+
+new entry "Passive_Example"
+type "PassiveData"
+data "DisplayName" "" // from .loca file //
+data "Description" "" // from .loca file //
+data "Boosts" "UnlockSpell(Spell_Example)" // what does the passive give //
+
+// Check Modifiers for additional things for what you can do with Passives //
+
+new entry "Sanguinare_Vampiris"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67;2"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425;2"
+data "DescriptionParams" " Distance(36)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "Properties" "Highlighted"
+data "Boosts" "DarkvisionRangeMin(36);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);Resistance(Necrotic, Resistant);Vamp_RUNNING_WATER_VAMPIRE;IF(IsInSunlight(context.Target)):Disadvantage(AttackRoll);IF(IsInSunlight(context.Target)):Disadvantage(Skill,Perception);UnlockSpell(Vamp_Bite);UnlockSpell(Vamp_Claws);UnlockSpell(Vamp_Claws_Grapple)"
+
+new entry "UndeadFortitude"
+type "PassiveData"
+data "DisplayName" "h43b75af6g155dg4434gb3c7g5d9cb6d6021e;1"
+data "Description" "h1bc4cd8ag19d2g4982g8ac7g427d432f0b79;2"
+data "Icon" "PassiveFeature_Generic_Death"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "HasDamageDoneForType(DamageType.Radiant) or IsCritical()"
+data "StatsFunctors" "ApplyStatus(UNDEAD_FORTITUDE_DISABLED,100,1)"

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h4ac681c0g5932g491cg80c0g657a6595beaf" version="1">Vampire</content>
+	<content contentuid="h4c20d61fge2d5g4de7g938eg2a24f4179e36" version="1">Throughout history and the world, Vampires have been a terrifying force. Cloaked in darkness and mystery, these champions of shadow have taken many forms and committed many terrifying acts in the name of some greater evil. In this version, your vampire powers are tied to the very core of your being, while you claim your Title to truly separate yourself from the rest of the rabble.</content>
+	<content contentuid="h4c95eb10gd2a9g419eg89b8g6abcff2b9219" version="1">Bestial</content>
+	<content contentuid="hc3c39fc2g00b5g4cfega7e1g0abbdb1b396e" version="1">Vampire Title focusing on shapeshifting into bestial forms</content>
+	<content contentuid="h3e4c291fg39f2g441eg8e9egd9d4c1781f67" version="1">Sanguinare Vampiris</content>
+	<content contentuid="h4259269ag1168g4572g8dfcgd79c7ef58425" version="1">The influence of Vampirism</content>
+	<content contentuid="hf0329964ga2d7g4d80gbc4eg7731d21131e5" version="1">Vampire Claws</content>
+	<content contentuid="hd5951139g56f7g4643g8ae5g5c080d3b9378" version="1">Vampire Claws (Grapple)</content>
+	<content contentuid="h61b948ffg3761g4b95gbc9ag132c338931da" version="1">Use your Vampire Claws to attempt to grapple the opponent. Must pass an &lt;LSTag Tooltip="Athletics"&gt;Athletics&lt;/LSTag&gt; check.</content>
+	<content contentuid="h09ae6612gf871g4d05g8e5eg55731e37adef" version="1">Suck the blood from a living creature to regain [1]. The target takes [2] and [3]. Target must be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Sleeping&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, Incapacitated, or Unconscious.</content>
+	<content contentuid="h65abe34cg52a6g4b03gae99g3e58a482b4fd" version="1">Hit point maximum reduced by 1d4. Creature will die if its hit point maximum is reduced to 0.</content>
+</contentList>

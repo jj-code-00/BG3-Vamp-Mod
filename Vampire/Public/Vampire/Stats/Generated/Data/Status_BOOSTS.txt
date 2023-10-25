@@ -1,0 +1,32 @@
+// Example //
+new entry "BOOST_EXAMPLE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "178b3b303a3eda8070c05531b0ce8e3a63768;1"
+data "Description" "c5c175465073d4f3d939f0d6a0a965f0421ee;1"
+data "DescriptionParams" "1"
+data "StackId" "BOOST_EXAMPLE"
+data "Passives" "Passive1"
+data "Icon" ""
+
+ //Dunno if CharacterLevel works
+new entry "Vamp_RUNNING_WATER_VAMPIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RUNNING_WATER_VAMPIRE"
+data "DescriptionParams" "DealDamage(CharacterLevel,Acid)"
+data "OnApplyFunctors" "DealDamage(CharacterLevel,Acid)"
+data "OnRemoveFunctors" ""
+
+new entry "Vamp_LIFE_DRAIN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "LIFE_DRAIN"
+data "Boosts" "IncreaseMaxHP(-1d4)"
+data "Description" "h65abe34cg52a6g4b03gae99g3e58a482b4fd"
+
+new entry "Vamp_Grapple"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RESTRAINED"
+data "Boosts" "Advantage(AttackTarget);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);"

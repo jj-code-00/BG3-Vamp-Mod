@@ -1,0 +1,14 @@
+new entry "Interrupt_Example"
+type "InterruptData"
+data "DisplayName" "b46f93019df6cfa3dc0372013057cd4ad296f;1" // From .loca file //
+data "Description" "dc6cc9b02903e8674849e37d7791a7a298f17;1" // From .lova file //
+data "Icon" "Spell_Shield" // Choose an ingame icon or an Icon you made or leave it blank //
+data "InterruptContext" "OnPostRoll;OnPreDamage" // what kind of trigger is this interrupt looking for //
+data "InterruptContextScope" "Self" // what is the scope of the trigger //
+data "Container" "YesNoDecision" // what kind of decision //
+data "Conditions" "" // what conditions has to be met for the interrupt to trigger //
+data "Properties" "" // what happens when you choose to use it //
+data "Cost" "" // what is the resource cost of the interrupt //
+data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in game //
+
+// Check Modifiers for additional things you can do with Interrupts //
