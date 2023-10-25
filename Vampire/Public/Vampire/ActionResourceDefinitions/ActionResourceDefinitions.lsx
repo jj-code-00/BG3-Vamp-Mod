@@ -5,18 +5,18 @@
         <node id="root">
             <children>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="99d7b8be73b16957796985f19d597e5b6cb0c" version="1"/> A text tied to the .loca file
+                    <attribute id="Description" type="TranslatedString" handle="h5464c743g34c0g4829g843eg42c7cc17c96a" version="1"/> A text tied to the .loca file
 					<attribute id="DiceType" type="uint32" value="0"/> If the resource has any dice type, like Superiority die from BM
-                    <attribute id="DisplayName" type="TranslatedString" handle="99d7b8be73b16957796985f19d597e5b6cb0c" version="1"/> A text tied to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5ed098cag2d2ag4318g93f2g66996e876e95" version="1"/> A text tied to the .loca file
                     <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
                     <attribute id="IsSpellResource" type="bool" value="false"/> Is this resource used to cast spells
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="MaxValue" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="ExampleResource"/> What you will be referring to in your code
+                    <attribute id="Name" type="FixedString" value="Vamp_BloodPool"/> What you will be referring to in your code
                     <attribute id="PartyActionResource" type="bool" value="false"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/> Rest = Long Rest, ShortRest = ShortRest
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/> If the resource will be displayed on your hotbar
-                    <attribute id="UUID" type="guid" value="c818df4a-4a65-4500-9411-f45555555555"/> UUID for the Resource, give it a new one
+                    <attribute id="UUID" type="guid" value="3db1b523-9cbe-4261-8f49-f728b56a2bcf"/> UUID for the Resource, give it a new one
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
                 </node>
             </children>

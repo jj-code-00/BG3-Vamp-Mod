@@ -15,7 +15,7 @@ data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425;2"
 data "DescriptionParams" " Distance(36)"
 data "Icon" "GenericIcon_DamageType_Necrotic"
 data "Properties" "Highlighted"
-data "Boosts" "DarkvisionRangeMin(36);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);Resistance(Necrotic, Resistant);Vamp_RUNNING_WATER_VAMPIRE;IF(IsInSunlight(context.Target)):Disadvantage(AttackRoll);IF(IsInSunlight(context.Target)):Disadvantage(Skill,Perception);UnlockSpell(Vamp_Bite);UnlockSpell(Vamp_Claws);UnlockSpell(Vamp_Claws_Grapple)"
+data "Boosts" "DarkvisionRangeMin(36);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);Resistance(Necrotic, Resistant);Vamp_RUNNING_WATER_VAMPIRE;IF(IsInSunlight(context.Target)):Disadvantage(AttackRoll);IF(IsInSunlight(context.Target)):Disadvantage(Skill,Perception);UnlockSpell(Vamp_Bite);UnlockSpell(Vamp_Claws);UnlockSpell(Vamp_Claws_Grapple);UnlockSpell(test_add);UnlockSpell(test_remove)"
 
 new entry "UndeadFortitude"
 type "PassiveData"
