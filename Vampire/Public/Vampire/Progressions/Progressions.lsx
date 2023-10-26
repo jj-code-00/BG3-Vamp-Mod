@@ -31,7 +31,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 2
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,2,0)"/> Adds resource, proficiency, etc.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="2"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature2"/> most class features usually can be done with passives
@@ -43,7 +43,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 3
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,3,0)"/> Adds resource, proficiency, etc.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="3"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -64,7 +64,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 4
                     <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,4,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="4"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -76,7 +76,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 5
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,5,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="5"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/> most class features usually can be done with passives
@@ -88,7 +88,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 6
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,6,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="6"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature3;Vamp_Sanguine_Talons"/> most class features usually can be done with passives
@@ -100,7 +100,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 7
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,7,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="7"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -112,7 +112,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 8
                     <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,8,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="8"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -124,7 +124,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 9
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,9,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="9"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature4"/> most class features usually can be done with passives
@@ -136,7 +136,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 10
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,10,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="10"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_DetectLife"/> most class features usually can be done with passives
@@ -148,7 +148,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 11
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,11,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="11"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -160,7 +160,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 12
                     <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,12,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="12"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature5"/> most class features usually can be done with passives
@@ -172,7 +172,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 13
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,13,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="13"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -184,7 +184,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 14
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,14,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="14"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -196,7 +196,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 15
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,15,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="15"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature6"/> most class features usually can be done with passives
@@ -208,7 +208,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 16
                     <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,16,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="16"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -220,7 +220,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 17
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,17,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="17"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -232,7 +232,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 18
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,18,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="18"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature7"/> most class features usually can be done with passives
@@ -244,7 +244,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 19
                     <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,19,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="19"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -256,7 +256,7 @@
                 </node>
                 <node id="Progression"> Mainclass Level 20
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,20,0)"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
                     <attribute id="Level" type="uint8" value="20"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> 
                     <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
@@ -268,7 +268,7 @@
                 </node>
 				<node id="Progression"> Subclass Level 3
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="ExampleSubclass"/>
+                    <attribute id="Name" type="LSString" value="Bestial"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
