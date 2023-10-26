@@ -30,10 +30,9 @@
                         </node>
                     </children-->
                 </node>
-				<!--node id="ClassDescription"> Subclass (you will need one of this for each subclass)
+				<node id="ClassDescription"> Subclass (you will need one of this for each subclass)
                     <attribute id="CanLearnSpells" type="bool" value="false"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Magus_SparklingTarge"/> Starting equipment entry from Equipment.txt
 					<attribute id="Description" type="TranslatedString" handle="hc3c39fc2g00b5g4cfega7e1g0abbdb1b396e" version="1"/> Link to the .loca file
                     <attribute id="DisplayName" type="TranslatedString" handle="h4c95eb10gd2a9g419eg89b8g6abcff2b9219" version="1"/> Link to the .loca file
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -45,7 +44,7 @@
                     <attribute id="SoundClassType" type="FixedString" value="Druid"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="81417d2f-ee52-46e0-bc80-e033682e3af9"/> Make a unique UUID for the subclass
-                </node-->
+                </node>
             </children>
         </node>
     </region>

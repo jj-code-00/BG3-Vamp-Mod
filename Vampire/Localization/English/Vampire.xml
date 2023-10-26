@@ -13,4 +13,7 @@
 	<content contentuid="h65abe34cg52a6g4b03gae99g3e58a482b4fd" version="1">Hit point maximum reduced by 1d4. Creature will die if its hit point maximum is reduced to 0.</content>
 	<content contentuid="h5464c743g34c0g4829g843eg42c7cc17c96a" version="1">Resource used for vampiric powers</content>
 	<content contentuid="h5ed098cag2d2ag4318g93f2g66996e876e95" version="1">Blood Pool</content>
+	<content contentuid="h139819ecgf6b5g42bdg974fg71e23e9f4d51" version="1">Blood Pool Feature</content>
+	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
+	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws now count as magical for the purposes of overcoming resistnaces.</content>
 </contentList>

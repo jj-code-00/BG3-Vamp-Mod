@@ -36,3 +36,9 @@ data "TooltipDamageList" "DealDamage(1d6+DexterityModifier,Piercing);DealDamage(
 data "TooltipAttackSave" "MeleeSpellAttack"
 data "TooltipStatusApply" ""
 data "UseCosts" "ActionPoint:1"
+
+// new entry "test_remove"
+// type "SpellData"
+// data "SpellType" "Target"
+// using "Target_MainHandAttack"
+// data "UseCosts" "Vamp_BloodPool:1"
