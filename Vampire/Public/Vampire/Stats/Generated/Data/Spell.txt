@@ -1,3 +1,5 @@
+// Baseline skills
+
 new entry "Vamp_Claws"
 type "SpellData"
 data "SpellType" "Target"
@@ -36,3 +38,59 @@ data "TooltipDamageList" "DealDamage(1d6+DexterityModifier,Piercing);DealDamage(
 data "TooltipAttackSave" "MeleeSpellAttack"
 data "TooltipStatusApply" ""
 data "UseCosts" "ActionPoint:1"
+
+// new entry "test_remove"
+// type "SpellData"
+// data "SpellType" "Target"
+// using "Target_MainHandAttack"
+// data "UseCosts" "Vamp_BloodPool:1"
+
+//Blood Features
+
+new entry "Shout_SelectBloodFeatures"
+type "SpellData"
+data "SpellType" "Shout"
+data "ContainerSpells" "Shout_SelectAgonizing_Bite;"
+data "TargetConditions" "Self()"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Description" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "ExtraDescription" ""
+data "CastTextEvent" "Cast"
+data "UseCosts" "Vamp_BloodFeature:1"
+data "SpellAnimation" ""
+data "VerbalIntent" "Utility"
+data "SpellFlags" "IsLinkedSpellContainer"
+
+//IF(not ClassLevelHigherOrEqualThan(4,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER,100,-1);IF(ClassLevelHigherOrEqualThan(4,'Druid') and not ClassLevelHigherOrEqualThan(6,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_4,100,-1);IF(ClassLevelHigherOrEqualThan(6,'Druid') and not ClassLevelHigherOrEqualThan(8,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_6,100,-1);IF(ClassLevelHigherOrEqualThan(8,'Druid') and not ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_8,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')and not ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_10,100,-1);IF(ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_12,100,-1)
+
+//No Req
+
+new entry "Shout_SelectAgonizing_Bite"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SelectBloodFeatures"
+data "SpellContainerID" "Shout_SelectBloodFeatures"
+data "ContainerSpells" ""
+data "SpellProperties" "ApplyStatus(Vamp_StatusAgonizingBite,100,-1)"
+data "Icon" "Skill_Druid_WildShape_GiantBadger"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+data "PrepareSound" "Spell_Prepare_Buff_WildShape_L1to3"
+data "PrepareLoopSound" "Spell_Loop_Buff_WildShape_L1to3"
+data "CastSound" "Spell_Cast_Buff_WildShapeBadger_L1to3"
+data "SpellAnimation" "f324c7b4-4fb8-4088-ae4a-02fa323a8701,,;,,;825a94f3-b675-402a-a275-adcc465f4f62,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;c5b317da-4fc3-4d59-a45e-2681592cf0ed,,;,,;ad2cf583-ad84-4165-8d04-9fea86af396e,,;,,;,,"
+data "SpellFlags" ""
+data "PrepareEffect" ""
+data "CastEffect" ""
+
+new entry "Vamp_Agonizing_Bite"
+type "SpellData"
+data "SpellType" "Target"
+using "Vamp_Bite"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "SpellSuccess" "DealDamage(1d6+DexterityModifier, Piercing);DealDamage(1d4+CharismaModifier, Necrotic);ApplyStatus(Vamp_LIFE_DRAIN,100,-1);TARGET:IF(SizeEqualOrGreater(Size.Small) and not Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,1,0);TARGET:IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,2,0);TARGET:IF((not Dead() and not Tagged('REALLY_GALE') and not (Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH')))):RegainHitPoints(SELF, 1d4+CharismaModifier);TARGET:IF((Dead() or Tagged('REALLY_GALE'))):ApplyStatus(SELF, POISONED, 100, 3); TARGET:IF((Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH') and not Dead())):ApplyStatus(SELF, BURNING, 100, 3);"
+data "DescriptionParams" "RegainHitPoints(1d4+CharismaModifier);DealDamage(1d6+DexterityModifier,Piercing);DealDamage(1d4+CharismaModifier,Necrotic);"
+data "TooltipDamageList" "DealDamage(1d6+DexterityModifier,Piercing);DealDamage(1d4+CharismaModifier,Necrotic);"
+

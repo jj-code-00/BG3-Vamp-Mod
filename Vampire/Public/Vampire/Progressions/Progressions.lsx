@@ -6,55 +6,274 @@
             <children>
                 <node id="Progression"> Mainclass Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/> Adds resource, proficiency, etc.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodFeature,1,0);ActionResource(Vamp_BloodPool,1,0);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
-                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead"/> most class features usually can be done with passives
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodFeature"/> most class features usually can be done with passives
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSkills(0e23fd18-d5ff-4c97-83d7-eb22238bed55,2);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSkills(0e23fd18-d5ff-4c97-83d7-eb22238bed55,2);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0);"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
 					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> Same UUID as the one in ClassDescriptions.lsx this refers to the entire table
                     <attribute id="UUID" type="guid" value="3a5376a4-a1e0-4034-8ba7-6476c6ca34d5"/> a Unique UUID specificaly for this entry within the table
-					<!--children>
-                        <node id="SubClasses">
-                            <children>
-                                <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
-                                    <attribute id="Object" type="guid" value="11277e95-d746-4df1-8a6f-f45555555555"/> same UUID as the one for your subclass in ClassDescriptions.lsx
-                                </node>
-                            </children>
-                        </node>
-                    </children-->
                 </node>
 				<node id="Progression"> Mainclass Level 1 MULTICLASS. (you will want a separate one as there are no AbilityBonus when multiclassing). Multiclassed character will use this progression entry instead of the previous one
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Vampire"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>
 					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/>
                     <attribute id="UUID" type="guid" value="44ae2360-bdcd-4e35-aa7a-950ee4e25ac9"/>
-					<!--children>
+                </node>
+                <node id="Progression"> Mainclass Level 2
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> Adds resource, proficiency, etc.
+                    <attribute id="Level" type="uint8" value="2"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature2"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> Same UUID as the one in ClassDescriptions.lsx this refers to the entire table
+                    <attribute id="UUID" type="guid" value="51a087ec-1850-4c38-ba59-cee9fcb0d46b"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 3
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> Adds resource, proficiency, etc.
+                    <attribute id="Level" type="uint8" value="3"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> Same UUID as the one in ClassDescriptions.lsx this refers to the entire table
+                    <attribute id="UUID" type="guid" value="6570fa33-be13-4a41-ba1b-559d08bb2e59"/> a Unique UUID specificaly for this entry within the table
+					<children>
                         <node id="SubClasses">
                             <children>
                                 <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
-                                    <attribute id="Object" type="guid" value="11277e95-d746-4df1-8a6f-f45555555555"/>
+                                    <attribute id="Object" type="guid" value="81417d2f-ee52-46e0-bc80-e033682e3af9"/> same UUID as the one for your subclass in ClassDescriptions.lsx
                                 </node>
                             </children>
                         </node>
-                    </children-->
+                    </children>
                 </node>
-				<!--node id="Progression"> Subclass Level 1
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="ExampleSubclass"/>
+                <node id="Progression"> Mainclass Level 4
+                    <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="4"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="f4a9a63e-a517-49f5-9f63-b46665109cef"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 5
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="5"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="7e58fc21-f8a8-411a-a48f-2f285eea9b2c"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 6
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="6"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature3;Vamp_Sanguine_Talons"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="ec3abf60-20b9-49ed-a577-a6a4b8a1af09"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 7
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="7"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="f07bd694-8ec2-4636-a296-dcdea6863a8d"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 8
+                    <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="8"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="20a32e73-a17c-4fa1-b83d-de64cfa859fe"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 9
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="9"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature4"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="13a9fd5c-f21b-4b2c-b2e0-b7571a11fcee"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 10
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="10"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_DetectLife"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="3f7d25f7-fd09-431a-9846-f9de6b24fc12"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 11
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="11"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="fd06179d-cb1d-4528-bd45-c80b1830ccc8"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 12
+                    <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="12"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature5"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="85c76dc2-5357-4950-9a62-a3caaa95ec4a"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 13
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="13"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="d856b031-0031-4287-99e0-282e0c25ec33"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 14
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="14"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="c7763fb0-dbc2-468b-83f3-6401725e2d61"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 15
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="15"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature6"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="74c35bb9-06d1-4693-8952-e9bf1173f540"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 16
+                    <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="16"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="7805ebaf-e566-4aab-9c32-8716e3ce0e1f"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 17
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="17"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="fe3b5f67-8e5f-440a-b696-cb3d78dd7d28"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 18
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0);ActionResource(Vamp_BloodFeature,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="18"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BloodPool_Feature7"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="4be4a7d9-2a11-49bb-85df-4e599ccfd26f"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 19
+                    <attribute id="AllowImprovement" type="bool" value="true"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="19"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="3ac6f374-c52b-440c-a02a-00ce642420b2"/> a Unique UUID specificaly for this entry within the table
+                </node>
+                <node id="Progression"> Mainclass Level 20
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,1,0)"/> 
+                    <attribute id="Level" type="uint8" value="20"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="Vampire"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/> 
+                    <attribute id="UUID" type="guid" value="e2b29241-8fce-47c4-8802-372891761821"/> a Unique UUID specificaly for this entry within the table
+                </node>
+				<node id="Progression"> Subclass Level 3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Bestial"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="176722b0-1956-462e-a110-70ea00372ea9"/> Give it a Unique UUID
-                </node-->
+                </node>
             </children>
         </node>
     </region>
