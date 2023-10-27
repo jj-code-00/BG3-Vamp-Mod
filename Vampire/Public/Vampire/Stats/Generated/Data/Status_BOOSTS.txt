@@ -31,6 +31,9 @@ data "StatusType" "BOOST"
 using "RESTRAINED"
 data "Boosts" "Advantage(AttackTarget);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);"
 
+
+// Blood Pool Features
+
 new entry "Vamp_StatusAgonizingBite"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -40,3 +43,13 @@ data "DescriptionParams" "1"
 data "StackId" "Vamp_StatusAgonizingBite"
 data "Passives" "Vamp_PassiveAgonizing_Bite"
 data "Icon" "GenericIcon_DamageType_Necrotic"
+
+new entry "Vamp_StatusBeguilingGaze"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h081f33ecg527ag4357ga6a3gb5cb77f69bff"
+data "Description" "h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d"
+data "DescriptionParams" "1"
+data "StackId" "Vamp_StatusBeguilingGaze"
+data "Passives" "Vamp_PassiveBeguilingGaze"
+data "Icon" "Spell_Enchantment_CharmPerson"
