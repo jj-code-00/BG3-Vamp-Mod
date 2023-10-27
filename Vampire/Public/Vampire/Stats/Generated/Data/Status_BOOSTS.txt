@@ -34,7 +34,7 @@ data "Boosts" "Advantage(AttackTarget);ActionResourceBlock(Movement);Disadvantag
 new entry "Vamp_StatusAgonizingBite"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
 data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
 data "DescriptionParams" "1"
 data "StackId" "Vamp_StatusAgonizingBite"

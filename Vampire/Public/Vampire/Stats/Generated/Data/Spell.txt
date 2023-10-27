@@ -1,3 +1,5 @@
+// Baseline skills
+
 new entry "Vamp_Claws"
 type "SpellData"
 data "SpellType" "Target"
@@ -43,8 +45,7 @@ data "UseCosts" "ActionPoint:1"
 // using "Target_MainHandAttack"
 // data "UseCosts" "Vamp_BloodPool:1"
 
-//Shout_WildShape_Badger;Shout_WildShape_Spider;Shout_WildShape_Wolf_Dire;Shout_WildShape_Cat
-//d7745165-66e4-41c4-9e42-d09d95a29491,,;,,;fd5e6365-f314-42e8-a39b-a041dc56b0e7,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;ce773016-6fb4-44fe-84db-e037aaa22041,,;,,;,,;,,;,,
+//Blood Features
 
 new entry "Shout_SelectBloodFeatures"
 type "SpellData"
@@ -62,6 +63,9 @@ data "VerbalIntent" "Utility"
 data "SpellFlags" "IsLinkedSpellContainer"
 
 //IF(not ClassLevelHigherOrEqualThan(4,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER,100,-1);IF(ClassLevelHigherOrEqualThan(4,'Druid') and not ClassLevelHigherOrEqualThan(6,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_4,100,-1);IF(ClassLevelHigherOrEqualThan(6,'Druid') and not ClassLevelHigherOrEqualThan(8,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_6,100,-1);IF(ClassLevelHigherOrEqualThan(8,'Druid') and not ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_8,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')and not ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_10,100,-1);IF(ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_12,100,-1)
+
+//No Req
+
 new entry "Shout_SelectAgonizing_Bite"
 type "SpellData"
 data "SpellType" "Shout"
@@ -85,8 +89,8 @@ new entry "Vamp_Agonizing_Bite"
 type "SpellData"
 data "SpellType" "Target"
 using "Vamp_Bite"
-data "DisplayName" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
-data "SpellSuccess" "DealDamage(1d6+DexterityModifier, Piercing);DealDamage(1d4+CharismaModifier, Necrotic);ApplyStatus(Vamp_LIFE_DRAIN,100,-1);TARGET:IF(SizeEqualOrGreater(Size.Small) and not Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,1,0);TARGET:IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,2,0);TARGET:IF((not Dead() and not Tagged('REALLY_GALE') and not (Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH')))):RegainHitPoints(SELF, 1d4);TARGET:IF((Dead() or Tagged('REALLY_GALE'))):ApplyStatus(SELF, POISONED, 100, 3); TARGET:IF((Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH') and not Dead())):ApplyStatus(SELF, BURNING, 100, 3);"
-data "DescriptionParams" "RegainHitPoints(1d4);DealDamage(1d6+DexterityModifier,Piercing);DealDamage(1d4+CharismaModifier,Necrotic);"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "SpellSuccess" "DealDamage(1d6+DexterityModifier, Piercing);DealDamage(1d4+CharismaModifier, Necrotic);ApplyStatus(Vamp_LIFE_DRAIN,100,-1);TARGET:IF(SizeEqualOrGreater(Size.Small) and not Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,1,0);TARGET:IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,2,0);TARGET:IF((not Dead() and not Tagged('REALLY_GALE') and not (Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH')))):RegainHitPoints(SELF, 1d4+CharismaModifier);TARGET:IF((Dead() or Tagged('REALLY_GALE'))):ApplyStatus(SELF, POISONED, 100, 3); TARGET:IF((Tagged('REALLY_KARLACH') and not Tagged('KARLACH_CAN_TOUCH') and not Dead())):ApplyStatus(SELF, BURNING, 100, 3);"
+data "DescriptionParams" "RegainHitPoints(1d4+CharismaModifier);DealDamage(1d6+DexterityModifier,Piercing);DealDamage(1d4+CharismaModifier,Necrotic);"
 data "TooltipDamageList" "DealDamage(1d6+DexterityModifier,Piercing);DealDamage(1d4+CharismaModifier,Necrotic);"
 
