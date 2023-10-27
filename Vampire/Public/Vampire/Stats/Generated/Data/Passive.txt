@@ -89,6 +89,15 @@ data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Vamp_BeguilingGaze)"
 
+new entry "Vamp_PassiveDrainingBite"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack;OnCast"
+data "Conditions" "IsUnarmedAttack()"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusDrainingBiteTechnical,100,1)"
+
 // Level 6 Passive
 
 new entry "Vamp_Sanguine_Talons"

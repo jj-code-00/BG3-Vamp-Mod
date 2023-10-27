@@ -11,4 +11,6 @@ data "Properties" "" // what happens when you choose to use it //
 data "Cost" "" // what is the resource cost of the interrupt //
 data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in game //
 
+//SpellId('Target_UnarmedStrike_Monk') FIND SPELLS!!!
+
 // Check Modifiers for additional things you can do with Interrupts //
