@@ -29,7 +29,9 @@ new entry "Vamp_Grapple"
 type "StatusData"
 data "StatusType" "BOOST"
 using "RESTRAINED"
-data "Boosts" "Advantage(AttackTarget);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);"
+data "DisplayName" "h70dc31c1g9129g44eeg93c1g0b388dc5479b"
+data "Description" "he763b48ag813cg479ega464gfb86c2b3e3bf"
+data "Boosts" "ActionResourceBlock(Movement);"
 
 
 // Blood Pool Features
