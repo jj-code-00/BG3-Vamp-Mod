@@ -53,3 +53,11 @@ data "DescriptionParams" "1"
 data "StackId" "Vamp_StatusBeguilingGaze"
 data "Passives" "Vamp_PassiveBeguilingGaze"
 data "Icon" "Spell_Enchantment_CharmPerson"
+
+
+new entry "Vamp_RestoreBloodFeature"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h081f33ecg527ag4357ga6a3gb5cb77f69bff"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "RestoreResource(SELF, Vamp_BloodFeature,1,0)"

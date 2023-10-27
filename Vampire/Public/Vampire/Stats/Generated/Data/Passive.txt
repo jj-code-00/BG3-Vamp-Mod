@@ -145,3 +145,106 @@ new entry "Vamp_BloodPool_Feature7"
 type "PassiveData"
 using "Vamp_BloodPool_Feature6"
 data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+
+// Passives to know max amount of resources a vamp has access to
+
+new entry "Vamp_BloodPool1"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool2"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool3"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool4"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool5"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool6"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool7"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool8"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool9"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool10"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool11"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool12"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool13"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool14"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool15"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool16"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool17"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool18"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool19"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_BloodPool20"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
