@@ -8,7 +8,7 @@
                     <attribute id="BaseHp" type="int32" value="8"/> Hit Die
                     <attribute id="CanLearnSpells" type="bool" value="false"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/> Copy this off of another base game class (Im using the wizard's creation post)
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Warlock"/> Starting equipment entry from Equipment.txt
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Vampire"/> Starting equipment entry from Equipment.txt
                     <attribute id="Description" type="TranslatedString" handle="h4c20d61fge2d5g4de7g938eg2a24f4179e36" version="1"/> Link to the .loca file
                     <attribute id="DisplayName" type="TranslatedString" handle="h4ac681c0g5932g491cg80c0g657a6595beaf" version="1"/> Link to the .loca file
                     <attribute id="HpPerLevel" type="int32" value="5"/> Half Hit Die + 1
