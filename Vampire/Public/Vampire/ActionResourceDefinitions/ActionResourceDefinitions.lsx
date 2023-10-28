@@ -34,21 +34,6 @@
                     <attribute id="UUID" type="guid" value="da4deaba-73fa-43a0-b079-b19fe287f8a8"/> UUID for the Resource, give it a new one
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
                 </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h35ffb1b4g5c6cg4b05gafdege6eb8e8f6ef8" version="1"/> A text tied to the .loca file
-					<attribute id="DiceType" type="uint32" value="0"/> If the resource has any dice type, like Superiority die from BM
-                    <attribute id="DisplayName" type="TranslatedString" handle="h55c18836g3876g4fd8g9d51g4f20258b9f5b" version="1"/> A text tied to the .loca file
-                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
-                    <attribute id="IsSpellResource" type="bool" value="false"/> Is this resource used to cast spells
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="MaxValue" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="Vamp_BloodFeatureRepec"/> What you will be referring to in your code
-                    <attribute id="PartyActionResource" type="bool" value="false"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/> Rest = Long Rest, ShortRest = ShortRest
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/> If the resource will be displayed on your hotbar
-                    <attribute id="UUID" type="guid" value="1757a6c5-ba71-4d84-aa8f-84c8dfed0a6e"/> UUID for the Resource, give it a new one
-                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
-                </node>
             </children>
         </node>
     </region>
