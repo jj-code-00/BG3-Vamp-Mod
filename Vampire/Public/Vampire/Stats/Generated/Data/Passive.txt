@@ -15,7 +15,6 @@ data "Boosts" ""
 
 // Check Modifiers for additional things for what you can do with Passives //
 
-
 // Baseline kit
 
 new entry "Sanguinare_Vampiris"
