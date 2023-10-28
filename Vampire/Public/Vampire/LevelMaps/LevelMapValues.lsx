@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="323"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level11" type="LSString" value="2d6"/>
+                    <attribute id="Level6" type="LSString" value="1d6"/>
+                    <attribute id="Name" type="FixedString" value="Vamp_BiteNecrotic"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/>
+                    <attribute id="UUID" type="guid" value="147173bc-1ec3-4827-adb7-f5861cc672ae"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
