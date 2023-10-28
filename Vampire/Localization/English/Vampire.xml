@@ -18,16 +18,16 @@
 	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
 	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws now count as magical for the purposes of overcoming resistnaces.</content>
 	<content contentuid="hbfbaa147ge979g42a9g8083gf2db46f454b2" version="1">Agonizing Vampire Bite</content>
-	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">You add your charisma modifier to the necrotic damage your bite attack does. Req:lvl 1, 1 blood pool point to use.</content>
+	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">You add your charisma modifier to the necrotic damage your bite attack does. Req: lvl 1.</content>
 	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Beguiling Gaze</content>
-	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people. Req:lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h7a3508acga44eg4603g9fb7ge182386402da" version="1">Draining Vampire Bite</content>
-	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions. Req:lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h70dc31c1g9129g44eeg93c1g0b388dc5479b" version="1">Grappled</content>
 	<content contentuid="haa2bcf5ag5c7ag4f16gb565gcaadbdfd5fcc" version="1">Grappling</content>
 	<content contentuid="he763b48ag813cg479ega464gfb86c2b3e3bf" version="1">Target cannot Move</content>
 	<content contentuid="h7f7db409g26feg4f5dg9e3bgf0f91c79957f" version="1">Echolocation</content>
-	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute. Req:lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h5096965eg2130g40fdgb947gc6bf40a1c985" version="1">Access to Vampire Echolocation.</content>
 	<content contentuid="hfd449628g897fg41abgaf65gc739620ddfdc" version="1">Gives Blindsight.</content>
 	<content contentuid="hbf99b3a8gbdf5g492agb9aegc4a08898aec6" version="1">Remove Blood Features</content>
