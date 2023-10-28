@@ -42,7 +42,7 @@ data "TooltipAttackSave" "MeleeSpellAttack"
 data "TooltipStatusApply" ""
 data "UseCosts" "ActionPoint:1"
 
-//Blood Features
+//Blood Features ----------------------------------------------
 
 new entry "Shout_SelectBloodFeatures"
 type "SpellData"
@@ -76,6 +76,7 @@ data "PrepareEffect" ""
 data "CastEffect" ""
 data "Cooldown" "OncePerRest"
 
+//----------------------------------------------------------------
 //for individual shouts do IF(ClassLevelHigherOrEqualThan(x,'Vampire'):Apply the correct stat. If less then do IF(not ClassLevelHigherOrEqualThan(x,'Vampire')):RestoreResource(SELF, Vamp_BloodFeature,y,0)
 //IF(not ClassLevelHigherOrEqualThan(4,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER,100,-1);IF(ClassLevelHigherOrEqualThan(4,'Druid') and not ClassLevelHigherOrEqualThan(6,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_4,100,-1);IF(ClassLevelHigherOrEqualThan(6,'Druid') and not ClassLevelHigherOrEqualThan(8,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_6,100,-1);IF(ClassLevelHigherOrEqualThan(8,'Druid') and not ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_8,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')and not ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_10,100,-1);IF(ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(WILDSHAPE_BADGER_PLAYER_12,100,-1)
 

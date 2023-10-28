@@ -81,6 +81,24 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodPool,-100%,0)"
 
+// Level 6 Passive
+
+new entry "Vamp_Sanguine_Talons"
+type "PassiveData"
+using "KiEmpoweredStrikes"
+data "DisplayName" "h1900db0ag8f81g4505gaf72gf07f081dc559" 
+data "Description" "hc6476c44ge687g4dd8gbf23g3d845e8c339f" 
+data "Icon" ""
+
+// Level 10 Passive
+
+new entry "Vamp_DetectLife"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Properties" "IsHidden"
+data "Boosts" ""
+
 // Blood Pool Feature passives
 
 new entry "Vamp_BloodFeature"
@@ -183,24 +201,6 @@ data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Vamp_SpellNimbleMovement_Dash);UnlockSpell(Vamp_SpellNimbleMovement_Disengage)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
-
-// Level 6 Passive
-
-new entry "Vamp_Sanguine_Talons"
-type "PassiveData"
-using "KiEmpoweredStrikes"
-data "DisplayName" "h1900db0ag8f81g4505gaf72gf07f081dc559" 
-data "Description" "hc6476c44ge687g4dd8gbf23g3d845e8c339f" 
-data "Icon" ""
-
-// Level 10 Passive
-
-new entry "Vamp_DetectLife"
-type "PassiveData"
-data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
-data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
-data "Properties" "IsHidden"
-data "Boosts" ""
 
 //-----------------------------------------------------------------------
 
