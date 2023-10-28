@@ -24,4 +24,8 @@
 	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions.</content>
 	<content contentuid="h70dc31c1g9129g44eeg93c1g0b388dc5479b" version="1">Grappled</content>
 	<content contentuid="he763b48ag813cg479ega464gfb86c2b3e3bf" version="1">Target cannot Move</content>
+	<content contentuid="h7f7db409g26feg4f5dg9e3bgf0f91c79957f" version="1">Echolocation</content>
+	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute.</content>
+	<content contentuid="h5096965eg2130g40fdgb947gc6bf40a1c985" version="1">Access to Vampire Echolocation.</content>
+	<content contentuid="hfd449628g897fg41abgaf65gc739620ddfdc" version="1">Gives Blindsight.</content>
 </contentList>
