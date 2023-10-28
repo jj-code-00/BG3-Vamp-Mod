@@ -7,25 +7,31 @@
 	<content contentuid="h3e4c291fg39f2g441eg8e9egd9d4c1781f67" version="1">Sanguinare Vampiris</content>
 	<content contentuid="h4259269ag1168g4572g8dfcgd79c7ef58425" version="1">The influence of Vampirism</content>
 	<content contentuid="hf0329964ga2d7g4d80gbc4eg7731d21131e5" version="1">Vampire Claws</content>
-	<content contentuid="hd5951139g56f7g4643g8ae5g5c080d3b9378" version="1">Vampire Claws (Restrain)</content>
-	<content contentuid="h61b948ffg3761g4b95gbc9ag132c338931da" version="1">Use your Vampire Claws to attempt to restrain the opponent. Must pass an &lt;LSTag Tooltip="Athletics"&gt;Athletics&lt;/LSTag&gt; check.</content>
-	<content contentuid="h09ae6612gf871g4d05g8e5eg55731e37adef" version="1">Suck the blood from a living creature to regain [1]. The target takes [2] and [3]. Target must be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Sleeping&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, Incapacitated, Restrained, or Unconscious.</content>
+	<content contentuid="hd5951139g56f7g4643g8ae5g5c080d3b9378" version="1">Vampire Claws (Grapple)</content>
+	<content contentuid="h61b948ffg3761g4b95gbc9ag132c338931da" version="1">Use your Vampire Claws to attempt to grapple the opponent. Must pass an &lt;LSTag Tooltip="Athletics"&gt;Athletics&lt;/LSTag&gt; check.</content>
+	<content contentuid="h09ae6612gf871g4d05g8e5eg55731e37adef" version="1">Suck the blood from a living creature to regain [1]. The target takes [2] and [3]. Target must be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SLEEPING"&gt;Sleeping&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, Grappled, Restrained, Incapacitated, or Unconscious.</content>
 	<content contentuid="h65abe34cg52a6g4b03gae99g3e58a482b4fd" version="1">Hit point maximum reduced by 1d4. Creature will die if its hit point maximum is reduced to 0.</content>
 	<content contentuid="h5464c743g34c0g4829g843eg42c7cc17c96a" version="1">Resource used for vampiric powers</content>
 	<content contentuid="h5ed098cag2d2ag4318g93f2g66996e876e95" version="1">Blood Pool</content>
 	<content contentuid="h139819ecgf6b5g42bdg974fg71e23e9f4d51" version="1">Blood Pool Feature</content>
+	<content contentuid="ha77841fbg925eg4aa4gbd5aga6c535530d05" version="1">This resource allows you to select blood features. The number of blood feature points you have dictates how many features you can have at once.</content>
 	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
 	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws now count as magical for the purposes of overcoming resistnaces.</content>
 	<content contentuid="hbfbaa147ge979g42a9g8083gf2db46f454b2" version="1">Agonizing Vampire Bite</content>
-	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">You add your charisma modifier to the necrotic damage your bite attack does.</content>
+	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">You add your charisma modifier to the necrotic damage your bite attack does. Req:lvl 1, 1 blood pool point to use.</content>
 	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Beguiling Gaze</content>
-	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people.</content>
+	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people. Req:lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h7a3508acga44eg4603g9fb7ge182386402da" version="1">Draining Vampire Bite</content>
-	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions.</content>
+	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions. Req:lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h70dc31c1g9129g44eeg93c1g0b388dc5479b" version="1">Grappled</content>
+	<content contentuid="haa2bcf5ag5c7ag4f16gb565gcaadbdfd5fcc" version="1">Grappling</content>
 	<content contentuid="he763b48ag813cg479ega464gfb86c2b3e3bf" version="1">Target cannot Move</content>
 	<content contentuid="h7f7db409g26feg4f5dg9e3bgf0f91c79957f" version="1">Echolocation</content>
-	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute.</content>
+	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute. Req:lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h5096965eg2130g40fdgb947gc6bf40a1c985" version="1">Access to Vampire Echolocation.</content>
 	<content contentuid="hfd449628g897fg41abgaf65gc739620ddfdc" version="1">Gives Blindsight.</content>
+	<content contentuid="hbf99b3a8gbdf5g492agb9aegc4a08898aec6" version="1">Remove Blood Features</content>
+	<content contentuid="h45c74bfbga54cg4bd3gaad3ga0b97dbe88b0" version="1">Refunds all Blood Features to select new ones.</content>
+	<content contentuid="hb8c1d92fg8bffg4811ga2cegf1d6cd014ddf" version="1">Choose Blood Features</content>
+	<content contentuid="h81b54b34g2229g4578gb1e0g1269dbba2c6b" version="1">Spend Blood Feature points to use your vampiric powers in new ways.</content>
 </contentList>
