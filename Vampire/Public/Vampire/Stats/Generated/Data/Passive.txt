@@ -158,6 +158,23 @@ data "Boosts" "Resistance(Poison, Immune);StatusImmunity(SG_Poisoned);StatusImmu
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveNightStalkerTechnical"
+type "PassiveData"
+data "DisplayName" "hdab6770fg03dbg4217g8923ge01e8fd2f7bb;2"
+data "Description" "ha89ec053g5de0g441eg852bgb07606c71440;2"
+data "Properties" "IsHidden"
+data "Icon" ""
+data "Boosts" "Advantage(Skill, Stealth)"
+
+new entry "Vamp_PassiveNightStalker"
+type "PassiveData"
+data "DisplayName" "h7f7db409g26feg4f5dg9e3bgf0f91c79957f" 
+data "Description" "h5096965eg2130g40fdgb947gc6bf40a1c985" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Vamp_SpellNightStalker)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 // Level 6 Passive
 
 new entry "Vamp_Sanguine_Talons"
