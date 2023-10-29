@@ -115,7 +115,8 @@ type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
-data "Boosts" ""
+data "StatsFunctorContext" "OnCreate"
+data "StatsFunctors" "ApplyStatus(MAG_SEE_INVISIBILITY_HIDDEN_IGNORE_RESTING, 100, -1);StatusImmunity(TURNED)"
 
 // Blood Pool Feature passives
 
