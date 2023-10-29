@@ -33,7 +33,7 @@
 	<content contentuid="hbf99b3a8gbdf5g492agb9aegc4a08898aec6" version="1">Remove Blood Features</content>
 	<content contentuid="h45c74bfbga54cg4bd3gaad3ga0b97dbe88b0" version="1">Refunds all Blood Features to select new ones.</content>
 	<content contentuid="hb8c1d92fg8bffg4811ga2cegf1d6cd014ddf" version="1">Choose Blood Features</content>
-	<content contentuid="h81b54b34g2229g4578gb1e0g1269dbba2c6b" version="1">Spend Blood Feature points to use your vampiric powers in new ways.</content>
+	<content contentuid="h81b54b34g2229g4578gb1e0g1269dbba2c6b" version="1">Spend Blood Feature points to use your vampiric powers in new ways. If you fail to meet the requirements for a feature your point will be refunded after a turn.</content>
 	<content contentuid="he5093590g7576g4172g8419gb789085ad728" version="1">Necrology</content>
 	<content contentuid="h98e5c053g7160g48b0g9f6ag6f123613c14b" version="1">Immunity to poison damage and poisoned and dieseased statuses. Req: lvl 1.</content>
 	<content contentuid="hce9e36f8g6fbeg4f5ega0efg016e789cc143" version="1">NightStalker</content>
@@ -47,4 +47,5 @@
 	<content contentuid="hb8890138g2805g4e87ga272g26b787c4fcb6" version="1">Allows you to summon a bat. Req: lvl 1, 1 blood pool points to use.</content>
 	<content contentuid="h37b48a26g78ecg4feag84a5g55acdde99f1b" version="1">Vampiric Agility</content>
 	<content contentuid="h2a8850f4g8856g467bg92cag6a1d8267412b" version="1">Jump distance increased by 25ft and movement speed increased by 10ft. Req: lvl 1.</content>
+	<content contentuid="h0b8c0913g9219g41a3g8a45g3bd9cf679d58" version="1">When a target misses you can spend 1 blood point to attack them with your claws. Req: lvl 1, 1 blood pool points to use.</content>
 </contentList>
