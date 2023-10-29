@@ -48,4 +48,6 @@
 	<content contentuid="h37b48a26g78ecg4feag84a5g55acdde99f1b" version="1">Vampiric Agility</content>
 	<content contentuid="h2a8850f4g8856g467bg92cag6a1d8267412b" version="1">Jump distance increased by 25ft and movement speed increased by 10ft. Req: lvl 1.</content>
 	<content contentuid="h0b8c0913g9219g41a3g8a45g3bd9cf679d58" version="1">When a target misses you can spend 1 blood point to attack them with your claws. Req: lvl 1, 1 blood pool points to use.</content>
+	<content contentuid="h2c323f38gc077g497dg8b66gd1babf395ef4" version="1">Assassin's Fangs</content>
+	<content contentuid="hba29a213g8bffg4a67gb214gd647f16ebfbc" version="1">You may use your Bite attack against a surprised or unaware target, even if they don't meet the normal requirements for your Bite. Req: lvl 3, 2 blood pool points to use.</content>
 </contentList>
