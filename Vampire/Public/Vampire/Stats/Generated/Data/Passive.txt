@@ -81,6 +81,24 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodPool,-100%,0)"
 
+new entry "Vamp_HeartPiercer"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypePiercing() and IsCritical()"
+data "StatsFunctors" "ApplyStatus(PARALYZED, 100, 1)"
+
+new entry "Vamp_RadiantSens"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeRadiant()"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusRadiantSens, 100, 1)"
+
 // Level 6 Passive
 
 new entry "Vamp_Sanguine_Talons"
@@ -225,7 +243,7 @@ type "PassiveData"
 data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78" 
 data "Description" "h79032d1dga5d0g4803ga7ccg4306c545540f" 
 data "Properties" "IsHidden"
-data "Boosts" "ActionResource(Movement, 3, 0);JumpMaxDistanceBonus(7.5)"
+data "Boosts" "ActionResource(Movement, 3, 0);JumpMaxDistanceBonus(3)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
