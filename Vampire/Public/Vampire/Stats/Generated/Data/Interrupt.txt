@@ -14,3 +14,21 @@ data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in
 //SpellId('Target_UnarmedStrike_Monk') FIND SPELLS!!!
 
 // Check Modifiers for additional things you can do with Interrupts //
+
+new entry "Interrupt_Vamp_ShovingAttack"
+type "InterruptData"
+data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78"
+data "Description" "h79032d1dga5d0g4803ga7ccg4306c545540f"
+data "DescriptionParams" "DealDamage(2,Slashing)"
+data "ExtraDescription" ""
+data "Icon" "Action_PushingAttack_Melee"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and not AnyEntityIsItem()"
+data "Properties" "Force(ShoveDistance,OriginToEntity,Aggressive);DealDamage(2,Slashing)"
+data "Cost" "Vamp_BloodPool:2"
+data "Stack" "Interrupt_Vamp_ShovingAttack"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
+data "InterruptDefaultValue" "Ask;Enabled"

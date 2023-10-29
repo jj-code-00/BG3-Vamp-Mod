@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="359e1719-38bf-41e4-a74a-4e3d0745efe8" /> Generate new UUID
+					<attribute id="Name" type="LSString" value="Vamp_SpiesInTheNight" /> Give a new name. Make it unique enough other mods won't use.
+					<attribute id="LevelName" type="FixedString" value="" /> Level this is location. Empty.
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6aac7aa0-9a97-4c6a-82d9-f1e3aad461bf" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2b1184ecge9f5g4312g86a4gd6301b2b80a4" version="1" /> Points to a contentuid in localization that will populate text to display what you want.
+					<attribute id="Stats" type="FixedString" value="Vamp_Bat" /> Points to the stats you made for character in the character.txt
+					<attribute id="SpellSet" type="FixedString" value="CommonSummonFlyActions" />
+					<attribute id="CanClimbLadders" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="False" /> 
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="DisableEquipping" type="bool" value="True" />
+					<children>
+					    <node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-43b9-e7751bfa41fa" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="StatusList" />
+						<node id="SkillList">
+							<children>
+							    <node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Projectile_Fly_Deva" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+										    </node>
+										    <node id="TargetConditions">
+											    <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											    <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											    <children>
+												   <node id="Tags" />
+											    </children>
+										    </node>
+									  </children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Bat" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
