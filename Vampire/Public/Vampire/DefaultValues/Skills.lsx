@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Perception;Stealth"/>
+                    <attribute id="Add" type="LSString" value="Perception;Stealth;Insight;Deception;SleightOfHand;Intimidation;AnimalHandling;Nature;Religion"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a86aeb8b-2a5f-45d0-921d-e1829c15ec40"/>
                     <attribute id="UUID" type="guid" value="d8718a4e-be0e-4cca-be7c-7fd1165970ae"/>

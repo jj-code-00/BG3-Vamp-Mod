@@ -1,0 +1,6 @@
+new entry "Vamp_StatusSpiesInTheNightTechnical"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "INVISIBLE"
+data "RemoveEvents" "OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag"
+data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"

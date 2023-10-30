@@ -21,14 +21,20 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/> 4 is for int. order goes from Str, Dex, Con, Int, Wis, and Cha.
 					<!--attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e"/--> This is used for learning spells from scrolls
                     <attribute id="UUID" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/> The ID for your class, make a new one
-					<!--children>
+					<children>
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/> Dialogue tag Wizard
+                            <attribute id="Object" type="guid" value="f8a0608b-666c-4be6-a49c-03b369c10bd2"/>
                         </node>
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/> Dialogue tag Fighter (yes you can have multiple dialogue tags)
+                            <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
                         </node>
-                    </children-->
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="eae44d86-3321-4a0a-811d-4fd8e48b5723"/>
+                        </node>
+                    </children>
                 </node>
 				<node id="ClassDescription"> Subclass (you will need one of this for each subclass)
                     <attribute id="CanLearnSpells" type="bool" value="false"/>
