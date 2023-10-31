@@ -160,3 +160,18 @@ data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagg
 data "EnableContext" "OnStatusApplied"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "Interrupt_Vamp_MistyEscape"
+type "InterruptData"
+data "DisplayName" "h8206f7fbg6fa5g4ceeg9411gbbb7ec7e11e8;1"
+data "Description" "h0b8c0913g9219g41a3g8a45g3bd9cf679d58"
+data "Icon" "PassiveFeature_MistyEscape"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and HasFunctor(StatsFunctorType.DealDamage) and IsHit() and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Properties" "DamageReduction(All,Half,)"
+data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:2"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER')) and HasPassive('Vamp_BloodPool2')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+//;GROUND:TeleportSource()
