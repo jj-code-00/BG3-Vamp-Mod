@@ -66,7 +66,7 @@ data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
 data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
 data "DescriptionParams" "1"
 data "StackId" "Vamp_StatusAgonizingBite"
-data "Passives" "Vamp_PassiveAgonizing_Bite"
+data "Passives" "Vamp_PassiveAgonizing_Bite;Vamp_PassiveAgonizing_BiteLRW"
 data "Icon" "Action_VampireBite"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;ApplyToDead;IgnoreResting"
 
