@@ -52,4 +52,6 @@
 	<content contentuid="hba29a213g8bffg4a67gb214gd647f16ebfbc" version="1">You may use your Bite attack against a surprised or unaware target, even if they don't meet the normal requirements for your Bite. Req: lvl 3, 2 blood pool points to use.</content>
 	<content contentuid="he7875c02gd065g4febg83a9g8dbbe4470aca" version="1">Misty Escape</content>
 	<content contentuid="ha7b80c7cg5bd5g4398g84b8g218709171b1f" version="1">When you are targeted by an attack from a creature that you can see, you can use your reaction to turn into mist.</content>
+	<content contentuid="hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5" version="1">Blood Barrier</content>
+	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, adding the number spent to your AC.</content>
 </contentList>
