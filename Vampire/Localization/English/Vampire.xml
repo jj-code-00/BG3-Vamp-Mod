@@ -53,7 +53,7 @@
 	<content contentuid="he7875c02gd065g4febg83a9g8dbbe4470aca" version="1">Misty Escape</content>
 	<content contentuid="ha7b80c7cg5bd5g4398g84b8g218709171b1f" version="1">When you are targeted by an attack from a creature that you can see, you can use your reaction to turn into mist.</content>
 	<content contentuid="hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5" version="1">Blood Barrier</content>
-	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp and retaliating with 1d10 necrotic damage.</content>
+	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp based on bp spent and retaliating with 1d10 necrotic damage.</content>
 	<content contentuid="h2e4b4437geb58g45d7g87ffg2c248e185621" version="1">Sanguine Shield</content>
 	<content contentuid="hb575bc65g1f04g44fdg91e9gf7c175bfeef2" version="1">As a reaction to an attack, you may expend 2 or more Blood, up to your proficiency bonus. You gain a bonus to your AC equal to the number of Blood spent until the beginning of your next turn, including against the triggering attack.</content>
 	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Children of the Night</content>

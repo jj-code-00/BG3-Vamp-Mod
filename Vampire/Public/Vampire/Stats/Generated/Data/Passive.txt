@@ -332,7 +332,7 @@ type "PassiveData"
 data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78" 
 data "Description" "h79032d1dga5d0g4803ga7ccg4306c545540f" 
 data "Properties" "IsHidden"
-data "Boosts" "UnlockInterrupt(Interrupt_Vamp_BloodBarrier)"
+data "Boosts" "UnlockInterrupt(Interrupt_Vamp_BloodBarrier_1);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_2);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_3);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_4);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_5);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_6);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_7);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_8);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_9);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_10);"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
