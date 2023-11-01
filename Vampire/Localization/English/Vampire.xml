@@ -60,4 +60,6 @@
 	<content contentuid="h38b5d4aeg1dd2g4ba8gb389g7fcf057ebaf3" version="1">You can use your Blood to summon a number of animals to you. You spend Blood equal to the number of animals you are trying to summon (Maximum of 5). You can summon wolves and the beasts remain for 1 hour.</content>
 	<content contentuid="haee10b6ag0e21g4fa1g9126g0413fcec2655" version="1">Booster Shot</content>
 	<content contentuid="h72e1c982gfb50g4d28g9457g897265c0d63a" version="1">You can use a bonus action and spend Blood to infuse a companion with some of your undead ichor. When you do so, choose a friendly creature within 30 feet of you. That creature gains temporary hit points equal to the Blood spent + your Charisma modifier.</content>
+	<content contentuid="h3432b89cgdd05g432ag9b18g437e9fc106d9" version="1">Healing Saliva</content>
+	<content contentuid="h9eb280fcg219cg4754gb6ceg1cfa97d91a6c" version="1">Your vampire saliva heals non-undead creatures, ensuring you can feed from them later. You can take an action to lick a wound; the creature gains 1d4 + your Charisma Modifer in Temporary Hit Points. By spending a Blood, you can convert those into regular Hit Points.</content>
 </contentList>
