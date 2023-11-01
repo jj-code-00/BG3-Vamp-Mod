@@ -22,7 +22,7 @@
 	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Beguiling Gaze</content>
 	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h7a3508acga44eg4603g9fb7ge182386402da" version="1">Draining Vampire Bite</content>
-	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action after an unarmed attack with no restrictions. Req: lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">Allows you to use Vampire Bite as a bonus action with no restrictions. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h70dc31c1g9129g44eeg93c1g0b388dc5479b" version="1">Grappled</content>
 	<content contentuid="haa2bcf5ag5c7ag4f16gb565gcaadbdfd5fcc" version="1">Grappling</content>
 	<content contentuid="he763b48ag813cg479ega464gfb86c2b3e3bf" version="1">Target cannot Move</content>
@@ -56,4 +56,6 @@
 	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp and retaliating with 1d10 necrotic damage.</content>
 	<content contentuid="h2e4b4437geb58g45d7g87ffg2c248e185621" version="1">Sanguine Shield</content>
 	<content contentuid="hb575bc65g1f04g44fdg91e9gf7c175bfeef2" version="1">As a reaction to an attack, you may expend 2 or more Blood, up to your proficiency bonus. You gain a bonus to your AC equal to the number of Blood spent until the beginning of your next turn, including against the triggering attack.</content>
+	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Children of the Night</content>
+	<content contentuid="h38b5d4aeg1dd2g4ba8gb389g7fcf057ebaf3" version="1">You can use your Blood to summon a number of animals to you. You spend Blood equal to the number of animals you are trying to summon (Maximum of 5). You can summon wolves and the beasts remain for 1 hour.</content>
 </contentList>
