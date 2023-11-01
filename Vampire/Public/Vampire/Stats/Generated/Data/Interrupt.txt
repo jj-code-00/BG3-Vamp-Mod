@@ -176,8 +176,20 @@ data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagg
 data "EnableContext" "OnStatusApplied"
 
 // Blood Barrier
-
-
+new entry "Interrupt_Vamp_BloodBarrier"
+type "InterruptData"
+data "DisplayName" "hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5"
+data "Description" "hda484ec3ge30fg4902g9c3bgbd2d03abd4c7"
+data "Icon" "Spell_Abjuration_ArmorOfAgathys"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not AnyEntityIsItem()"
+data "Properties" "ApplyStatus(Vamp_StatusBloodBarrierTechnical,100,-1);UseSpell(SWAP,Target_BloodBarrierDamage,true,true,true)"
+data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:2"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER'))"
+data "EnableContext" "OnStatusApplied"
 
 // sanguine shield
 
