@@ -306,6 +306,9 @@ data "Boosts" "RegainHitPoints(SELF,1)"
 // data "Conditions" "HasActionResource('ChannelDivinity', 1, 0, false, false, context.Source)"
 // data "StatsFunctors" "UseActionResource(SELF,ChannelDivinity,1)"
 
+
+// lvl 3
+
 new entry "Vamp_PassiveAssassinFang"
 type "PassiveData"
 data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78" 
@@ -324,6 +327,14 @@ data "Boosts" "UnlockInterrupt(Interrupt_Vamp_MistyEscape)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveBloodBarrier"
+type "PassiveData"
+data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78" 
+data "Description" "h79032d1dga5d0g4803ga7ccg4306c545540f" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockInterrupt(Interrupt_Vamp_BloodBarrier_1);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_2);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_3);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_4);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_5);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_6);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_7);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_8);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_9);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_10);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_11);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_12);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_13);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_14);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_15);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_16);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_17);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_18);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_19);UnlockInterrupt(Interrupt_Vamp_BloodBarrier_20);"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 //-----------------------------------------------------------------------
 
