@@ -353,6 +353,15 @@ data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Target_ChildrenOfTheNight)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
+new entry "Vamp_PassiveBoosterShot"
+type "PassiveData"
+data "DisplayName" "hda170f8cg1297g4e25g9c31g7e5178919d78" 
+data "Description" "h79032d1dga5d0g4803ga7ccg4306c545540f" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Shout_BoosterShot)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 //-----------------------------------------------------------------------
 
 //Legacy Blood Feature passives (May come in handy?)

@@ -58,4 +58,6 @@
 	<content contentuid="hb575bc65g1f04g44fdg91e9gf7c175bfeef2" version="1">As a reaction to an attack, you may expend 2 or more Blood, up to your proficiency bonus. You gain a bonus to your AC equal to the number of Blood spent until the beginning of your next turn, including against the triggering attack.</content>
 	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Children of the Night</content>
 	<content contentuid="h38b5d4aeg1dd2g4ba8gb389g7fcf057ebaf3" version="1">You can use your Blood to summon a number of animals to you. You spend Blood equal to the number of animals you are trying to summon (Maximum of 5). You can summon wolves and the beasts remain for 1 hour.</content>
+	<content contentuid="haee10b6ag0e21g4fa1g9126g0413fcec2655" version="1">Booster Shot</content>
+	<content contentuid="h72e1c982gfb50g4d28g9457g897265c0d63a" version="1">You can use a bonus action and spend Blood to infuse a companion with some of your undead ichor. When you do so, choose a friendly creature within 30 feet of you. That creature gains temporary hit points equal to the Blood spent + your Charisma modifier.</content>
 </contentList>
