@@ -62,4 +62,8 @@
 	<content contentuid="h72e1c982gfb50g4d28g9457g897265c0d63a" version="1">You can use a bonus action and spend Blood to infuse a companion with some of your undead ichor. When you do so, choose a friendly creature within 30 feet of you. That creature gains temporary hit points equal to the Blood spent + your Charisma modifier.</content>
 	<content contentuid="h3432b89cgdd05g432ag9b18g437e9fc106d9" version="1">Healing Saliva</content>
 	<content contentuid="h9eb280fcg219cg4754gb6ceg1cfa97d91a6c" version="1">Your vampire saliva heals non-undead creatures, ensuring you can feed from them later. You can take an action to lick a wound; the creature gains 1d4 + your Charisma Modifer in Temporary Hit Points. By spending a Blood, you can convert those into regular Hit Points.</content>
+	<content contentuid="h082b46f0g8663g4fb3gafc7ge9db4ac6778c" version="1">Bilu Blood</content>
+	<content contentuid="he6c5a0aeg3cabg4526ga2c4gbda25e38a8d4" version="1">By spending a Blood, you can have your next unarmed Claw attack deal Acid damage instead of the normal Slashing damage.</content>
+	<content contentuid="h2570d1e9gf833g4b89gb428g04739ff647d6" version="1">Backstabber</content>
+	<content contentuid="h6bd1752dg4805g47a9ga94fg6b34261e240e" version="1">When you hit a creature with a weapon or spell attack, you can spend Blood to distract the creature, giving your allies an opening. You add the Blood spent to the attack’s damage roll in the form of necrotic damage. The next attack roll against the target by an attacker other than you has advantage for the next turn.</content>
 </contentList>
