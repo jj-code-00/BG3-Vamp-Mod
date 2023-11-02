@@ -68,4 +68,6 @@
 	<content contentuid="h6bd1752dg4805g47a9ga94fg6b34261e240e" version="1">When you hit a creature with a weapon or spell attack, you can spend Blood to distract the creature, giving your allies an opening. You add the Blood spent to the attack’s damage roll in the form of necrotic damage. The next attack roll against the target by an attacker other than you has advantage for the next turn.</content>
 	<content contentuid="hc228648cge98eg489dgbc06g15e130535145" version="1">Mist Form</content>
 	<content contentuid="h660cf75cg9742g4f9agb36cgf9b154391546" version="1">You can use an action to turn into Mist by spending 2 Blood.</content>
+	<content contentuid="h56a8848bgd486g441cgaf5egc41f5bb58ace" version="1">Knock-Off</content>
+	<content contentuid="h7a071563gd161g4afagae33gfde4a72745c3" version="1">When you hit a creature with an attack, you can spend Blood to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the Blood spent to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</content>
 </contentList>
