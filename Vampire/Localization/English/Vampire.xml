@@ -66,4 +66,6 @@
 	<content contentuid="he6c5a0aeg3cabg4526ga2c4gbda25e38a8d4" version="1">By spending a Blood, you can have your next unarmed Claw attack deal Acid damage instead of the normal Slashing damage.</content>
 	<content contentuid="h2570d1e9gf833g4b89gb428g04739ff647d6" version="1">Backstabber</content>
 	<content contentuid="h6bd1752dg4805g47a9ga94fg6b34261e240e" version="1">When you hit a creature with a weapon or spell attack, you can spend Blood to distract the creature, giving your allies an opening. You add the Blood spent to the attack’s damage roll in the form of necrotic damage. The next attack roll against the target by an attacker other than you has advantage for the next turn.</content>
+	<content contentuid="hc228648cge98eg489dgbc06g15e130535145" version="1">Mist Form</content>
+	<content contentuid="h660cf75cg9742g4f9agb36cgf9b154391546" version="1">You can use an action to turn into Mist by spending 2 Blood.</content>
 </contentList>
