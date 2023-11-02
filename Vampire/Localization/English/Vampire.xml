@@ -72,4 +72,6 @@
 	<content contentuid="h7a071563gd161g4afagae33gfde4a72745c3" version="1">When you hit a creature with an attack, you can spend Blood to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the Blood spent to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</content>
 	<content contentuid="h5e381460ga211g4608gb6ddg50f8204911a5" version="1">Parry</content>
 	<content contentuid="h4df91e4bg330bg421ag842cgc74ff549cd81" version="1">When another creature damages you with a melee attack, you can use your reaction and spend Blood to reduce the damage by the number of Blood spent + your Dexterity modifier.</content>
+	<content contentuid="h2e221defgb440g4113gb0d4gbf6da9f6d7d6" version="1">Summon Servant</content>
+	<content contentuid="h7c1aa02bg1130g414fg8fbeged507ae9f80c" version="1">You can animate an undead servant as an action. Select a pile of humanoid bones or a humanoid corpse within 10 feet, and spend a Blood.</content>
 </contentList>
