@@ -83,4 +83,6 @@
 	<content contentuid="hefeccc68g4494g434cga16ag42a1ef5cf193" version="1">You can see invisibility and are now immune to being turned.</content>
 	<content contentuid="h797c47bag8c88g4f23g8809g3bf1104b3fa8" version="1">Frightening Strike</content>
 	<content contentuid="h7ee922bbg90e3g4fddgac54ge15e9730d845" version="1">When you hit a creature with a weapon attack, you can spend Blood to attempt to frighten the target. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</content>
+	<content contentuid="he0d7fa58g63deg46dfg8eb9gfb57e5937811" version="1">Hemorrhaging Claws</content>
+	<content contentuid="h09865592g4b81g443cgbd0ag16c2cf671509" version="1">Before you make an unarmed attack on your turn, you can spend 2 Blood to cause your attacks to make the target bleed viciously.  On a hit, they make a Constitution saving throw at the start of their turns for the next minute. On a failed save, they take additional Necrotic damage equal to your Constitution Modifier. On a success, they do not take this damage. They repeat this saving throw at the start of their turns for the entire duration.</content>
 </contentList>
