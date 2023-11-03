@@ -16,7 +16,7 @@
 	<content contentuid="h139819ecgf6b5g42bdg974fg71e23e9f4d51" version="1">Blood Pool Feature</content>
 	<content contentuid="ha77841fbg925eg4aa4gbd5aga6c535530d05" version="1">This resource allows you to select blood features. The number of blood feature points you have dictates how many features you can have at once.</content>
 	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
-	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws now count as magical for the purposes of overcoming resistnaces.</content>
+	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws and bite now count as magical for the purposes of overcoming resistances.</content>
 	<content contentuid="hbfbaa147ge979g42a9g8083gf2db46f454b2" version="1">Agonizing Vampire Bite</content>
 	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">You add your charisma modifier to the necrotic damage your bite attack does. Req: lvl 1.</content>
 	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Beguiling Gaze</content>
@@ -78,5 +78,9 @@
 	<content contentuid="hd23ae4fbg7c37g4193g8319gfa12eb1e9c67" version="1">You grow a strange covering over your skin that glitters in light. For each hour you spend in sunlight, you must spend Blood to force yourself to resist the effects of sunlight. Each time you spend these Blood, you sparkle dramatically for 1 minute, gaining disadvantage on Stealth checks.</content>
 	<content contentuid="he0a93e35g1675g4ba5g93b2gbc09926bb44c" version="1"> </content>
 	<content contentuid="hcdcef85cg969bg4bd5gbeb8g8dda2bd6b71c" version="1">Transfusion</content>
-	<content contentuid="h60cd8e11g501eg4f3eg9da7gb3f255fa5fc0" version="1">As a bonus action, you can spend Blood to roll one of your Hit Dice and recover Hit Points as if you had rolled it during a short rest.</content>
+	<content contentuid="h60cd8e11g501eg4f3eg9da7gb3f255fa5fc0" version="1">As a bonus action, you can spend two blood to heal yourself for 1d4 plus your charisma modifier.</content>
+	<content contentuid="h1618c0c1gbbc2g4e93g9f4eg14c0caaabe05" version="1">Detect Life</content>
+	<content contentuid="hefeccc68g4494g434cga16ag42a1ef5cf193" version="1">You can see invisibility and are now immune to being turned.</content>
+	<content contentuid="h797c47bag8c88g4f23g8809g3bf1104b3fa8" version="1">Frightening Strike</content>
+	<content contentuid="h7ee922bbg90e3g4fddgac54ge15e9730d845" version="1">When you hit a creature with a weapon attack, you can spend Blood to attempt to frighten the target. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</content>
 </contentList>
