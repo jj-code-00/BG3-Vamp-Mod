@@ -494,6 +494,16 @@ data "Boosts" "UnlockInterrupt(Interrupt__Vamp_BloodThirsty)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveSupernaturalResilience"
+type "PassiveData"
+data "DisplayName" "hfc8c556fgbf70g4427g8d6bgb68dc05706c8"
+data "Description" "hffeaa544g1218g47f0g917egc8207dabb802"
+data "Icon" "PassiveFeature_FiendishResilience" 
+data "Properties" "Highlighted"
+data "Boosts" "Resistance(Piercing, ResistantToNonMagical);Resistance(Slashing, ResistantToNonMagical);Resistance(Bludgeoning, ResistantToNonMagical)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 //-----------------------------------------------------------------------
 
 //Legacy Blood Feature passives (May come in handy?)
