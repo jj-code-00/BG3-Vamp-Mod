@@ -504,6 +504,16 @@ data "Boosts" "Resistance(Piercing, ResistantToNonMagical);Resistance(Slashing, 
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveUndeadFortitude"
+type "PassiveData"
+data "DisplayName" "hd1afe285g28b9g4e4fgb492g3a8c434f1fed"
+data "Description" "h714867b8gf2c6g4936ga48fg395e9facac41"
+data "Icon" "PassiveFeature_Generic_Death" 
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_UndeadFortitude);UnlockInterrupt(Interrupt_Vamp_UndeadFortitude)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 //-----------------------------------------------------------------------
 
 //Legacy Blood Feature passives (May come in handy?)

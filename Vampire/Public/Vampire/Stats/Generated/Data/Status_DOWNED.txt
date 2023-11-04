@@ -1,0 +1,6 @@
+new entry "Vamp_UNDEAD_FORTITUDE_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "UNDEAD_FORTITUDE_DOWNED"
+data "OnApplyFunctors" "RegainHitPoints(1);RemoveStatus(Vamp_StatusUndeadFortitudeTechnical)"
+data "OnSuccess" "RegainHitPoints(1)"
