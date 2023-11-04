@@ -12,6 +12,16 @@
                     <attribute id="PreferredClassUUID" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/>
                     <attribute id="UUID" type="guid" value="147173bc-1ec3-4827-adb7-f5861cc672ae"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level5" type="LSString" value="1d6"/>
+                    <attribute id="Level10" type="LSString" value="1d8"/>
+                    <attribute id="Level15" type="LSString" value="1d10"/>
+                    <attribute id="Level20" type="LSString" value="1d12"/>
+                    <attribute id="Name" type="FixedString" value="Vamp_FeedingHeal"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/>
+                    <attribute id="UUID" type="guid" value="062e69df-a74c-425f-8588-b226f1006006"/>
+                </node>
             </children>
         </node>
     </region>

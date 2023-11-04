@@ -44,7 +44,7 @@
 	<content contentuid="h79032d1dga5d0g4803ga7ccg4306c545540f" version="1">Pushes the creature back, and deals extra damage based on blood points. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="hb3d447c9gb2e2g40d7ga41dga80f26823e34" version="1">Spies In The Night</content>
 	<content contentuid="h2b1184ecge9f5g4312g86a4gd6301b2b80a4" version="1">Bat</content>
-	<content contentuid="hb8890138g2805g4e87ga272g26b787c4fcb6" version="1">Allows you to summon a bat. Req: lvl 1, 1 blood pool points to use.</content>
+	<content contentuid="hb8890138g2805g4e87ga272g26b787c4fcb6" version="1">Allows you to summon either an invisible raven or rat.</content>
 	<content contentuid="h37b48a26g78ecg4feag84a5g55acdde99f1b" version="1">Vampiric Agility</content>
 	<content contentuid="h2a8850f4g8856g467bg92cag6a1d8267412b" version="1">Jump distance increased by 25ft and movement speed increased by 10ft. Req: lvl 1.</content>
 	<content contentuid="h0b8c0913g9219g41a3g8a45g3bd9cf679d58" version="1">When a target misses you can spend 1 blood point to attack them with your claws. Req: lvl 1, 1 blood pool points to use.</content>
@@ -87,4 +87,8 @@
 	<content contentuid="h09865592g4b81g443cgbd0ag16c2cf671509" version="1">Before you make an unarmed attack on your turn, you can spend 2 Blood to cause your attacks to make the target bleed viciously.  On a hit, they make a Constitution saving throw at the start of their turns for the next minute. On a failed save, they take additional Necrotic damage equal to your Constitution Modifier. On a success, they do not take this damage. They repeat this saving throw at the start of their turns for the entire duration.</content>
 	<content contentuid="h05870fc3g1c87g444dgb98bg45003413ca25" version="1">Supernatural Reflexes</content>
 	<content contentuid="hfbd8e981g68b9g4354gaaa8g5bc39ba63f1f" version="1">Your vampiric agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can instead take no damage if you succeed on the saving throw, and only half damage if you fail.</content>
+	<content contentuid="hf415764eg7d99g45b2gbc36gdd0bb9e9c1f2" version="1">Vampire Feed</content>
+	<content contentuid="h11a15bafg5edcg464fgb62dga6df378fc33f" version="1">Feed on a willing, charmed, or incapacitated creature that isn't an Undead, Construct, Plant or Ooze. When you Feed in this way, the creature takes no damage. You recover one Blood for each Hit Die lost in this way; humanoids restore twice as much Blood.</content>
+	<content contentuid="h4555e802g55ffg4b46gbad5g603f5d72e889" version="1">Vampire Drained</content>
+	<content contentuid="h02bbed43gaf0ag40a9g8eb1gd7087261d9c7" version="1">This creature has been fed on by a vampire using their feed ability, and cannot be fed on agian until after a long rest.</content>
 </contentList>
