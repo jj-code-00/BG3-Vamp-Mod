@@ -514,6 +514,16 @@ data "Boosts" "UnlockSpell(Shout_Vamp_UndeadFortitude);UnlockInterrupt(Interrupt
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveWhatWeDoInTheShadows"
+type "PassiveData"
+data "DisplayName" "hd7a1a2eag2d7dg42f9gb3e7g9fc48f9484f6"
+data "Description" "h3fda1ec0g9189g456agbcc4g15e25fd7665b"
+data "Icon" "Action_Monk_ShadowStep" 
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Vamp_WhatWeDoInTheShadows)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 //-----------------------------------------------------------------------
 
 //Legacy Blood Feature passives (May come in handy?)
