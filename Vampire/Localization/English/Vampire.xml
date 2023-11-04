@@ -91,4 +91,8 @@
 	<content contentuid="h11a15bafg5edcg464fgb62dga6df378fc33f" version="1">Feed on a willing, charmed, or incapacitated creature that isn't an Undead, Construct, Plant or Ooze. When you Feed in this way, the creature takes no damage. You recover one Blood for each Hit Die lost in this way; humanoids restore twice as much Blood.</content>
 	<content contentuid="h4555e802g55ffg4b46gbad5g603f5d72e889" version="1">Vampire Drained</content>
 	<content contentuid="h02bbed43gaf0ag40a9g8eb1gd7087261d9c7" version="1">This creature has been fed on by a vampire using their feed ability, and cannot be fed on agian until after a long rest.</content>
+	<content contentuid="h532203e5gf2f3g44bcg83b8g198b24b2e3aa" version="1">Feral Rage</content>
+	<content contentuid="h26dcd3aag4e7cg4c08g93f7g6f8343cfc567" version="1">If you have zero Blood, you instead must make a Wisdom save of 11 or enter a feral rage for 1 turn.</content>
+	<content contentuid="h2d94c51dg5ad3g4d2dg8a0dg1dc7538d7a47" version="1">Bloodthirsty</content>
+	<content contentuid="h9723f21dg51ceg4278ga627g38b73c3ff5ec" version="1">By spending a Blood as part of your action when you make an unarmed attack against a target that has been damaged by your Hemorrhaging Claws feature, you can make the attack with advantage. You spend this Blood each time you make this part of your attack action.</content>
 </contentList>
