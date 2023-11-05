@@ -9,7 +9,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodFeature,1,0);ActionResource(Vamp_BloodPool,1,0);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
-                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodFeature;Vamp_BloodPool1;Vamp_BloodPoolDrain;Vamp_RemoveBloodFeature;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage"/> most class features usually can be done with passives
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodFeature;Vamp_BloodPool1;Vamp_BloodPoolDrain;Vamp_RemoveBloodFeature;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Vamp_DextrousUnarmedAttacks"/> most class features usually can be done with passives
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
                     <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSkills(0e23fd18-d5ff-4c97-83d7-eb22238bed55,2);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0);"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
@@ -22,7 +22,7 @@
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Vampire"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodPool1;Vamp_BloodFeature;Vamp_BloodPoolDrain;Vamp_RemoveBloodFeature;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodPool1;Vamp_BloodFeature;Vamp_BloodPoolDrain;Vamp_RemoveBloodFeature;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Vamp_DextrousUnarmedAttacks"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>
@@ -57,6 +57,18 @@
                             <children>
                                 <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
                                     <attribute id="Object" type="guid" value="81417d2f-ee52-46e0-bc80-e033682e3af9"/> same UUID as the one for your subclass in ClassDescriptions.lsx
+                                </node>
+                                <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
+                                    <attribute id="Object" type="guid" value="789e9fe5-2b10-4587-a9b8-c3c852c7c93c"/> same UUID as the one for your subclass in ClassDescriptions.lsx
+                                </node>
+                                <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
+                                    <attribute id="Object" type="guid" value="6a7ba445-09c0-4b60-b1e7-8f00476a211e"/> same UUID as the one for your subclass in ClassDescriptions.lsx
+                                </node>
+                                <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
+                                    <attribute id="Object" type="guid" value="837d4262-5fc9-4299-9d95-208efac1df65"/> same UUID as the one for your subclass in ClassDescriptions.lsx
+                                </node>
+                                <node id="SubClass"> Subclass. add this part at a level when your class chooses its subclass
+                                    <attribute id="Object" type="guid" value="11fa799d-2968-46e4-a096-2f0a82a1033c"/> same UUID as the one for your subclass in ClassDescriptions.lsx
                                 </node>
                             </children>
                         </node>
@@ -273,6 +285,50 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="176722b0-1956-462e-a110-70ea00372ea9"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Impaler"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="c83ca820-7e40-45b0-931a-416ed905bdfe"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Ghoulish"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ClawsGhoulish;Vamp_GhoulishClass;Vamp_PassiveGhoulLord"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Vamp_ClawsBase"/>
+                    <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="3091946d-e18b-481a-bab3-5cf53adb498d"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Ghoulish"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="2dbdfac3-8f56-4364-a680-7f8afafd0549"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Ghoulish"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ClawsGhoulish_1"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Vamp_ClawsGhoulish"/>
+                    <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="4347595b-3863-475b-84b7-426515172e3d"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 17
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Ghoulish"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="6c2fc39f-6a71-4ed0-8e77-e0c991ac9df2"/> Give it a Unique UUID
                 </node>
             </children>
         </node>
