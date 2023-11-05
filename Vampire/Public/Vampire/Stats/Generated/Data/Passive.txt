@@ -140,6 +140,60 @@ data "StatsFunctorContext" "OnCreate"
 data "Icon" "Spell_Divination_SeeInvisibility"
 data "StatsFunctors" "ApplyStatus(Vamp_SEE_INVISIBILITY, 100, -1);StatusImmunity(TURNED)"
 
+// Level 13 Passive
+
+new entry "Vamp_UnearthlyWill"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsSpell() and HasStatus('Vamp_StatusUnearthlyWillTechnical',context.Target)):DamageReduction(All,Half);ProficiencyBonus(SavingThrow,Wisdom);Tag(CHARMED_ADV);Tag(FRIGHTENED_ADV);"
+
+new entry "Vamp_UnearthlyWillTechnical"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Action_VampireBite"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and HasActionResource('SpellSlot', 1, 1, false, context.Target)"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusUnearthlyWillTechnical,100,10)"
+
+// lvl 14
+
+new entry "Vamp_PassiveNightCloak"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Icon" "Action_Cleric_ChannelDivinity_CloakOfShadows"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_NightCloak)"
+
+// lvl 20
+
+new entry "Vamp_PassiveVampireLord"
+type "PassiveData"
+data "DisplayName" "h5f31616bg4d87g4567g9e5cg3f886fb3184a" 
+data "Description" "h8da74ba6g2691g411agb4d1gccb356a06dbe" 
+data "Icon" "Status_Astarion_Happy"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_VampireLord);Ability(Strength,4,20);Ability(Dexterity,4,20);Ability(Constitution,4,20)"
+
+new entry "Vamp_PassiveVampireLordTechnical_1"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Vamp_VampireLordFly);UnlockSpell(Vamp_VampireLordCharm)"
+
+new entry "Vamp_PassiveVampireLordTechnical"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Action_VampireBite"
+data "Properties" "IsHidden"
+data "Boosts" "IF(SpellId('Vamp_Bite') and IsDamageTypeNecrotic()):DamageBonus(1d8,Necrotic);IF(SpellId('Vamp_Bonus_Bite') and IsDamageTypeNecrotic()):DamageBonus(1d8,Necrotic);IF(SpellId('Vamp_AssassinFang') and IsDamageTypeNecrotic()):DamageBonus(1d8,Necrotic);IF(IsSpellChildOrVariantFromContext('Vamp_Claws')):DamageBonus(1d8,Necrotic);"
+
 // Blood Pool Feature passives
 
 new entry "Vamp_BloodFeature"
