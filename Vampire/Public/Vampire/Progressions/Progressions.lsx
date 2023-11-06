@@ -298,7 +298,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Ghoulish"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ClawsGhoulish;Vamp_GhoulishClass;Vamp_PassiveGhoulLord"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ClawsGhoulish;Vamp_GhoulishClass"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_ClawsBase"/>
                     <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="3091946d-e18b-481a-bab3-5cf53adb498d"/> Give it a Unique UUID
@@ -307,7 +307,7 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Ghoulish"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveFeedingFrenzy"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="2dbdfac3-8f56-4364-a680-7f8afafd0549"/> Give it a Unique UUID
@@ -325,7 +325,7 @@
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="Ghoulish"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveGhoulLord"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="6c2fc39f-6a71-4ed0-8e77-e0c991ac9df2"/> Give it a Unique UUID
