@@ -52,3 +52,12 @@ Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
         PersistentVars['Blood'] = amount
     end
 end)
+
+Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function ()
+    local character = Osi.GetHostCharacter()
+    local characterHasDarkvision = Osi.HasPassive(character,"Darkvision")
+    local characterHasSupDarkvision = Osi.HasPassive(character,"SuperiorDarkvision")
+    if !characterHasDarkvision and !characterHasSupDarkvision then
+        Osi.RemovePassive(character,"Vamp_Darkvision")
+    end
+end)
