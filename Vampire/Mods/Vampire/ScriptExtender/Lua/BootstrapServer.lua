@@ -5,9 +5,9 @@ Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
     local character = Osi.GetHostCharacter()
     local characterHasBloodDrain = Osi.HasPassive(character,"Vamp_BloodPoolDrain")
     if characterHasBloodDrain then
-        Ext.Utils.Print("Drain Time")
-        --local amount = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
-        Ext.Utils.Print("Drain ", PersistentVars['Blood'])
+        -- Ext.Utils.Print("Drain Time")
+        -- --local amount = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
+        -- Ext.Utils.Print("Drain ", PersistentVars['Blood'])
         local drainedBlood = PersistentVars['Blood'] - 1
         if drainedBlood < 0 then
             drainedBlood = 0
