@@ -26,7 +26,7 @@
                     <attribute id="Level3" type="LSString" value="1d6"/>
                     <attribute id="Level7" type="LSString" value="1d8"/>
                     <attribute id="Level11" type="LSString" value="1d10"/>
-                    <attribute id="Level27" type="LSString" value="2d6"/>
+                    <attribute id="Level17" type="LSString" value="2d6"/>
                     <attribute id="Name" type="FixedString" value="Vamp_GhoulishClaws"/>
                     <attribute id="PreferredClassUUID" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/>
                     <attribute id="UUID" type="guid" value="3f6a682d-fd8b-47f6-9700-6278add5c0ae"/>
