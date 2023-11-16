@@ -1,5 +1,19 @@
 PersistentVars = {}
 
+-- -- Courtesy of @Eralyne
+-- function DelayedCall(ms, func)
+--     local Time = 0
+--     local handler
+--     handler = Ext.Events.Tick:Subscribe(function(e)
+--         Time = Time + e.Time.DeltaTime * 1000 -- Convert seconds to milliseconds
+
+--         if (Time >= ms) then
+--             func()
+--             Ext.Events.Tick:Unsubscribe(handler)
+--         end
+--     end)
+-- end
+
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
     -- Ext.Utils.Print("Rested")
     local character = Osi.GetHostCharacter()
@@ -53,11 +67,33 @@ Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
     end
 end)
 
-Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function ()
-    local character = Osi.GetHostCharacter()
-    local characterHasDarkvision = Osi.HasPassive(character,"Darkvision")
-    local characterHasSupDarkvision = Osi.HasPassive(character,"SuperiorDarkvision")
-    if !characterHasDarkvision and !characterHasSupDarkvision then
-        Osi.RemovePassive(character,"Vamp_Darkvision")
-    end
-end)
+-- Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function ()
+--     _P("Here")
+--     if Osi.HasPassive(Osi.GetHostCharacter(),"Vamp_BloodPool1") then
+--         _P("Herex2")
+--         DelayedCall(1000,CheckDarkvision)
+--     end
+-- end)
+
+-- function CheckDarkvision()
+--     _P("Herex3")
+--     local character = Osi.GetHostCharacter()
+--     Osi.RemovePassive(character,"Vamp_Darkvision")
+--     local characterHasDarkvision = Osi.HasPassive(character,"Darkvision")
+--     local characterHasSupDarkvision = Osi.HasPassive(character,"SuperiorDarkvision")
+--     if characterHasDarkvision ~= 1 and characterHasSupDarkvision ~= 1 then
+--         Osi.RemovePassive(character,"Vamp_Darkvision")
+--     end
+-- end
+-- Ext.Osiris.RegisterListener("UsingSpellOnTarget", 6, "after", function (caster, target, spell, spellType, spellElement, storyActionID)
+--     local characterLevel = Osi.GetLevel(caster)
+-- 	if spell == "Vamp_Bite" then
+--         if characterLevel >= 1 and characterLevel < 6 then
+--             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
+--         elseif characterLevel >= 6 and characterLevel < 11 then 
+--             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
+--         elseif characterLevel >= 11 then
+--             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
+--         end
+--     end
+-- end)
