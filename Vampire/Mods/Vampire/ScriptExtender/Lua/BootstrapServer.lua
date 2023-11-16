@@ -51,8 +51,7 @@ function RestoreBlood(character,amount)
         [16] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool16", 1, 100,character) end,
         [17] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool17", 1, 100,character) end,
         [18] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool18", 1, 100,character) end,
-        [19] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool19", 1, 100,character) end,
-        [20] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool20", 1, 100,character) end
+        [19] = function () Osi.ApplyStatus(character, "Vamp_RestoreBloodPool19", 1, 100,character) end
     }
     action[amount]()
 end
