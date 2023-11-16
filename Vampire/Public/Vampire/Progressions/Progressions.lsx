@@ -290,7 +290,8 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Impaler"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ImpalerClass;Vamp_DreadedWarrior;"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(d15b199c-9499-4991-836c-156d6b85b777,1,FightingStyle);"/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="c83ca820-7e40-45b0-931a-416ed905bdfe"/> Give it a Unique UUID
                 </node>
