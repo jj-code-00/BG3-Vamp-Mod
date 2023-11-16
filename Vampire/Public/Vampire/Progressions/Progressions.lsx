@@ -282,18 +282,73 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Bestial"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BestialClass;"/>
                     <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="176722b0-1956-462e-a110-70ea00372ea9"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Bestial"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="7b07ba42-3d4c-4632-99eb-c5c5f2ebf1e8"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Bestial"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="f9fe3b21-4d05-421f-a7ca-22b46c8d2254"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 17
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Bestial"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="d8175918-2648-4f71-ace4-5f48f87720ec"/> Give it a Unique UUID
                 </node>
                 <node id="Progression"> Subclass Level 3
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Impaler"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(HeavyArmor)"/> 
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_ImpalerClass;Vamp_DreadedWarrior;"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(d15b199c-9499-4991-836c-156d6b85b777,1,FightingStyle);"/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="c83ca820-7e40-45b0-931a-416ed905bdfe"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Impaler"/>
+                    <attribute id="Boosts" type="LSString" value=""/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="7fc6c8b8-1686-420d-9d78-39460d76fcaa"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Impaler"/>
+                    <attribute id="Boosts" type="LSString" value=""/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="e78bf4b6-3983-43fc-9379-94d9324679bc"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 17
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Impaler"/>
+                    <attribute id="Boosts" type="LSString" value=""/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="ac745962-b997-4b8d-a02b-88259e1ab976"/> Give it a Unique UUID
                 </node>
                 <node id="Progression"> Subclass Level 3
                     <attribute id="Level" type="uint8" value="3"/>
@@ -330,6 +385,70 @@
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="7b42f967-32e4-4ce2-b5b8-412b8946d9e3"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="6c2fc39f-6a71-4ed0-8e77-e0c991ac9df2"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Mystical"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_MysticalClass;"/>
+                    <attribute id="TableUUID" type="guid" value="4d1ff44e-2141-45fd-a9c8-db661285cf17"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="f96f5eaa-0e6d-4245-aa76-4ddf07c7ca58"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Mystical"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4d1ff44e-2141-45fd-a9c8-db661285cf17"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="5f9468de-e22a-42ef-ad40-5a84ba41e96f"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Mystical"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4d1ff44e-2141-45fd-a9c8-db661285cf17"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="a4342340-e5b5-45ef-bd7c-3edc1bcbd89a"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 17
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Mystical"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4d1ff44e-2141-45fd-a9c8-db661285cf17"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="3c95756c-792c-4f17-ae62-0dfa6c4fc346"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 3
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_RefinedClass;"/>
+                    <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="786fdc9b-7026-4131-9e22-b0e21fcf67b8"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 7
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="a0254258-d5cb-47ab-a77b-ad6631c84c9f"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 11
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="cead216b-1670-447b-9a96-2a80f951abfb"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 17
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="95191b25-35d2-4bfa-bd33-7823ec52011d"/> Give it a Unique UUID
                 </node>
             </children>
         </node>

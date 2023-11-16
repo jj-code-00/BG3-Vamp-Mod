@@ -831,5 +831,25 @@ data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Icon" "PassiveFeature_FiendishResilience"
 data "Properties" "Highlighted"
-data "Properties" ""
 data "Boosts" "IncreaseMaxHP(Level)"
+
+//Beastial
+
+new entry "Vamp_BestialClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+//Refined
+
+new entry "Vamp_RefinedClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+//Mystical
+
+new entry "Vamp_MysticalClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
