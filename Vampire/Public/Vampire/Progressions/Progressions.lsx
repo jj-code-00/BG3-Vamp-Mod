@@ -315,7 +315,7 @@
                     <attribute id="Name" type="LSString" value="Impaler"/>
                     <attribute id="Boosts" type="LSString" value="Proficiency(HeavyArmor)"/> 
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ImpalerClass;Vamp_DreadedWarrior;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_ImpalerClass;Vamp_DreadedWarrior;Vamp_FlavouredEnemy;Vamp_FlavouredEnemyTechnical;"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(d15b199c-9499-4991-836c-156d6b85b777,1,FightingStyle);"/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="c83ca820-7e40-45b0-931a-416ed905bdfe"/> Give it a Unique UUID
@@ -325,7 +325,7 @@
                     <attribute id="Name" type="LSString" value="Impaler"/>
                     <attribute id="Boosts" type="LSString" value=""/> 
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveCarnalRenewal;"/>
                     <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="7fc6c8b8-1686-420d-9d78-39460d76fcaa"/> Give it a Unique UUID
@@ -345,7 +345,7 @@
                     <attribute id="Name" type="LSString" value="Impaler"/>
                     <attribute id="Boosts" type="LSString" value=""/> 
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveMerciless;"/>
                     <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="ac745962-b997-4b8d-a02b-88259e1ab976"/> Give it a Unique UUID
