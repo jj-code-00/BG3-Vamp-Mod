@@ -282,7 +282,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Bestial"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BestialClass;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_BestialClass;Vamp_PassiveCreatureofTheNight;"/>
                     <attribute id="TableUUID" type="guid" value="f81c78db-8477-44dc-b228-03c76e1fc312"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="176722b0-1956-462e-a110-70ea00372ea9"/> Give it a Unique UUID
                 </node>

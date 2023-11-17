@@ -55,6 +55,7 @@ type "PassiveData"
 using "SunlightSensitivity"
 data "Properties" "IsHidden"
 
+//change the loca stuffs here
 new entry "Vamp_DextrousUnarmedAttacks"
 type "PassiveData"
 data "DisplayName" "hd8a574dage906g4af9g92f1g1c532d7e9d70;2"
@@ -880,6 +881,40 @@ new entry "Vamp_BestialClass"
 type "PassiveData"
 data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
 data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveCreatureofTheNight"
+type "PassiveData"
+data "DisplayName" "ha5a132c0gbc49g487fgb59ag9cdc6186819a" 
+data "Description" "h2cd91d39g3ed0g402fg8e20gff03f950ce18" 
+data "Icon" "Action_DarkUrge"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_CreatureofTheNightCon)"
+
+new entry "Vamp_PassiveBestialBlindsight"
+type "PassiveData"
+using "Blindsight_9m"
+data "Conditions" "not IsDamageTypeThunder() and not HasPassive('Vamp_PassiveEcholocationTechnical')"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveBestialThunderVun"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "IsDamageTypeThunder()"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusBestialThunderVun, 100, 2)"
+
+new entry "Vamp_PassiveCreatureofTheNightTechnical"
+type "PassiveData"
+data "DisplayName" "hcf652a63g4177g4d3fg9233g7258998f8d75;2"
+data "Description" "he0a1651bgd70eg4847g8a5eg9b219d1751a1;1"
+data "Icon" "PassiveFeature_TavernBrawler"
+data "Properties" "IsHidden"
+data "Boosts" "IF(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood')):DealDamage(1d6,Slashing);IF((SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and IsDamageTypePiercing()):DamageBonus(1d6,Piercing)"
+data "Conditions" "(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood') or SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" ""
 
 //Refined
 

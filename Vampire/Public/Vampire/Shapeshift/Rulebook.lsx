@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="613"/>
+    <region id="Rulebook">
+        <node id="root">
+            <children>
+                <node id="Rule">
+                    <attribute id="ApplySpellsFromTemplate" type="bool" value="false"/>
+                    <attribute id="ApplyTagsFromTemplate" type="bool" value="false"/>
+                    <attribute id="ApplyVisual" type="bool" value="true"/>
+                    <attribute id="BaseACOverride" type="bool" value="false"/>
+                    <attribute id="ChangeAi" type="bool" value="true"/>
+                    <attribute id="ChangeBodyType" type="bool" value="false"/>
+                    <attribute id="ChangeIcon" type="bool" value="true"/>
+                    <attribute id="ChangeRace" type="bool" value="false"/>
+                    <attribute id="DisableEquipmentSlots" type="bool" value="true"/>
+                    <attribute id="FootstepsType" type="bool" value="true"/>
+                    <attribute id="IgnoreCustomLooks" type="bool" value="true"/>
+                    <attribute id="MuteEquipmentSound" type="bool" value="true"/>
+                    <attribute id="RemovePrevSpells" type="bool" value="false"/>
+                    <attribute id="RetainDisplayName" type="bool" value="true"/>
+                    <attribute id="RuleName" type="LSString" value="Bestial"/>
+                    <attribute id="UUID" type="guid" value="0c9236bb-6eab-4a2a-bb2e-aa7183a24946"/>
+                    <attribute id="UnarmedAbilityFromTemplate" type="bool" value="false"/>
+                    <attribute id="WildShapeHotBar" type="bool" value="false"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+
+                    
