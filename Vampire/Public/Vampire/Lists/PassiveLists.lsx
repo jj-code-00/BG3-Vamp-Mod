@@ -10,7 +10,11 @@
                 </node>
 				<node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Passive1,Passive2,Passive3"/> You can make more than 1 list. the same passive can be in different lists
-                    <attribute id="UUID" type="guid" value="e6a6d53f-2f03-4e9b-ab4e-f45555555555"/> make a new UUID for each passive list
+                    <attribute id="UUID" type="guid" value="aa13cf09-e49f-48c7-a4d6-3dd596073d34"/> make a new UUID for each passive list
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="d15b199c-9499-4991-836c-156d6b85b777"/>
                 </node>
             </children>
         </node>
