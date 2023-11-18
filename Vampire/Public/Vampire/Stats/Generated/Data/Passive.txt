@@ -903,7 +903,7 @@ data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "IsDamageTypeThunder()"
-data "StatsFunctors" "ApplyStatus(Vamp_StatusBestialThunderVun, 100, 2)"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusBestialThunderVun, 100, 2);ApplyStatus(STUNNED,100,1)"
 
 new entry "Vamp_PassiveCreatureofTheNightTechnical"
 type "PassiveData"
@@ -911,10 +911,10 @@ data "DisplayName" "hcf652a63g4177g4d3fg9233g7258998f8d75;2"
 data "Description" "he0a1651bgd70eg4847g8a5eg9b219d1751a1;1"
 data "Icon" "PassiveFeature_TavernBrawler"
 data "Properties" "IsHidden"
-data "Boosts" "IF(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood')):DealDamage(1d6,Slashing);IF((SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and IsDamageTypePiercing()):DamageBonus(1d6,Piercing)"
+data "Boosts" ""
 data "Conditions" "(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood') or SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit)"
 data "StatsFunctorContext" "OnAttack"
-data "StatsFunctors" ""
+data "StatsFunctors" "IF(SpellId('Vamp_Claws')):DealDamage(1d6,Slashing);IF(SpellId('Vamp_BiluBlood')):DealDamage(1d6,Acid);IF((SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang'))):DealDamage(1d6,Piercing)"
 
 //Refined
 

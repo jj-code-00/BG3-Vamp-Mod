@@ -1,32 +1,25 @@
 PersistentVars = {}
 
--- -- Courtesy of @Eralyne
--- function DelayedCall(ms, func)
---     local Time = 0
---     local handler
---     handler = Ext.Events.Tick:Subscribe(function(e)
---         Time = Time + e.Time.DeltaTime * 1000 -- Convert seconds to milliseconds
-
---         if (Time >= ms) then
---             func()
---             Ext.Events.Tick:Unsubscribe(handler)
---         end
---     end)
--- end
-
-Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
-    -- Ext.Utils.Print("Rested")
-    local character = Osi.GetHostCharacter()
-    local characterHasBloodDrain = Osi.HasPassive(character,"Vamp_BloodPoolDrain")
-    if characterHasBloodDrain then
-        -- Ext.Utils.Print("Drain Time")
-        -- --local amount = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
-        -- Ext.Utils.Print("Drain ", PersistentVars['Blood'])
-        local drainedBlood = PersistentVars['Blood'] - 1
-        if drainedBlood < 0 then
-            drainedBlood = 0
+Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        if (Ext.Entity.Get(v[1]).Classes.Classes[1].ClassUUID == "f94bdf02-81fc-475d-b16f-e223a7b3c081") then
+            local character = string.sub(v[1],-36)
+            PersistentVars[character] = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
         end
-        RestoreBlood(character,drainedBlood)
+    end
+end)
+
+--May need to change the classes bit into checking for vamp_pool passive incase multiclassing messes with it
+Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        if (Ext.Entity.Get(v[1]).Classes.Classes[1].ClassUUID == "f94bdf02-81fc-475d-b16f-e223a7b3c081") then
+            local character = string.sub(v[1],-36)
+            local drainedBlood = PersistentVars[character] - 1
+            if drainedBlood < 0 then
+                drainedBlood = 0
+            end
+            RestoreBlood(character,drainedBlood)
+        end
     end
 end)
 
@@ -55,44 +48,3 @@ function RestoreBlood(character,amount)
     }
     action[amount]()
 end
-
-Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
-    -- Ext.Utils.Print("Rested")
-    local character = Osi.GetHostCharacter()
-    local characterHasBlood = Osi.HasPassive(character,"Vamp_BloodPool1")
-    if characterHasBlood then
-        local amount = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
-        PersistentVars['Blood'] = amount
-    end
-end)
-
--- Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function ()
---     _P("Here")
---     if Osi.HasPassive(Osi.GetHostCharacter(),"Vamp_BloodPool1") then
---         _P("Herex2")
---         DelayedCall(1000,CheckDarkvision)
---     end
--- end)
-
--- function CheckDarkvision()
---     _P("Herex3")
---     local character = Osi.GetHostCharacter()
---     Osi.RemovePassive(character,"Vamp_Darkvision")
---     local characterHasDarkvision = Osi.HasPassive(character,"Darkvision")
---     local characterHasSupDarkvision = Osi.HasPassive(character,"SuperiorDarkvision")
---     if characterHasDarkvision ~= 1 and characterHasSupDarkvision ~= 1 then
---         Osi.RemovePassive(character,"Vamp_Darkvision")
---     end
--- end
--- Ext.Osiris.RegisterListener("UsingSpellOnTarget", 6, "after", function (caster, target, spell, spellType, spellElement, storyActionID)
---     local characterLevel = Osi.GetLevel(caster)
--- 	if spell == "Vamp_Bite" then
---         if characterLevel >= 1 and characterLevel < 6 then
---             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
---         elseif characterLevel >= 6 and characterLevel < 11 then 
---             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
---         elseif characterLevel >= 11 then
---             Osi.ApplyStatus(target, "Vamp_LIFE_DRAIN", -1, 100, caster)
---         end
---     end
--- end)
