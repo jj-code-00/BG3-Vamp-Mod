@@ -2,8 +2,8 @@ PersistentVars = {}
 
 Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
     for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
-        if (Ext.Entity.Get(v[1]).Classes.Classes[1].ClassUUID == "f94bdf02-81fc-475d-b16f-e223a7b3c081") then
-            local character = string.sub(v[1],-36)
+        local character = string.sub(v[1],-36)
+        if (Osi.HasPassive(character,"Sanguinare_Vampiris")) then
             PersistentVars[character] = Osi.GetActionResourceValuePersonal(character, "Vamp_BloodPool", 0)
         end
     end
@@ -12,8 +12,8 @@ end)
 --May need to change the classes bit into checking for vamp_pool passive incase multiclassing messes with it
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
     for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
-        if (Ext.Entity.Get(v[1]).Classes.Classes[1].ClassUUID == "f94bdf02-81fc-475d-b16f-e223a7b3c081") then
-            local character = string.sub(v[1],-36)
+        local character = string.sub(v[1],-36)
+        if (Osi.HasPassive(character,"Sanguinare_Vampiris")) then
             local drainedBlood = PersistentVars[character] - 1
             if drainedBlood < 0 then
                 drainedBlood = 0
