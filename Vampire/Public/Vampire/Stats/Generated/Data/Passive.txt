@@ -916,6 +916,16 @@ data "Icon" "Action_Paladin_AbjureEnemy"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Vamp_DecreeofDeath_Con)"
 
+new entry "Vamp_PassivePointedStrike"
+type "PassiveData"
+data "DisplayName" "h8ec5c189g2604g494egbd63gd0d311643c3d" 
+data "Description" "haee0725fgc6b7g4c79gbe7eg4460869c4fc0" 
+data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_PointedStrike_1);UnlockInterrupt(Interrupt_PointedStrike_2);UnlockInterrupt(Interrupt_PointedStrike_3);UnlockInterrupt(Interrupt_PointedStrike_4);UnlockInterrupt(Interrupt_PointedStrike_5);UnlockInterrupt(Interrupt_PointedStrike_6);"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 //Beastial
 
 new entry "Vamp_BestialClass"
