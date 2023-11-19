@@ -876,6 +876,14 @@ data "Icon" "PassiveFeature_ImprovedCritical"
 data "Properties" "Highlighted"
 data "Boosts" "ReduceCriticalAttackThreshold(1);UnlockSpell(Shout_Vamp_Merciless);UnlockInterrupt(Interrupt_Vamp_Merciless)"
 
+new entry "Vamp_PassiveArmoredTitan"
+type "PassiveData"
+data "DisplayName" "h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8" 
+data "Description" "h29f4af2bg6f61g4b01gbfd1g092a5933b497" 
+data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Vamp_ArmoredTitan)"
+
 //Beastial
 
 new entry "Vamp_BestialClass"
