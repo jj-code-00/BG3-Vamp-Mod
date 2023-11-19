@@ -48,3 +48,14 @@ function RestoreBlood(character,amount)
     }
     action[amount]()
 end
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if status == "Vamp_StatusFlavouredEnemy" then
+        for k,v in pairs(PersistentVars) do
+            if PersistentVars[k] == (status .. causee) then
+                Osi.RemoveStatus(k, status, causee)
+            end
+          end
+        PersistentVars[object] = status .. causee
+    end
+end)
