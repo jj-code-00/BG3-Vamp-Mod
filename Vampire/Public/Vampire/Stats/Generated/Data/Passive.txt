@@ -908,6 +908,14 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveDecreeofDeath"
+type "PassiveData"
+data "DisplayName" "h2fe74485g2c73g4ce4g9256ge170815cade1"
+data "Description" "h20e83ee2g768fg4dbegb816gd13f591a6346"
+data "Icon" "Action_Paladin_AbjureEnemy"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_DecreeofDeath_Con)"
+
 //Beastial
 
 new entry "Vamp_BestialClass"

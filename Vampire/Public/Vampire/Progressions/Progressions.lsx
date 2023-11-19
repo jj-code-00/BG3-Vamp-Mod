@@ -332,7 +332,7 @@
                     <attribute id="Name" type="LSString" value="Impaler"/>
                     <attribute id="Boosts" type="LSString" value=""/> 
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveDecreeofDeath;"/>
                     <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="a2e251a6-a3ea-42e0-ba03-7c5516990535"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="e78bf4b6-3983-43fc-9379-94d9324679bc"/> Give it a Unique UUID
