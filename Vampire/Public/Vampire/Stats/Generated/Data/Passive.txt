@@ -922,10 +922,3 @@ new entry "Vamp_RefinedClass"
 type "PassiveData"
 data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
 data "Properties" "IsHidden"
-
-//Mystical
-
-new entry "Vamp_MysticalClass"
-type "PassiveData"
-data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
-data "Properties" "IsHidden"

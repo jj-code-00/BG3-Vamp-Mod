@@ -69,21 +69,6 @@
                 <node id="ClassDescription"> Subclass (you will need one of this for each subclass)
                     <attribute id="CanLearnSpells" type="bool" value="false"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-					<attribute id="Description" type="TranslatedString" handle="hb1226a20gb2b8g45cbg88aeg45785626b17e" version="1"/> Link to the .loca file
-                    <attribute id="DisplayName" type="TranslatedString" handle="hafe00b42g2116g4e52g9f9dga0f6f8348b93" version="1"/> Link to the .loca file
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="Mystical"/> name of your subclass
-                    <attribute id="ParentGuid" type="guid" value="f94bdf02-81fc-475d-b16f-e223a7b3c081"/> This is the same UUID as your main class, as the main class act as the subclass' parent
-                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="4d1ff44e-2141-45fd-a9c8-db661285cf17"/> This is a different table as the Main Class, as this one is specific to the subclass
-                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="UUID" type="guid" value="6a7ba445-09c0-4b60-b1e7-8f00476a211e"/> Make a unique UUID for the subclass
-                </node>
-                <node id="ClassDescription"> Subclass (you will need one of this for each subclass)
-                    <attribute id="CanLearnSpells" type="bool" value="false"/>
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
 					<attribute id="Description" type="TranslatedString" handle="h6c1060cegb79ag4860ga09fg2887e4df85d4" version="1"/> Link to the .loca file
                     <attribute id="DisplayName" type="TranslatedString" handle="ha4ce201ageb8fg4291gbbceg11eb79d3bc68" version="1"/> Link to the .loca file
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
