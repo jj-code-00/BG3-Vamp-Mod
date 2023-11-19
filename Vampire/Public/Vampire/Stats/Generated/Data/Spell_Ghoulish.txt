@@ -342,7 +342,7 @@ using "Vamp_Feed"
 data "DisplayName" "h8be266e5g1331g4f16gafe7gbd3427f6cccc"
 data "Description" "h91d6e1f6gb06dg4a53ga875gf48073fd5884"
 data "SpellProperties" "ApplyStatus(Vamp_Fed,100,-1);TARGET:IF(SizeEqualOrGreater(Size.Small) and not Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,1,0);TARGET:IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,2,0)"
-data "TargetConditions" "not Self() and not Item() and not Tagged('UNDEAD') and not Tagged('PLANT') and not Tagged('ELEMENTAL') and not Tagged('CONSTRUCT') and not Tagged('OOZE') and not HasStatus('SG_Petrified',context.Target) and not HasStatus('Vamp_Fed',context.Target) and (HasStatus('SG_Stunned',context.Target) or HasStatus('SG_Unconscious',context.Target) or HasStatus('SG_Prone',context.Target) or HasStatus('SG_Sleeping',context.Target) or HasStatus('HIDEOUS_LAUGHTER',context.Target) or HasStatus('SG_Charmed',context.Target) or HasStatus('SG_Incapacitated',context.Target) or Ally() or IsTargetableCorpse())"
+data "TargetConditions" "not Self() and not Item() and not Tagged('UNDEAD') and not Tagged('PLANT') and not Tagged('ELEMENTAL') and not Tagged('CONSTRUCT') and not Tagged('OOZE') and not HasStatus('SG_Petrified',context.Target) and not HasStatus('Vamp_Fed',context.Target) and (HasStatus('SG_Stunned',context.Target) or HasStatus('SG_Unconscious',context.Target) or HasStatus('SG_Prone',context.Target) or HasStatus('SG_Sleeping',context.Target) or HasStatus('HIDEOUS_LAUGHTER',context.Target) or HasStatus('SG_Charmed',context.Target) or HasStatus('SG_Incapacitated',context.Target) or Dead())"
 
 new entry "Shout_SelectGnawingHunger"
 type "SpellData"
