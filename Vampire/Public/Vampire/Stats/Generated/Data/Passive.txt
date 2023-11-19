@@ -871,7 +871,7 @@ data "Icon" "PassiveFeature_DarkOnesBlessing"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
-data "StatsFunctors" "IF(HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):ApplyStatus(SELF,Vamp_StatusCarnalRenewal2,100,-1);IF(not HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):ApplyStatus(SELF,Vamp_StatusCarnalRenewal,100,-1);RestoreResource(SELF, Vamp_BloodPool,1,0)"
+data "StatsFunctors" "IF(HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):RegainHitPoints(SELF, ConstitutionModifier+ProficiencyBonus);IF(not HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):ApplyStatus(SELF,Vamp_StatusCarnalRenewal,100,-1);RestoreResource(SELF, Vamp_BloodPool,1,0)"
 
 new entry "Vamp_PassiveMerciless"
 type "PassiveData"
