@@ -59,3 +59,11 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
         PersistentVars[object] = status .. causee
     end
 end)
+
+Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function (character)
+    Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+end)
+
+Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", function (character)
+    Osi.RemoveStatus(character, "Vamp_StatusCanFeed", character)
+end)
