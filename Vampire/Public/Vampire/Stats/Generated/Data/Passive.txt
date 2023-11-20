@@ -1065,7 +1065,7 @@ data "Description" "hb0e6b28egbb27g420agb21cgcc6a9227e617"
 data "Icon" "Spell_Evocation_Thunderwave"
 data "Properties" "IsHidden"
 data "BoostConditions" "HasPassive('Vamp_BloodPool17')"
-data "Boosts" "Resistance(Slashing);Resistance(Piercing);Resistance(Bludgeoning);Resistance(Fire);Resistance(Cold);Resistance(Lightning);Resistance(Acid);Resistance(Poison);Resistance(Force);Resistance(Psychic);CriticalHit(AttackTarget,Success,Never)"
+data "Boosts" "Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);Resistance(Fire,Resistant);Resistance(Cold,Resistant);Resistance(Lightning,Resistant);Resistance(Acid,Resistant);Resistance(Poison,Resistant);Resistance(Force,Resistant);Resistance(Psychic,Resistant);CriticalHit(AttackTarget,Success,Never)"
 
 new entry "Vamp_BestialSavingThrows"
 type "PassiveData"
