@@ -956,6 +956,23 @@ data "Boosts" "UnlockSpell(Target_Vamp_BloodSpike_Con)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveSacrificialSummoningLWR"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
+new entry "Vamp_PassiveSacrificialSummoning"
+type "PassiveData"
+data "DisplayName" "hbe34b4c4g2375g4a4egb7e8g21d39ce52831"
+data "Description" "h5de13ba2gb3cag4ca0g8395g5db83345b23c"
+data "DescriptionParams" ""
+data "Icon" "Action_SacrificeToLoviatar"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusSacrificialSummoningTechnical,100,1)"
+
 //Beastial
 
 new entry "Vamp_BestialClass"
