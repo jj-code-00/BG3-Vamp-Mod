@@ -946,6 +946,16 @@ data "Boosts" "UnlockSpell(Target_Vamp_ImpalersCommand_Con)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveBloodSpike"
+type "PassiveData"
+data "DisplayName" "h621cfeabga79bg4f69g8860g81e9b8feb2e8"
+data "Description" "hff595865g114bg4fe3gb3cbgb93a55f08642"
+data "Icon" "Spell_Conjuration_IceKnife"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Vamp_BloodSpike_Con)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
 //Beastial
 
 new entry "Vamp_BestialClass"
