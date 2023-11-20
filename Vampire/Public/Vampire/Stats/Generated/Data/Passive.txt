@@ -1032,6 +1032,15 @@ data "Description" "h1b628671g9f2bg43d5gb00bgbfc792c10038"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted"
 
+new entry "Vamp_BestialRoaringThunder"
+type "PassiveData"
+data "DisplayName" "h9f2205a3gf19bg44b3g81d5g3e5ea0386d57"
+data "Description" "hb0e6b28egbb27g420agb21cgcc6a9227e617"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "Properties" "Highlighted"
+data "BoostConditions" "HasPassive('Vamp_BloodPool11')"
+data "Boosts" "UnlockSpell(Zone_Vamp_RoaringThunder);ObjectSize(+1);ScaleMultiplier(1.33);WeightCategory(+1);"
+
 //Refined
 
 new entry "Vamp_RefinedClass"
