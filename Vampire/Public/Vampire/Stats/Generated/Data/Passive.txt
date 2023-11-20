@@ -148,6 +148,7 @@ data "StatsFunctors" "ApplyStatus(Vamp_SEE_INVISIBILITY, 100, -1);StatusImmunity
 
 // Level 13 Passive
 
+// Changed to context.Source will need testing
 new entry "Vamp_UnearthlyWill"
 type "PassiveData"
 data "DisplayName" "h8cf5de3cg4f0cg4712gbf60g52e7a96a79f2"
@@ -156,7 +157,7 @@ data "Icon" "TadpoleSuperPower_MindSanctuary"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamaged"
 data "Boosts" "ProficiencyBonus(SavingThrow,Wisdom);Tag(CHARMED_ADV);Tag(FRIGHTENED_ADV);"
-data "StatsFunctors" "IF(IsSpell() and HasStatus('Vamp_StatusUnearthlyWillTechnical',context.Target)):DamageReduction(All,Half)"
+data "StatsFunctors" "IF(IsSpell() and HasStatus('Vamp_StatusUnearthlyWillTechnical',context.Source)):SpellResistance(Resistant);IF(IsSpell() and HasStatus('Vamp_StatusUnearthlyWillTechnical',context.Source)):Advantage(AllSavingThrows)"
 
 new entry "Vamp_UnearthlyWillTechnical"
 type "PassiveData"
