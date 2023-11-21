@@ -1,4 +1,4 @@
-Vampire Class based on an updated version of this [Vampire Class](https://drive.google.com/file/d/1qvOG1JmA-AmosprgB2UOd-a31GalG2l0/view)
+Vampire Class mod based on an updated version of this [Vampire Class](https://drive.google.com/file/d/1qvOG1JmA-AmosprgB2UOd-a31GalG2l0/view)
 
 # Requirements:
 1. [Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141)
