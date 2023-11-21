@@ -169,4 +169,6 @@
 	<content contentuid="h259cc6fbg6c17g42f3ga14bg889c81aab3aa" version="1">Vampire's hunger has been temporarily sated. +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5aeb95ffgba95g4890g8524g38da0b19e977" version="1">Greater Creature</content>
 	<content contentuid="h8a37e1cbgba93g44b0gaf52g8c2503b69edc" version="1">At 17th level, your Transformation is truly terrifying to behold, a nigh unstoppable Creature. You gain the following benefits when you Transform; Your Blindsight in Creature form increases to 60 feet. Your unarmed strikes damage bonus increases to 3d6. You have immunity to damage from weapons that aren't silvered, including magical weapons. You have advantage on saving throws against spells and other magical effects.</content>
+	<content contentuid="hb71ae707gb417g4527g874agccd039c6aa4f" version="1">Hemophilia</content>
+	<content contentuid="ha48252eag8f54g4262g9baag326e57317d95" version="1">Whenever you spend Blood, you recover 1 Hit Point per Blood spent.</content>
 </contentList>
