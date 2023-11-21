@@ -14,5 +14,5 @@ Vampire Class mod based on an updated version of this [Vampire Class](https://dr
 - The Vampire class was written and created by [u/Zoodud254](https://www.reddit.com/user/Zoodud254/) And u/EldtrichKermit, with support from the users on r/UnearthedArcana.
 - Larian Studio's Discord Modding Channels (In particular @Loz)
 - Down by the River Discord Modding Channels
-- Nexus user: Gycicada, for their class mod template
+- Nexus user: Gycicada, for their [Class Template](https://www.nexusmods.com/baldursgate3/mods/946/)
 - NellsRelo, for their class mod for their [Tutorials](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Tutorials)
