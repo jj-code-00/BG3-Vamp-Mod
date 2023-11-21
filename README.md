@@ -6,6 +6,7 @@ Vampire Class mod based on an updated version of this [Vampire Class](https://dr
 3. [Norbyte's Baldur's Gate 3 Script Extender](https://github.com/Norbyte/bg3se/tree/main)
 4. [Grapple Framework](https://www.nexusmods.com/baldursgate3/mods/3382)
 5. [Blindsight](https://www.nexusmods.com/baldursgate3/mods/3807?tab=description)
+6. (Optional) [UnlockLevelCurve - Level 13-20 I PATCH 4](https://www.nexusmods.com/baldursgate3/mods/377)
 
 # Recommendations:
 1. [Vampire Bite Scar](https://www.nexusmods.com/baldursgate3/mods/4158)
