@@ -9,6 +9,8 @@ Vampire Class mod based on an updated version of this [Vampire Class](https://dr
 
 # Recommendations:
 1. [Vampire Bite Scar](https://www.nexusmods.com/baldursgate3/mods/4158)
+2. [Bloodless - An Astarion-Inspired Dice Collection](https://www.nexusmods.com/baldursgate3/mods/2465)
+3. [Dynamic Appearance Framework](https://www.nexusmods.com/baldursgate3/mods/2276) + [Fangs and Horns](https://www.nexusmods.com/baldursgate3/mods/2279) - These can have some issues with differing body types
 
 # Credits:
 - The Vampire class was written and created by [u/Zoodud254](https://www.reddit.com/user/Zoodud254/) And u/EldtrichKermit, with support from the users on r/UnearthedArcana.
