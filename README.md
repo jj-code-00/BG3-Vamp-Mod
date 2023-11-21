@@ -11,7 +11,7 @@ Vampire Class based on https://drive.google.com/file/d/1qvOG1JmA-AmosprgB2UOd-a3
 1. [Vampire Bite Scar](https://www.nexusmods.com/baldursgate3/mods/4158)
 
 # Credits:
-- The Vampire class was written and created by Zoodude254 (u/Zoodud254(https://www.reddit.com/user/Zoodud254)/zoodude2549184) And u/EldtrichKermit, with support from the users on r/UnearthedArcana.
+- The Vampire class was written and created by Zoodude254 [u/Zoodud254](https://www.reddit.com/user/Zoodud254/zoodude2549184) And u/EldtrichKermit, with support from the users on r/UnearthedArcana.
 - Larian Studio's Discord Modding Channels (In particular @Loz)
 - Down by the River Discord Modding Channels
 - Nexus user: Gycicada, for their class mod template
