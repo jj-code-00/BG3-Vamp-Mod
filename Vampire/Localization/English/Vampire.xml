@@ -173,4 +173,6 @@
 	<content contentuid="ha48252eag8f54g4262g9baag326e57317d95" version="1">Whenever you spend Blood, you recover 1 Hit Point per Blood spent.</content>
 	<content contentuid="h8a1ac902g523bg4a48g892eg03d6c0dd6766" version="1">Hemorrhagic Casting</content>
 	<content contentuid="h615c7d9dgade9g45f8gb7a3g6d843624cd78" version="1">At 3rd Level, you regain 1 extra Blood when you feed on sleeping, Charmed, or willing Humanoid targets. This increases to 2 at 7th level, 3 at 11th level, and 4 at 17th level. When you cast a damage dealing Cantrip, the spell deals additional damage of the spell’s type equal to your Charisma Modifier.</content>
+	<content contentuid="h40e21dc4g7ddag4e4bg9592g025951ed2916" version="1">Royal Lineage</content>
+	<content contentuid="h84ab2a3bg3fe9g40efg83c2g21b832800fb2" version="1">At 7th level, you have an additional 5 Blood. This increases to 10 at 14th level for a total of 30 Blood at 20th level. You gain the Beguiling Gaze Blood feature if you do not have it. This feature does not count against your total Blood Features.</content>
 </contentList>

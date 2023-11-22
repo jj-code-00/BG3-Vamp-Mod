@@ -396,6 +396,7 @@
                 <node id="Progression"> Subclass Level 7
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,5,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
                     <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_2"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_1"/>
@@ -410,6 +411,16 @@
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_2"/>
                     <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="cead216b-1670-447b-9a96-2a80f951abfb"/> Give it a Unique UUID
+                </node>
+                <node id="Progression"> Subclass Level 14
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="Refined"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,5,0)"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
+                    <attribute id="UUID" type="guid" value="4342e0c7-07be-4e1e-a392-064deb61d66d"/> Give it a Unique UUID
                 </node>
                 <node id="Progression"> Subclass Level 17
                     <attribute id="Level" type="uint8" value="17"/>
