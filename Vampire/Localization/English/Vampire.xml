@@ -171,4 +171,6 @@
 	<content contentuid="h8a37e1cbgba93g44b0gaf52g8c2503b69edc" version="1">At 17th level, your Transformation is truly terrifying to behold, a nigh unstoppable Creature. You gain the following benefits when you Transform; Your Blindsight in Creature form increases to 60 feet. Your unarmed strikes damage bonus increases to 3d6. You have immunity to damage from weapons that aren't silvered, including magical weapons. You have advantage on saving throws against spells and other magical effects.</content>
 	<content contentuid="hb71ae707gb417g4527g874agccd039c6aa4f" version="1">Hemophilia</content>
 	<content contentuid="ha48252eag8f54g4262g9baag326e57317d95" version="1">Whenever you spend Blood, you recover 1 Hit Point per Blood spent.</content>
+	<content contentuid="h8a1ac902g523bg4a48g892eg03d6c0dd6766" version="1">Hemorrhagic Casting</content>
+	<content contentuid="h615c7d9dgade9g45f8gb7a3g6d843624cd78" version="1">At 3rd Level, you regain 1 extra Blood when you feed on sleeping, Charmed, or willing Humanoid targets. This increases to 2 at 7th level, 3 at 11th level, and 4 at 17th level. When you cast a damage dealing Cantrip, the spell deals additional damage of the spell’s type equal to your Charisma Modifier.</content>
 </contentList>

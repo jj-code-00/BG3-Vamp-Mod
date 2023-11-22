@@ -5,12 +5,14 @@
         <node id="root">
             <children>
 				<node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Spell1;Spell2;Spell3"/> a list of spell separated by a ;
-                    <attribute id="UUID" type="guid" value="91202cf0-eaf4-4e5d-9f55-f45555555555"/> make a new UUID. refer to this when selecting or adding spells
+                    <attribute id="Comment" type="LSString" value="Refined Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Target_ChillTouch;Target_Friends;Target_MinorIllusion;Target_ViciousMockery"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="2a67c996-0beb-47bd-913b-c7cffb8e966e"/> make a new UUID. refer to this when selecting or adding spells
                 </node>
 				<node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Spell1;Spell2;Spell3"/> you can have multiple lists, and the same spell can be in different lists
-                    <attribute id="UUID" type="guid" value="91202cf0-eaf4-4e5d-9f55-f45555555555"/> make a new UUID
+                    <attribute id="Comment" type="LSString" value="Refined 1st Level"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="UUID" type="guid" value="399e010a-dcec-42b1-a53b-cfb070bf1b70"/> make a new UUID
                 </node>
 			</children>
         </node>
