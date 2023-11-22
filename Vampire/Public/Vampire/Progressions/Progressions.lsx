@@ -398,7 +398,7 @@
                     <attribute id="Name" type="LSString" value="Refined"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodPool,5,0)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_2"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_2;Vamp_PassiveRoyalLineage"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_PassiveHemorrhagicCastingTechnical_1"/>
                     <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="a0254258-d5cb-47ab-a77b-ad6631c84c9f"/> Give it a Unique UUID
