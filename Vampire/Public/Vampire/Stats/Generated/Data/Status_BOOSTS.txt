@@ -906,7 +906,7 @@ data "StackId" "Vamp_VampireLordTechnical"
 data "Passives" "Vamp_PassiveVampireLordTechnical_1;Vamp_PassiveVampireLordTechnical"
 data "RemoveConditions" ""
 data "RemoveEvents" ""
-data "TickFunctors" "IF(not HasStatus('DAMAGE_DEALT_RADIANT') and HasHPPercentageLessThan(100)):RegainHitPoints(10)"
+data "TickFunctors" "IF(not HasStatus('DAMAGE_DEALT_RADIANT') and HasHPPercentageLessThan(100) and HasHPMoreThan(0)):RegainHitPoints(10)"
 data "StatusPropertyFlags" "TickingWithSource;DisableCombatlog;DisableOverhead"
 
 // Ghoulish

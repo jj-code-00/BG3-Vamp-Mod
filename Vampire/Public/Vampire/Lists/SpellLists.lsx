@@ -14,6 +14,26 @@
                     <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
                     <attribute id="UUID" type="guid" value="399e010a-dcec-42b1-a53b-cfb070bf1b70"/> make a new UUID
                 </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Refined 2nd Level"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="UUID" type="guid" value="76aa0645-da33-49ce-8bc8-a9627dc55651"/> make a new UUID
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Refined 3rd Level"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HypnoticPattern;Teleportation_Revivify;Target_SpeakWithDead;Target_VampiricTouch;Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="UUID" type="guid" value="629db0a0-44ad-4bf6-8e68-eb6f2bcc374d"/> make a new UUID
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Refined 4th Level"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_Confusion;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HypnoticPattern;Teleportation_Revivify;Target_SpeakWithDead;Target_VampiricTouch;Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="UUID" type="guid" value="9eb42147-ef0d-4793-ad07-b96bb80ef996"/> make a new UUID
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Refined 5th Level"/>
+                    <attribute id="Spells" type="LSString" value="Target_Contagion;Target_CursedTome_WakeTheDead;Target_DominatePerson;Target_HoldMonster;Target_Seeming;Target_Blight;Target_Confusion;Target_DominateBeast;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HypnoticPattern;Teleportation_Revivify;Target_SpeakWithDead;Target_VampiricTouch;Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="UUID" type="guid" value="875a54a7-ca59-4019-8112-f83c714c3977"/> make a new UUID
+                </node>
 			</children>
         </node>
     </region>
