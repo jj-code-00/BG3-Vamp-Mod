@@ -398,7 +398,7 @@
                     <attribute id="Name" type="LSString" value="Refined"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_RefinedClass;Vamp_PassiveHemorrhagicCasting_1;Vamp_PassiveHemorrhagicCastingTechnical"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="Selectors" type="LSString" value="SelectSpells(2a67c996-0beb-47bd-913b-c7cffb8e966e,1,0,,,,AlwaysPrepared);SelectSpells(399e010a-dcec-42b1-a53b-cfb070bf1b70,1,0)"/>
                     <attribute id="UUID" type="guid" value="7600f09b-e7e4-4763-b7f7-7d2b44d61e61"/> Give it a Unique UUID
@@ -440,7 +440,7 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Refined"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCasting_3"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCasting_3;Vamp_PassivePhantomFangs"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_PassiveHemorrhagicCasting_2"/>
                     <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="cead216b-1670-447b-9a96-2a80f951abfb"/> Give it a Unique UUID
@@ -481,7 +481,7 @@
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="Refined"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/> as mentioned before type 1 = subclass
-                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCasting_4"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vamp_PassiveHemorrhagicCasting_4;Vamp_PassiveBloodofLazarus;Vamp_PassiveBloodofLazarusTechnical"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Vamp_PassiveHemorrhagicCasting_3"/>
                     <attribute id="TableUUID" type="guid" value="8d1ac391-f805-44a9-9ce0-cdc4162d94f2"/> same UUID as the ProgressionTableUUID in ClassDescriptions.lsx
                     <attribute id="UUID" type="guid" value="95191b25-35d2-4bfa-bd33-7823ec52011d"/> Give it a Unique UUID

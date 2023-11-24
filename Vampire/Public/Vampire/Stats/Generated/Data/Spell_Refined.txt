@@ -1,0 +1,8 @@
+new entry "Vamp_PhantomFangs"
+type "SpellData"
+data "SpellType" "Target"
+using "Vamp_Bite"
+data "TargetRadius" "9"
+data "TargetConditions" "not Self() and not Item() and not Tagged('UNDEAD') and not Tagged('PLANT') and not Tagged('ELEMENTAL') and not Tagged('CONSTRUCT') and not Tagged('OOZE') and not HasStatus('SG_Petrified',context.Target) and (not HasMaxHP() or HasStatus('SG_Charmed',context.Target))"
+data "DisplayName" "h40191159gd449g4b4cg8c98ge809938b19d8"
+data "Description" "h149c139agd76eg4bd5ga66bg85df3267ce6d"

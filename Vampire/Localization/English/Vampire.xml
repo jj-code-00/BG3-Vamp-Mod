@@ -175,4 +175,8 @@
 	<content contentuid="h615c7d9dgade9g45f8gb7a3g6d843624cd78" version="1">At 3rd Level, you regain 1 extra Blood when you feed on sleeping, Charmed, or willing Humanoid targets. This increases to 2 at 7th level, 3 at 11th level, and 4 at 17th level. When you cast a damage dealing Cantrip, the spell deals additional damage of the spell’s type equal to your Charisma Modifier.</content>
 	<content contentuid="h40e21dc4g7ddag4e4bg9592g025951ed2916" version="1">Royal Lineage</content>
 	<content contentuid="h84ab2a3bg3fe9g40efg83c2g21b832800fb2" version="1">At 7th level, you have an additional 5 Blood. This increases to 10 at 14th level for a total of 30 Blood at 20th level. You gain the Beguiling Gaze Blood feature if you do not have it. This feature does not count against your total Blood Features.</content>
+	<content contentuid="h40191159gd449g4b4cg8c98ge809938b19d8" version="1">Phantom Fangs</content>
+	<content contentuid="h149c139agd76eg4bd5ga66bg85df3267ce6d" version="1">At 11th level, if a creature you can see within 30 feet is Charmed by you, or not at its maximum Hit Points, you can make your Bite attack as a Ranged Spell attack against that creature. You regain Blood and Hit Points as normal.</content>
+	<content contentuid="h1f58c9bdge5fcg47d1gb04bg2df40d974961" version="1">Blood of Lazarus</content>
+	<content contentuid="h3e195634g56ebg4873ga75ag3d70434f725e" version="1">At 17th level, once per day, when you drop to 0 Hit Points, you can revive yourself with half your total Hit Points. When you do this, you lose all your remaining Blood, and cannot regain any until the end of your next turn. Once you use this feature, you can't use it again until you finish a long rest.</content>
 </contentList>
