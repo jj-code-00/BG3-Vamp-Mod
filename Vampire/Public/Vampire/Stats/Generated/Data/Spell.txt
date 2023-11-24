@@ -11,6 +11,7 @@ data "TooltipDamageList" "DealDamage(1d4+DexterityModifier,Slashing)"
 data "TargetConditions" "not Self() and not Dead()"
 data "UseCosts" "ActionPoint:1"
 data "Icon" "Action_Imp_Claws"
+data "Sheathing" "Sheathed"
 
 new entry "Vamp_Claws_DrKGrapple"
 type "SpellData"
