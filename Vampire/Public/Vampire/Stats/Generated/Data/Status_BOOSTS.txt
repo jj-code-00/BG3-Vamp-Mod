@@ -1470,6 +1470,13 @@ data "DisplayName" "h081f33ecg527ag4357ga6a3gb5cb77f69bff"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
 data "OnRemoveFunctors" "RemoveStatus(Vamp_StatusBM_BladeWard);RemoveStatus(Vamp_StatusBM_ChillTouch);RemoveStatus(Vamp_StatusBloodMagicTechnical);RemoveStatus(Vamp_StatusBM_EldritchBlast);RemoveStatus(Vamp_StatusBM_Friends);RemoveStatus(Vamp_StatusBM_MageHand);RemoveStatus(Vamp_StatusBM_MinorIllusion);RemoveStatus(Vamp_StatusBM_PoisonSpray);RemoveStatus(Vamp_StatusBM_TrueStrike)"
 
+new entry "Vamp_BMRemoveLvl1Spells"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h081f33ecg527ag4357ga6a3gb5cb77f69bff"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnRemoveFunctors" "RemoveStatus(Vamp_StatusBM_ColorSpray)"
+
 new entry "Vamp_StatusBloodMagicTechnical"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -1577,3 +1584,11 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "Vamp_StatusBM_BladeWard"
 data "Boosts" "UnlockSpell(Target_TrueStrike)"
+
+// Blood Magic lv1
+
+new entry "Vamp_StatusBM_ColorSpray"
+type "StatusData"
+data "StatusType" "BOOST"
+using "Vamp_StatusBM_BladeWard"
+data "Boosts" "UnlockSpell(Zone_BMColorSpray)"
