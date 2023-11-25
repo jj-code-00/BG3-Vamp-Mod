@@ -183,4 +183,14 @@
 	<content contentuid="h90e4294agba32g4075ga7cbgabedc3efdf46" version="1">When you hit a creature with a weapon or single target spell attack, you can spend Blood to attempt to goad the target into attacking you. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</content>
 	<content contentuid="h722d31f6ge8dcg4740gb20ag1c6ba8612e61" version="1">Swindling Strike</content>
 	<content contentuid="hca6a1615gbf69g4517g8076gf81b012e20c9" version="1">As a bonus action, you spend Blood and perform a feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the Blood spent to the attack’s damage roll.</content>
+	<content contentuid="h25393d84g4ea6g4e80g9d47gf15cf524d972" version="1">Blood Magic</content>
+	<content contentuid="h1a47f204gf965g4387g9a7dg8e5955eb5140" version="1">You learn 2 cantrips from the Warlock spell list. In addition, you may prepare a 1st level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 2 Blood. When you reach 6th level in this class, you may prepare an additional spell of 2nd level that is in the school of Enchantment, Illusion or Necromancy. Casting a 2nd level spell in this way costs 4 Blood. You may take this Feature multiple times to gain additional cantrips and prepare multiple spells.</content>
+	<content contentuid="h8f2fba07g04f7g4c6bg803agb2027b07f461" version="1">Blood Magic (Select Cantrips)</content>
+	<content contentuid="h24de2221ge1d3g4826ga27eg556ff5959e05" version="1">Blood Magic (Select Spells)</content>
+	<content contentuid="h8d4b4983gc107g4fcag9748g1455f76248d3" version="1">Blood Magic (Cantrip Capacity)</content>
+	<content contentuid="hf5d49b6cg49c7g4714g9637g66fde148206b" version="1">Used to select Blood Magic Cantrips</content>
+	<content contentuid="h41c3bd3cg3c93g478fg8c3cg41801dddbf97" version="1">Used to select Blood Magic Spells</content>
+	<content contentuid="h7b071d3ag1f70g484dgbe8dg1e9501287cad" version="1">Blood Magic (Spell Capacity)</content>
+	<content contentuid="hbedb6c08g6ba9g4c1bgad4ag4bd5dba06699" version="1">Re-Select Blood Magic</content>
+	<content contentuid="hc7ffba43g37d7g4755g9067g304129b266ab" version="1">Allows you to select Blood Magic multiple times.</content>
 </contentList>
