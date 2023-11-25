@@ -179,4 +179,6 @@
 	<content contentuid="h149c139agd76eg4bd5ga66bg85df3267ce6d" version="1">At 11th level, if a creature you can see within 30 feet is Charmed by you, or not at its maximum Hit Points, you can make your Bite attack as a Ranged Spell attack against that creature. You regain Blood and Hit Points as normal.</content>
 	<content contentuid="h1f58c9bdge5fcg47d1gb04bg2df40d974961" version="1">Blood of Lazarus</content>
 	<content contentuid="h3e195634g56ebg4873ga75ag3d70434f725e" version="1">At 17th level, once per day, when you drop to 0 Hit Points, you can revive yourself with half your total Hit Points. When you do this, you lose all your remaining Blood, and cannot regain any until the end of your next turn. Once you use this feature, you can't use it again until you finish a long rest.</content>
+	<content contentuid="hdb7cb080gb4cag440agbee0g0dd91e0fbd89" version="1">Smacktalk</content>
+	<content contentuid="h90e4294agba32g4075ga7cbgabedc3efdf46" version="1">When you hit a creature with a weapon or single target spell attack, you can spend Blood to attempt to goad the target into attacking you. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</content>
 </contentList>
