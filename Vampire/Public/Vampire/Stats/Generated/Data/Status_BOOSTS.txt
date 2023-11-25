@@ -1463,6 +1463,12 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;ApplyToDead;IgnoreR
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Blood Magic
+new entry "Vamp_BMRemoveCantrips"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h081f33ecg527ag4357ga6a3gb5cb77f69bff"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnRemoveFunctors" "RemoveStatus(Vamp_StatusBM_BladeWard);RemoveStatus(Vamp_StatusBM_ChillTouch);RemoveStatus(Vamp_StatusBloodMagicTechnical);RemoveStatus(Vamp_StatusBM_EldritchBlast);RemoveStatus(Vamp_StatusBM_Friends);RemoveStatus(Vamp_StatusBM_MageHand);"
 
 new entry "Vamp_StatusBloodMagicTechnical"
 type "StatusData"
@@ -1535,3 +1541,21 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "Vamp_StatusBM_BladeWard"
 data "Boosts" "UnlockSpell(Target_ChillTouch)"
+
+new entry "Vamp_StatusBM_EldritchBlast"
+type "StatusData"
+data "StatusType" "BOOST"
+using "Vamp_StatusBM_BladeWard"
+data "Boosts" "UnlockSpell(Projectile_EldritchBlast)"
+
+new entry "Vamp_StatusBM_Friends"
+type "StatusData"
+data "StatusType" "BOOST"
+using "Vamp_StatusBM_BladeWard"
+data "Boosts" "UnlockSpell(Target_Friends)"
+
+new entry "Vamp_StatusBM_MageHand"
+type "StatusData"
+data "StatusType" "BOOST"
+using "Vamp_StatusBM_BladeWard"
+data "Boosts" "UnlockSpell(Target_MageHand)"

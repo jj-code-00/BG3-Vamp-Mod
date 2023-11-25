@@ -45,7 +45,7 @@
                     <attribute id="Name" type="FixedString" value="Vamp_BloodMagicCantrips"/> What you will be referring to in your code
                     <attribute id="PartyActionResource" type="bool" value="false"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/> Rest = Long Rest, ShortRest = ShortRest
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/> If the resource will be displayed on your hotbar
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/> If the resource will be displayed on your hotbar
                     <attribute id="UUID" type="guid" value="72350be1-f3ed-423c-87d0-304f6ced2fe4"/> UUID for the Resource, give it a new one
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
                 </node>
@@ -60,7 +60,7 @@
                     <attribute id="Name" type="FixedString" value="Vamp_BloodMagicLevelOne"/> What you will be referring to in your code
                     <attribute id="PartyActionResource" type="bool" value="false"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/> Rest = Long Rest, ShortRest = ShortRest
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/> If the resource will be displayed on your hotbar
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/> If the resource will be displayed on your hotbar
                     <attribute id="UUID" type="guid" value="92231729-d450-406e-b822-50cebae6dc36"/> UUID for the Resource, give it a new one
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
                 </node>
