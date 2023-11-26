@@ -118,7 +118,7 @@ data "Icon" "Spell_Divination_TrueStrike"
 data "DisplayName" "haa14210cgd4e8g403cgbd07g3a63fea901c9;1"
 data "Description" "he014b03bg6138g431dga1ecg45e4ebba4869;2"
 
-// Blood Magic lvl1
+// Blood Magic lvl1 //
 
 new entry "Vamp_BMSpellSelect_ColorSpray"
 type "SpellData"
@@ -348,3 +348,21 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_HideousLaughter"
 data "UseCosts" "ActionPoint:1;Vamp_BloodPool:2"
+
+// Blood Magic lvl2 //
+
+new entry "Vamp_BMSpellSelect_CalmEmotions"
+type "SpellData"
+data "SpellType" "Shout"
+using "Vamp_BMSpellSelection"
+data "RequirementConditions" "not HasStatus('Vamp_StatusBM_CalmEmotions') and HasPassive('Vamp_BloodPool6')"
+data "SpellProperties" "ApplyStatus(Vamp_StatusBM_CalmEmotions,100,-1)"
+data "Icon" "Spell_Enchantment_CalmEmotions"
+data "DisplayName" "h82a2f0abgb3e1g4fa4g9f6dg794254e389df;2"
+data "Description" "h10eeaf35g5cf6g46d1gb943ge59c91bb2993;7"
+
+new entry "Target_BMCalmEmotions"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CalmEmotions"
+data "UseCosts" "ActionPoint:1;Vamp_BloodPool:4"
