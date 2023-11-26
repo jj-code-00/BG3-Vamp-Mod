@@ -179,4 +179,24 @@
 	<content contentuid="h149c139agd76eg4bd5ga66bg85df3267ce6d" version="1">At 11th level, if a creature you can see within 30 feet is Charmed by you, or not at its maximum Hit Points, you can make your Bite attack as a Ranged Spell attack against that creature. You regain Blood and Hit Points as normal.</content>
 	<content contentuid="h1f58c9bdge5fcg47d1gb04bg2df40d974961" version="1">Blood of Lazarus</content>
 	<content contentuid="h3e195634g56ebg4873ga75ag3d70434f725e" version="1">At 17th level, once per day, when you drop to 0 Hit Points, you can revive yourself with half your total Hit Points. When you do this, you lose all your remaining Blood, and cannot regain any until the end of your next turn. Once you use this feature, you can't use it again until you finish a long rest.</content>
+	<content contentuid="hdb7cb080gb4cag440agbee0g0dd91e0fbd89" version="1">Smacktalk</content>
+	<content contentuid="h90e4294agba32g4075ga7cbgabedc3efdf46" version="1">When you hit a creature with a weapon or single target spell attack, you can spend Blood to attempt to goad the target into attacking you. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</content>
+	<content contentuid="h722d31f6ge8dcg4740gb20ag1c6ba8612e61" version="1">Swindling Strike</content>
+	<content contentuid="hca6a1615gbf69g4517g8076gf81b012e20c9" version="1">As a bonus action, you spend Blood and perform a feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the Blood spent to the attack’s damage roll.</content>
+	<content contentuid="h25393d84g4ea6g4e80g9d47gf15cf524d972" version="1">Blood Magic</content>
+	<content contentuid="h1a47f204gf965g4387g9a7dg8e5955eb5140" version="1">You learn 2 cantrips from the Warlock spell list. In addition, you may prepare a 1st level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 2 Blood. When you reach 6th level in this class, you may prepare an additional spell of 2nd level that is in the school of Enchantment, Illusion or Necromancy. Casting a 2nd level spell in this way costs 4 Blood. You may take this Feature multiple times to gain additional cantrips and prepare multiple spells.</content>
+	<content contentuid="h8f2fba07g04f7g4c6bg803agb2027b07f461" version="1">Blood Magic (Select Cantrips)</content>
+	<content contentuid="h24de2221ge1d3g4826ga27eg556ff5959e05" version="1">Blood Magic (Select Spells)</content>
+	<content contentuid="h8d4b4983gc107g4fcag9748g1455f76248d3" version="1">Blood Magic (Cantrip Capacity)</content>
+	<content contentuid="hf5d49b6cg49c7g4714g9637g66fde148206b" version="1">Used to select Blood Magic Cantrips</content>
+	<content contentuid="h41c3bd3cg3c93g478fg8c3cg41801dddbf97" version="1">Used to select Blood Magic Spells</content>
+	<content contentuid="h7b071d3ag1f70g484dgbe8dg1e9501287cad" version="1">Blood Magic (Spell Capacity)</content>
+	<content contentuid="hbedb6c08g6ba9g4c1bgad4ag4bd5dba06699" version="1">Re-Select Blood Magic</content>
+	<content contentuid="hc7ffba43g37d7g4755g9067g304129b266ab" version="1">Allows you to select Blood Magic multiple times.</content>
+	<content contentuid="h550b255bg74a5g47edg8085gf55a4f35b2cc" version="1">Greater Blood Magic (Select Spells)</content>
+	<content contentuid="h75b48673gc283g42e6ga03bg4ed1083a026b" version="1">Used to select Greater Blood Magic Spells</content>
+	<content contentuid="h43196f87g6603g489cgbcc4gaa37b687b0b2" version="1">Re-Select Greater Blood Magic</content>
+	<content contentuid="h650c29ffg5c0eg49d5gb5f3g173f6a02e518" version="1">Allows you to select Greater Blood Magic multiple times.</content>
+	<content contentuid="h663943d6gdb73g4b0dg9743ga6999457b0ea" version="1">Greater Blood Magic</content>
+	<content contentuid="h7e467607g1ee9g4eefga61bgba8d6e962fb0" version="1">You may prepare a 3rd level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 5 Blood. You may take this Feature multiple times to prepare multiple spells.</content>
 </contentList>

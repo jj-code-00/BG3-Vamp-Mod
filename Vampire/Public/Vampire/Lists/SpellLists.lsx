@@ -16,7 +16,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Refined 2nd Level"/>
-                    <attribute id="Spells" type="LSString" value="Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
+                    <attribute id="Spells" type="LSString" value="Shout_Vamp_ShadowBlade;Target_Blindness;Shout_Blur;Target_CalmEmotions;Target_CrownOfMadness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Silence;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Zone_ColorSpray;Target_Command_Container;Target_CompelledDuel;Shout_DisguiseSelf;Target_DissonantWhispers;Shout_FalseLife;Target_Heroism;Target_Hex;Target_InflictWounds;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter"/> you can have multiple lists, and the same spell can be in different lists
                     <attribute id="UUID" type="guid" value="76aa0645-da33-49ce-8bc8-a9627dc55651"/> make a new UUID
                 </node>
                 <node id="SpellList">
