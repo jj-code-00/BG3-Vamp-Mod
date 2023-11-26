@@ -30,7 +30,7 @@
                     <attribute id="Name" type="FixedString" value="Vamp_BloodFeature"/> What you will be referring to in your code
                     <attribute id="PartyActionResource" type="bool" value="false"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/> Rest = Long Rest, ShortRest = ShortRest
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/> If the resource will be displayed on your hotbar
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/> If the resource will be displayed on your hotbar
                     <attribute id="UUID" type="guid" value="da4deaba-73fa-43a0-b079-b19fe287f8a8"/> UUID for the Resource, give it a new one
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/> Would this resource be used at different power levels
                 </node>

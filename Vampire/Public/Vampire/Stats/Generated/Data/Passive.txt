@@ -97,7 +97,6 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodPool,-100%,0)"
 
-
 new entry "Vamp_HeartPiercer"
 type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
@@ -221,6 +220,8 @@ type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
+data "BoostConditions" "HasActionResource('Vamp_BloodFeature', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
 data "Boosts" "UnlockSpell(Shout_SelectBloodFeatures)"
 
 new entry "Vamp_RemoveBloodFeature"
@@ -621,6 +622,36 @@ data "Boosts" "UnlockSpell(Shout_SelectBMCantrips);UnlockSpell(Shout_SelectBMSpe
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
+new entry "Vamp_PassiveBloodMagicTechnical_2"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_4"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_5"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_6"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_7"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
 new entry "Vamp_PassiveGreaterBloodMagic"
 type "PassiveData"
 data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
@@ -630,6 +661,36 @@ data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_SelectGBMSpells);UnlockSpell(Shout_SelectGreaterBloodMagicTechnical)"
 data "StatsFunctorContext" "OnLongRest"
 data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_2"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_4"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_5"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_6"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
 
 //-----------------------------------------------------------------------
 
