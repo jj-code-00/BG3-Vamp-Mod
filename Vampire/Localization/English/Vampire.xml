@@ -193,4 +193,10 @@
 	<content contentuid="h7b071d3ag1f70g484dgbe8dg1e9501287cad" version="1">Blood Magic (Spell Capacity)</content>
 	<content contentuid="hbedb6c08g6ba9g4c1bgad4ag4bd5dba06699" version="1">Re-Select Blood Magic</content>
 	<content contentuid="hc7ffba43g37d7g4755g9067g304129b266ab" version="1">Allows you to select Blood Magic multiple times.</content>
+	<content contentuid="h550b255bg74a5g47edg8085gf55a4f35b2cc" version="1">Greater Blood Magic (Select Spells)</content>
+	<content contentuid="h75b48673gc283g42e6ga03bg4ed1083a026b" version="1">Used to select Greater Blood Magic Spells</content>
+	<content contentuid="h43196f87g6603g489cgbcc4gaa37b687b0b2" version="1">Re-Select Greater Blood Magic</content>
+	<content contentuid="h650c29ffg5c0eg49d5gb5f3g173f6a02e518" version="1">Allows you to select Greater Blood Magic multiple times.</content>
+	<content contentuid="h663943d6gdb73g4b0dg9743ga6999457b0ea" version="1">Greater Blood Magic</content>
+	<content contentuid="h7e467607g1ee9g4eefga61bgba8d6e962fb0" version="1">You may prepare a 3rd level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 5 Blood. You may take this Feature multiple times to prepare multiple spells.</content>
 </contentList>
