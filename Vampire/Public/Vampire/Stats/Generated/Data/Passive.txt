@@ -229,6 +229,8 @@ type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('Vamp_CanRepec')"
+data "BoostContext" "OnStatusApplied;OnStatusRemoved"
 data "Boosts" "UnlockSpell(Shout_RemoveBloodFeatures)"
 
 // Blood pool features
