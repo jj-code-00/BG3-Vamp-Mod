@@ -210,6 +210,13 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;ApplyToDead;IgnoreR
 data "Boosts" "DarkvisionRangeMin(36);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+new entry "Vamp_CanRepec"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveConditions" "not HasPassive('Sanguinare_Vampiris')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusPropertyFlags" "ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 // Blood Pool Features
 
 new entry "Vamp_RestoreBloodFeature"

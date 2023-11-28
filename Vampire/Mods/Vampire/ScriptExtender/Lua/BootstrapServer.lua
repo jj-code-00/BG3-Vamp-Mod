@@ -67,3 +67,20 @@ end)
 Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", function (character)
     Osi.RemoveStatus(character, "Vamp_StatusCanFeed", character)
 end)
+
+Ext.Osiris.RegisterListener("RequestEndTheDaySuccess", 0, "after", function()
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        local character = string.sub(v[1],-36)
+        if (Osi.HasPassive(character,"Sanguinare_Vampiris")) then
+            Osi.ApplyStatus(character,"Vamp_CanRepec",-1, 100,character)
+        end
+    end
+end)
+
+Ext.Osiris.RegisterListener("TeleportedFromCamp", 1, "after", function (character_)
+    local character = string.sub(character_,-36)
+    if (Osi.HasActiveStatus(character,"Sanguinare_Vampiris")) then
+        _P(character)
+        Osi.RemoveStatus(character,"Vamp_CanRepec",character)
+    end
+end)
