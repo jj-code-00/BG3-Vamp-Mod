@@ -24,6 +24,7 @@ data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
 data "Icon" "GenericIcon_DamageType_Necrotic"
 data "Properties" "Highlighted"
 data "Boosts" "Tag(VAMPIRE)"
+data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
 new entry "Vamp_Darkvision"
 type "PassiveData"
