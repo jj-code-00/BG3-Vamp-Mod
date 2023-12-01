@@ -1,0 +1,84 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ConvertModFiles",
+            "type": "shell",
+            "command": "",
+            "dependsOn": [
+                "ModLoca",
+                "ModLSX",
+                "CheckStats"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+            
+                "label": "ModLoca",
+                "type": "shell",
+                "command": "python 'E:\\BG3-Modding\\modding-dev\\ExportTool-v1.18.7\\Tools\\convert_loca.py'",
+                "args": [
+                    "-f",
+                    "E:\\BG3-Modding\\modding-dev\\src\\Vampire\\Localization\\English\\Vampire.xml",
+                    "-o",
+                    "E:\\BG3-Modding\\modding-dev\\src\\Vampire\\Localization\\English\\Vampire.loca"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
+            
+        },
+        {
+            "label": "EMLSX",
+            "type": "shell",
+            "command": "python",
+            "options": {
+                "cwd": "E:\\BG3-Modding\\modding-dev\\ExportTool-v1.18.7\\Tools\\"
+            },
+            "args": [
+                "E:\\BG3-Modding\\modding-dev\\ExportTool-v1.18.7\\Tools\\convert_lsf.py",
+                "-f",
+                "E:\\BG3-Modding\\modding-dev\\src\\Vampire",
+                "-b",
+                "--ext",
+                ".lsx",
+                "--outputext",
+                ".lsf"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        
+        {
+            "label": "CheckStats",
+            "type": "process",
+            "command": "E:\\BG3-Modding\\modding-dev\\ExportTool-v1.18.7\\Tools\\StatParser.exe",
+            "args": [
+                "--game-data-path",
+                "C:\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
+                "--package-paths",
+                "C:\\Users\\jjbur\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+                "--dependency",
+                "Shared",
+                "--dependency",
+                "SharedDev",
+                "--dependency",
+                "Gustav",
+                "--dependency",
+                "GustavDev",
+                "--mod",
+                "Elemental_Mayhem"
+            ]
+        }
+    ]
+}
