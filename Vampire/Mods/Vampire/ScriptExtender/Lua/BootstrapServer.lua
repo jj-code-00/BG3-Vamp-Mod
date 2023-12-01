@@ -84,3 +84,9 @@ Ext.Osiris.RegisterListener("TeleportedFromCamp", 1, "after", function (characte
         Osi.RemoveStatus(character,"Vamp_CanRepec",character)
     end
 end)
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if status == "Vamp_Fed" and Osi.GetApprovalRating(object, causee) >= 81 then
+        Osi.ApplyStatus(causee,"Vamp_Fed_HAPPYLover",-1, 100,object)
+    end
+end)
