@@ -201,4 +201,6 @@
 	<content contentuid="h7e467607g1ee9g4eefga61bgba8d6e962fb0" version="1">You may prepare a 3rd level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 5 Blood. You may take this Feature multiple times to prepare multiple spells.</content>
 	<content contentuid="hfc81060eg8f27g43d8g8c1ega7e1911d4e1c" version="1">My Bloody Romance</content>
 	<content contentuid="heddd4f3fge986g4af6gbcf6g9c0c553fe096" version="1">Vampire's hunger has been temporarily sated by their Lover. Extra +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h3d6cf6a5g1cb6g4262g9424gce060bb03c65" version="1">Exsanguination</content>
+	<content contentuid="h75fd0cd3g172fg4f3cgbd14g7a41ab3eff05" version="1">As an action, you can expend a spell slot to recover Blood. The amount of Blood is equal to the level of the spell slot expended.</content>
 </contentList>
