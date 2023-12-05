@@ -16,3 +16,8 @@ data "SpellCastingAbility" "None"
 data "UnarmedAttackAbility" "Dexterity"
 data "UnarmedRangedAttackAbility" "None"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+
+new entry "Vamp_Wolf"
+type "Character"
+using "Wolf"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"

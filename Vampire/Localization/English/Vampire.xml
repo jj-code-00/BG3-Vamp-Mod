@@ -203,4 +203,10 @@
 	<content contentuid="heddd4f3fge986g4af6gbcf6g9c0c553fe096" version="1">Vampire's hunger has been temporarily sated by their Lover. Extra +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h3d6cf6a5g1cb6g4262g9424gce060bb03c65" version="1">Exsanguination</content>
 	<content contentuid="h75fd0cd3g172fg4f3cgbd14g7a41ab3eff05" version="1">As an action, you can expend a spell slot to recover Blood. The amount of Blood is equal to the level of the spell slot expended.</content>
+	<content contentuid="h50ae14daga244g448dg971fg75718981b50b" version="1">Shapechanger</content>
+	<content contentuid="ha7beb7c4gb37eg4e87g9b0egfe00ec28ea74" version="1">As an action, you can transform into a Tiny Bat or a Medium Wolf, following the Druid’s Wild Shape rules (ignoring the Flight speed limitation).</content>
+	<content contentuid="hc4fdb5f2g2d3fg486dg9aa7g663cbac5188d" version="1">Shapechanger (Bat)</content>
+	<content contentuid="h363dffaegad03g4852gaf96g0612a46206bd" version="1">Become a Tiny Bat</content>
+	<content contentuid="hb35d4bc2gcb49g489bgb25dg2a6b07277bc9" version="1">Shapechanger (Wolf)</content>
+	<content contentuid="hff2c589ag6c57g4870g8ad3g430f2adc3cfc" version="1">Become a Medium Wolf</content>
 </contentList>

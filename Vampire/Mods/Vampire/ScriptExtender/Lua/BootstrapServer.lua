@@ -11,7 +11,6 @@ Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", function ()
     end
 end)
 
---May need to change the classes bit into checking for vamp_pool passive incase multiclassing messes with it
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
     for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
         local character = string.sub(v[1],-36)
