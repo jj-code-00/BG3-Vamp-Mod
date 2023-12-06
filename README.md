@@ -9,7 +9,7 @@ Vampire Class mod based on an updated version of this [Vampire Class](https://dr
 6. (Optional) [UnlockLevelCurve - Level 13-20 I PATCH 4](https://www.nexusmods.com/baldursgate3/mods/377)
 
 # Recommendations:
-1. [Transient Guests Are We - Playable Dhampir](https://www.nexusmods.com/baldursgate3/mods/4750) - Will have some overlap in abilites. Will be making a patch to address
+1. [Transient Guests Are We - Playable Dhampir](https://www.nexusmods.com/baldursgate3/mods/4750) - Will have some overlap in abilities but I'll be making a patch to address it
 2. [Vampire Bite Scar](https://www.nexusmods.com/baldursgate3/mods/4158)
 3. [Bloodless - An Astarion-Inspired Dice Collection](https://www.nexusmods.com/baldursgate3/mods/2465)
 4. [Dynamic Appearance Framework](https://www.nexusmods.com/baldursgate3/mods/2276) + [Fangs and Horns](https://www.nexusmods.com/baldursgate3/mods/2279) - These can have some issues with differing body types
