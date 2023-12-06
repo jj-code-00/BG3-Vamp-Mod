@@ -152,3 +152,9 @@ Ext.Osiris.RegisterListener("RespecCompleted", 1, "after", function(character_)
 end)
 
 --End: Functions to check for unarmed abilityValue
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if status == "Vamp_Vampire_Spawn" then
+        Osi.AddPartyFollower(object, causee)
+    end
+end)

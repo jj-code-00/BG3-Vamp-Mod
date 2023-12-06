@@ -28,12 +28,12 @@
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
                         </node>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
-                        </node>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="eae44d86-3321-4a0a-811d-4fd8e48b5723"/>
-                        </node>
+                        <node id="Tag">
+							<attribute id="Object" type="guid" value="f6662b6e-b3bf-468e-82cb-402247176a1b" />
+						</node>
+						<node id="Tag">
+							<attribute id="Object" type="guid" value="90101158-141e-4896-8e60-f8db03f6dde3" />
+						</node>
                     </children>
                 </node>
 				<node id="ClassDescription"> Subclass (you will need one of this for each subclass)
