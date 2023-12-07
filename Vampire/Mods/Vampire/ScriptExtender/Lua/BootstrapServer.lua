@@ -1,4 +1,5 @@
 PersistentVars = {}
+VampireSpawn = {}
 
 --Start: Functions for draining blood each long rest
 
@@ -60,7 +61,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
             if PersistentVars[k] == (status .. causee) then
                 Osi.RemoveStatus(k, status, causee)
             end
-          end
+        end
         PersistentVars[object] = status .. causee
     end
 end)
@@ -153,8 +154,21 @@ end)
 
 --End: Functions to check for unarmed abilityValue
 
+--Start: Functions to Add and remove spawn from party
+
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
     if status == "Vamp_Vampire_Spawn" then
         Osi.AddPartyFollower(object, causee)
+        VampireSpawn[causee] = object
     end
 end)
+
+Ext.Osiris.RegisterListener("Died", 1, "after", function(character_)
+    for k,v in pairs(VampireSpawn) do
+        if character_ == v then
+            Osi.RemovePartyFollower(v, k)
+        end
+    end
+end)
+
+--End: Functions to Add and remove spawn from party

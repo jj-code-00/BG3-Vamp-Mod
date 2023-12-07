@@ -209,4 +209,10 @@
 	<content contentuid="h363dffaegad03g4852gaf96g0612a46206bd" version="1">Become a Tiny Bat</content>
 	<content contentuid="hb35d4bc2gcb49g489bgb25dg2a6b07277bc9" version="1">Shapechanger (Wolf)</content>
 	<content contentuid="hff2c589ag6c57g4870g8ad3g430f2adc3cfc" version="1">Become a Medium Wolf</content>
+	<content contentuid="h79e7b007g4853g4657gab36g044260b71d94" version="1">Create Spawn</content>
+	<content contentuid="hd1d1c32cgf74eg4db1ga57bgcfb0d1e54fe2" version="1">Once per week, when you kill a humanoid with your bite attack, you can bury the body. The following night, the body rises up as a Vampire Spawn under your control. Your Vampire Spawn counts for your total number of Thralls. You can free a Vampire Spawn to create a full Vampire by feeding them some of your Blood. The newly created Vampire is under no obligation to serve you, but will attempt to assist you as best it can if properly motivated. In order to create a Spawn, you must maintain this feature for the entire process.</content>
+	<content contentuid="h6e6cb8b0g215ag46d0g9cfcg9465a27c6a42" version="1">Buried</content>
+	<content contentuid="h7490402fgb77eg4dabg8847gc504cfc9b785" version="1">This entity is changing...</content>
+	<content contentuid="hbe183d0fgd36cg4da7gbed1g6d452d2c989c" version="1">Dig Grave</content>
+	<content contentuid="hc2bd6ddbgcd5bg492fg9d8ag92b1b342fda2" version="1">Bury the corpse of someone you have bitten to death.</content>
 </contentList>
