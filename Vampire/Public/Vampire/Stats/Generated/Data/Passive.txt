@@ -15,6 +15,41 @@ data "Boosts" ""
 
 // Check Modifiers for additional things for what you can do with Passives //
 
+//Weevil Compat//
+
+new entry "Weev_Dhampir_Passives"
+type "PassiveData"
+using "Weev_Dhampir_Passives"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_TasteForBlood"
+type "PassiveData"
+using "Weev_TasteForBlood"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_RefinedTaste"
+type "PassiveData"
+using "Weev_RefinedTaste"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_DhampiricGrace"
+type "PassiveData"
+using "Weev_DhampiricGrace"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_Thirsty"
+type "PassiveData"
+using "Weev_Thirsty"
+data "StatsFunctors" "IF(not HasPassive('Sanguinare_Vampiris')):ApplyStatus(WEEV_THIRSTYSTATUS, 100, -1)"
+
+new entry "Sanguinare_Vampiris_WeevPatch"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasPassive('Weev_Dhampir_Passives')"
+data "Boosts" "ActionResource(Movement,9,0)"
+
+//Weevil Compat//
+
 // Baseline kit
 
 new entry "Sanguinare_Vampiris"
@@ -23,7 +58,7 @@ data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
 data "Icon" "GenericIcon_DamageType_Necrotic"
 data "Properties" "Highlighted"
-data "Boosts" "Tag(VAMPIRE)"
+data "Boosts" "Tag(VAMPIRE);Tag(UNDEAD)"
 data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
 new entry "Vamp_Darkvision"
@@ -31,9 +66,9 @@ type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
-data "BoostConditions" "not HasPassive('Darkvision',context.Source) and not HasPassive('SuperiorDarkvision',context.Source)"
+data "BoostConditions" "not HasPassive('Darkvision',context.Source) and not HasPassive('SuperiorDarkvision',context.Source) and not HasPassive('Weev_Dhampir_Passives',context.Source)"
 data "StatsFunctorContext" "OnCreate"
-data "StatsFunctors" "IF(HasPassive('Darkvision',context.Source) or HasPassive('SuperiorDarkvision',context.Source)):ApplyStatus(SELF,Vamp_StatusDarkvisionPlus,100,-1)"
+data "StatsFunctors" "IF(HasPassive('Darkvision',context.Source) or HasPassive('SuperiorDarkvision',context.Source) or HasPassive('Weev_Dhampir_Passives',context.Source)):ApplyStatus(SELF,Vamp_StatusDarkvisionPlus,100,-1)"
 data "Boosts" "DarkvisionRangeMin(18);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)" 
 
 new entry "Vamp_NecroticResist"
