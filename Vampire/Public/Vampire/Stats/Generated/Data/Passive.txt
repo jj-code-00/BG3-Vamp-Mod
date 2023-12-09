@@ -409,7 +409,7 @@ data "Description" "ha48252eag8f54g4262g9baag326e57317d95"
 data "Icon" "Blood_Pact_Aura_Icon"
 data "Properties" "Highlighted"
 data "StatsFunctors" "RegainHitPoints(1)"
-data "StatsFunctorContext" "OnActionResourcesChanged"
+data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
 data "Conditions" "HasUseCosts('Vamp_BloodPool')"
 
 // lvl 3
@@ -651,11 +651,6 @@ data "Properties" "IsHidden"
 data "Conditions" "HasActionResource('Vamp_BloodPool', 1, 0, false, false, context.Source)"
 data "StatsFunctorContext" "OnCreate;OnActionResourcesChanged"
 data "StatsFunctors" "IF(not HasStatus('Vamp_StatusUndeadFortitudeTechnical')):ApplyStatus(Vamp_StatusUndeadFortitudeTechnical,100,-1);"
-
-// data "StatsFunctorContext" "OnDamaged"
-// data "Conditions" "HasHPLessThan(1)"
-// data "StatsFunctors" "IF(HasActionResource('Vamp_BloodPool', 1, 0, false, false, context.Source)):ApplyStatus(SELF,Vamp_StatusUndeadFortitudeTechnical,100,-1);RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
-
 
 new entry "Vamp_PassiveWhatWeDoInTheShadows"
 type "PassiveData"
