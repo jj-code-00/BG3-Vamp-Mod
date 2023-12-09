@@ -1,4 +1,29 @@
+StatPaths={
+    "Public/Vampire/Stats/Generated/Data/Character.txt",
+    "Public/Vampire/Stats/Generated/Data/Interrupt.txt",
+    "Public/Vampire/Stats/Generated/Data/Passive.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell_Bestial.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell_BloodMagic.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell_Ghoulish.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell_Impaler.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell_Refined.txt",
+    "Public/Vampire/Stats/Generated/Data/Spell.txt",
+    "Public/Vampire/Stats/Generated/Data/Status_BOOSTS.txt",
+    "Public/Vampire/Stats/Generated/Data/Status_DOWNED.txt",
+    "Public/Vampire/Stats/Generated/Data/Status_INVISIBLE.txt",
+}
+
+local function on_reset_completed()
+    for _, statPath in ipairs(StatPaths) do
+        Ext.Stats.LoadStatsFile(statPath,1)
+    end
+    _P('Reloading stats!')
+end
+
+Ext.Events.ResetCompleted:Subscribe(on_reset_completed)
+
 PersistentVars = {}
+VampireSpawn = {}
 
 --Start: Functions for draining blood each long rest
 
@@ -60,7 +85,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
             if PersistentVars[k] == (status .. causee) then
                 Osi.RemoveStatus(k, status, causee)
             end
-          end
+        end
         PersistentVars[object] = status .. causee
     end
 end)
@@ -152,3 +177,22 @@ Ext.Osiris.RegisterListener("RespecCompleted", 1, "after", function(character_)
 end)
 
 --End: Functions to check for unarmed abilityValue
+
+--Start: Functions to Add and remove spawn from party
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if status == "Vamp_Vampire_Spawn" then
+        Osi.AddPartyFollower(object, causee)
+        VampireSpawn[causee] = object
+    end
+end)
+
+Ext.Osiris.RegisterListener("Died", 1, "after", function(character_)
+    for k,v in pairs(VampireSpawn) do
+        if character_ == v then
+            Osi.RemovePartyFollower(v, k)
+        end
+    end
+end)
+
+--End: Functions to Add and remove spawn from party
