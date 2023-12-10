@@ -1,26 +1,26 @@
-StatPaths={
-    "Public/Vampire/Stats/Generated/Data/Character.txt",
-    "Public/Vampire/Stats/Generated/Data/Interrupt.txt",
-    "Public/Vampire/Stats/Generated/Data/Passive.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell_Bestial.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell_BloodMagic.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell_Ghoulish.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell_Impaler.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell_Refined.txt",
-    "Public/Vampire/Stats/Generated/Data/Spell.txt",
-    "Public/Vampire/Stats/Generated/Data/Status_BOOSTS.txt",
-    "Public/Vampire/Stats/Generated/Data/Status_DOWNED.txt",
-    "Public/Vampire/Stats/Generated/Data/Status_INVISIBLE.txt",
-}
+-- StatPaths={
+--     "Public/Vampire/Stats/Generated/Data/Character.txt",
+--     "Public/Vampire/Stats/Generated/Data/Interrupt.txt",
+--     "Public/Vampire/Stats/Generated/Data/Passive.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell_Bestial.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell_BloodMagic.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell_Ghoulish.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell_Impaler.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell_Refined.txt",
+--     "Public/Vampire/Stats/Generated/Data/Spell.txt",
+--     "Public/Vampire/Stats/Generated/Data/Status_BOOSTS.txt",
+--     "Public/Vampire/Stats/Generated/Data/Status_DOWNED.txt",
+--     "Public/Vampire/Stats/Generated/Data/Status_INVISIBLE.txt",
+-- }
 
-local function on_reset_completed()
-    for _, statPath in ipairs(StatPaths) do
-        Ext.Stats.LoadStatsFile(statPath,1)
-    end
-    _P('Reloading stats!')
-end
+-- local function on_reset_completed()
+--     for _, statPath in ipairs(StatPaths) do
+--         Ext.Stats.LoadStatsFile(statPath,1)
+--     end
+--     _P('Reloading stats!')
+-- end
 
-Ext.Events.ResetCompleted:Subscribe(on_reset_completed)
+-- Ext.Events.ResetCompleted:Subscribe(on_reset_completed)
 
 PersistentVars = {}
 VampireSpawn = {}
