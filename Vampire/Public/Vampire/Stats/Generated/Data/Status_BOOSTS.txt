@@ -2026,10 +2026,8 @@ data "DisplayName" "h62747c1ag6bc5g4970g96d9g577ca8051662;2"
 data "Description" "h7290220cgde5eg4facgaf2ag9bd42c6b0c4c;2"
 data "Icon" "statIcons_Madness"
 data "StackId" "Feral_Rage_Controlled"
-data "Passives" "Vamp_FeralRage_Controled_Removal"
+data "Passives" "Vamp_FeralRage_Controlled_Removal"
 data "RemoveConditions" "HasStatus('Feral_Rage')"
 data "RemoveEvents" "OnTurn"
 data "StatusGroups" "SG_RemoveOnRespec"
-
-//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;ApplyToDead;DisablePortraitIndicator"//
-//LoseControlFriendly;LoseControl//
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;ApplyToDead;DisablePortraitIndicator"

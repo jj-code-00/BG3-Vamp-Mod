@@ -9,7 +9,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Vamp_BloodFeature,1,0);ActionResource(Vamp_BloodPool,1,0);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);Proficiency(LightArmor);Proficiency(MediumArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/> Class Level for this entry
                     <attribute id="Name" type="LSString" value="Vampire"/> Name of the class, keep it consistent with class description
-                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_RemoveBloodFeature;Vamp_BloodFeature;Vamp_BloodPool1;Vamp_BloodPoolDrain;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Sanguinare_Vampiris_WeevPatch"/> most class features usually can be done with passives
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_RemoveBloodFeature;Vamp_BloodFeature;Vamp_BloodPool1;Vamp_BloodPoolDrain;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Sanguinare_Vampiris_WeevPatch"/> most class features usually can be done with passives
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> 0 means main class, 1 means subclass, 2 means race
                     <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(EXAMPLE_PASSIVELIST,1);SelectSkills(0e23fd18-d5ff-4c97-83d7-eb22238bed55,2);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0);"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
@@ -22,7 +22,7 @@
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Vampire"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodPool1;Vamp_RemoveBloodFeature;Vamp_BloodFeature;Vamp_BloodPoolDrain;Vamp_ClawsGrapple;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Sanguinare_Vampiris_WeevPatch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sanguinare_Vampiris;Undead;Vamp_Darkvision;Vamp_NecroticResist;Vamp_RunningWater;Vamp_SunlightSensitivity;Vamp_BiteBase;Vamp_ClawsBase;Vamp_BloodPool_Feature1;Vamp_BloodPool1;Vamp_RemoveBloodFeature;Vamp_BloodFeature;Vamp_BloodPoolDrain;Vamp_HeartPiercer;Vamp_RadiantSens;Vamp_FeralRage;Sanguinare_Vampiris_WeevPatch"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>

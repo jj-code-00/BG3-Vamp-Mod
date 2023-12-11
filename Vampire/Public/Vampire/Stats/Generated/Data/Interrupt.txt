@@ -13,6 +13,42 @@ data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in
 
 //SpellId('Target_UnarmedStrike_Monk') FIND SPELLS!!!
 
+new entry "Interrupt_Vamp_Claws"
+type "InterruptData"
+data "DisplayName" "hf0329964ga2d7g4d80gbc4eg7731d21131e5"
+data "Description" "h361b0b7fg98cdg4040g84bcg818772c52383;2"
+data "DescriptionParams" ""
+data "ExtraDescription" ""
+data "Icon" "Action_Imp_Claws"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsHit() and IsAbleToReact(context.Observer) and not Item() and SpellId('Vamp_Claws') and Self(context.Source,context.Observer) and not AnyEntityIsItem()"
+data "Properties" "IF(not HasPassive('Vamp_BloodPool6')):DealDamage(1d4+UnarmedMeleeAbilityModifier,Slashing);IF(HasPassive('Vamp_BloodPool6')):DealDamage(1d4+UnarmedMeleeAbilityModifier,Slashing,Magical)"
+data "Cost" ""
+data "Stack" "Interrupt_Vamp_Claws"
+data "EnableCondition" ""
+data "EnableContext" "OnStatusApplied"
+data "InterruptDefaultValue" "Ask;Enabled"
+
+new entry "Interrupt_Vamp_Claws_Grapple"
+type "InterruptData"
+data "DescriptionParams" ""
+data "ExtraDescription" ""
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsHit() and IsAbleToReact(context.Observer) and not Item() and SpellId('Vamp_Claws') and Self(context.Source,context.Observer) and not AnyEntityIsItem()"
+data "Cost" ""
+data "EnableCondition" ""
+data "EnableContext" "OnStatusApplied"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "Icon" "Action_Grapple"
+data "DisplayName" "hf0329964ga2d7g4d80gbc4eg7731d21131e5"
+data "Description" "hd37461b7gd412g4b66gb7ffg9a79e6b4af31"
+data "Properties" "ApplyStatus(GRAPPLED,100,-1);ApplyStatus(SELF,GRAPPLING,100,-1)"
+data "Stack" "Interrupt_Vamp_Claws_Grapple"
+
 // Check Modifiers for additional things you can do with Interrupts //
 
 //Lvl 0 Blood Features

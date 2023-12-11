@@ -103,7 +103,7 @@ type "PassiveData"
 data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Vamp_Claws)"
+data "Boosts" "UnlockSpell(Vamp_Claws);UnlockInterrupt(Interrupt_Vamp_Claws);UnlockInterrupt(Interrupt_Vamp_Claws_Grapple)"
 
 new entry "Vamp_ClawsGrapple"
 type "PassiveData"
@@ -161,7 +161,7 @@ data "Conditions" "HasActionResource('Vamp_BloodPool', 1, 0, false, false, conte
 data "StatsFunctors" "IF(HasStatus('Feral_Rage')):RemoveStatus(Feral_Rage)"
 
 
-new entry "Vamp_FeralRage_Controled_Removal"
+new entry "Vamp_FeralRage_Controlled_Removal"
 type "PassiveData"
 using "Vamp_FeralRage_Removal"
 data "StatsFunctors" "IF(HasStatus('Feral_Rage_Controlled')):RemoveStatus(Feral_Rage_Controlled)"
