@@ -102,6 +102,15 @@ Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", function (characte
     Osi.RemoveStatus(character, "Vamp_StatusCanFeed", character)
 end)
 
+Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        local character = string.sub(v[1],-36)
+        if (Osi.HasPassive(character,"Sanguinare_Vampiris") == 0) then
+            Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+        end
+    end
+end)
+
 --End: Functions for what characters a vampire can feed on
 
 --Start: Functions for if the vampire can respec
@@ -127,8 +136,10 @@ end)
 --Start: Functions for feeding on lover bonus
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
-    if status == "Vamp_Fed" and Osi.GetApprovalRating(object, causee) >= 81 then
-        Osi.ApplyStatus(causee,"Vamp_Fed_HAPPYLover",-1, 100,object)
+    if Osi.IsPlayer(object) == 0 then
+        if status == "Vamp_Fed" and Osi.GetApprovalRating(object, causee) >= 81 then
+            Osi.ApplyStatus(causee,"Vamp_Fed_HAPPYLover",-1, 100,object)
+        end
     end
 end)
 
@@ -172,7 +183,9 @@ Ext.Osiris.RegisterListener("RespecCompleted", 1, "after", function(character_)
         local character = Ext.Entity.Get(character_)
         character.Stats.UnarmedAttackAbility = "Strength"
         character:Replicate("Stats")
-
+    end
+    if Osi.HasPassive(character_,"Sanguinare_Vampiris") == 1 then
+        ChangeUnarmedAbility(character_)
     end
 end)
 
