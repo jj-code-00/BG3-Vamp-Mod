@@ -216,4 +216,6 @@
 	<content contentuid="hbe183d0fgd36cg4da7gbed1g6d452d2c989c" version="1">Dig Grave</content>
 	<content contentuid="hc2bd6ddbgcd5bg492fg9d8ag92b1b342fda2" version="1">Bury the corpse of someone you have bitten to death.</content>
 	<content contentuid="hd37461b7gd412g4b66gb7ffg9a79e6b4af31" version="1">Grapple the entity with your claws.</content>
+	<content contentuid="hcbb266d8gb969g4a41g8e7bg3cc2de2cae75" version="1">Controlled Thirst</content>
+	<content contentuid="h8cf388cdg47aag48beg936dgb9f504c1a339" version="1">This vampire has controlled their thirst for blood. At least for the moment.</content>
 </contentList>
