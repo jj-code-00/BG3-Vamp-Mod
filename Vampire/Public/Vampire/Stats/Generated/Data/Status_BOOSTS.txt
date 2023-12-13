@@ -280,6 +280,7 @@ data "DescriptionParams" "1"
 data "StackId" "Vamp_StatusEcholocationTechnical"
 data "Passives" "Vamp_PassiveEcholocationTechnical"
 data "Icon" "PassiveFeature_Generic_Darkness"
+data "OnRemoveFunctors" "RemoveStatus(Blindsight_9m_Status)"
 
 new entry "Vamp_StatusEcholocation"
 type "StatusData"
