@@ -1,6 +1,5 @@
 //----------------------------Level 1 Vampire spells----------------------------//
 
-
 // Container spell holding both the damage dealing claw skill and grapple //
 new entry "Vamp_Claws_Con"
 type "SpellData"

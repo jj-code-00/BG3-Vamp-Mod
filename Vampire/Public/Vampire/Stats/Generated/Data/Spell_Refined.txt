@@ -1,3 +1,5 @@
+//----------------------------Level 11 Refined spells----------------------------//
+
 new entry "Vamp_PhantomFangs"
 type "SpellData"
 data "SpellType" "Target"
@@ -7,12 +9,7 @@ data "TargetConditions" "not Self() and not Item() and not Tagged('UNDEAD') and 
 data "DisplayName" "h40191159gd449g4b4cg8c98ge809938b19d8"
 data "Description" "h149c139agd76eg4bd5ga66bg85df3267ce6d"
 
-new entry "Shout_Vamp_ShadowBlade"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_ShadowBlade"
-data "Cooldown" ""
-data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
+//----------------------------Level 3 Blood Features----------------------------//
 
 new entry "3Shout_SelectSmacktalk"
 type "SpellData"
@@ -228,6 +225,8 @@ data "TooltipDamageList" "DealDamage(MainMeleeWeapon + 6, MainMeleeWeaponDamageT
 data "HitCosts" "Vamp_BloodPool:6"
 data "RootSpellID" "Target_Vamp_SwindlingStrike"
 data "PowerLevel" "6"
+
+//----------------------------Level 9 Blood Features----------------------------//
 
 // new entry "90Shout_SelectExsanguination"
 // type "SpellData"

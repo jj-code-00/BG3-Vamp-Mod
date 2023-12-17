@@ -1,3 +1,5 @@
+//----------------------------Level 3 Beastial spells----------------------------//
+
 new entry "Shout_CreatureofTheNightCon"
 type "SpellData"
 data "SpellType" "Shout"
@@ -182,6 +184,8 @@ data "SpellType" "Projectile"
 using "Projectile_Jump_Ghoul_Flying"
 data "Cooldown" ""
 data "UseCosts" "Movement:Distance"
+
+//----------------------------Level 11 Beastial spells----------------------------//
 
 new entry "Zone_Vamp_RoaringThunder"
 type "SpellData"
