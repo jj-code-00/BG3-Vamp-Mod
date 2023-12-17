@@ -113,6 +113,17 @@ end)
 
 --End: Functions for what characters a vampire can feed on
 
+--Start: Function for changing feed status if player
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if Osi.IsPlayer(object) == 1 and status == "Vamp_Fed" then
+         Osi.RemoveStatus(object, "Vamp_Fed", object)
+         Osi.ApplyStatus(object, "Vamp_Fed_Player", -1, 100, object)
+    end
+end)
+
+--End: Function for changing feed status if player
+
 --Start: Functions for if the vampire can respec
 
 Ext.Osiris.RegisterListener("RequestEndTheDaySuccess", 0, "after", function()
