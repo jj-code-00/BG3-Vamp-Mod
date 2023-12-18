@@ -84,71 +84,59 @@ data "StatsFunctors" "IF(SpellId('Vamp_Bite')):RestoreResource(SELF, Vamp_BloodF
 
 new entry "Vamp_PassiveAcquiredTaste_LRW"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 new entry "Vamp_PassivePointedStrike"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h8ec5c189g2604g494egbd63gd0d311643c3d" 
 data "Description" "haee0725fgc6b7g4c79gbe7eg4460869c4fc0" 
 data "Icon" "Action_PrecisionAttack"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_PointedStrike_1);UnlockInterrupt(Interrupt_PointedStrike_2);UnlockInterrupt(Interrupt_PointedStrike_3);UnlockInterrupt(Interrupt_PointedStrike_4);UnlockInterrupt(Interrupt_PointedStrike_5);UnlockInterrupt(Interrupt_PointedStrike_6);"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 new entry "Vamp_PassiveBloodSpike"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h621cfeabga79bg4f69g8860g81e9b8feb2e8"
 data "Description" "hff595865g114bg4fe3gb3cbgb93a55f08642"
 data "Icon" "Spell_Conjuration_IceKnife"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Vamp_BloodSpike_Con)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 //----------------------------Level 5 Blood Features----------------------------//
 
 new entry "Vamp_PassiveEscapeRoute"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "hd6323f71g0632g4631g9743gd61b6158f770" 
 data "Description" "h757b04b9g81d3g46cagb3d4ga13b4f17e7a6" 
 data "Icon" "Action_ManeuveringAttack_Melee"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Vamp_EscapeRoute_Con)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 new entry "Vamp_PassiveImpalersCommand"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h5b6dca69g4443g457agbc38gd44e84dae5f1"
 data "Description" "h630846d1ga451g4b5fg9a7dg793891d449b6"
 data "Icon" "Action_CommandersStrike"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Vamp_ImpalersCommand_Con)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 //----------------------------Level 7 Blood Features----------------------------//
 
 new entry "Vamp_PassiveArmoredTitan"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8" 
 data "Description" "h29f4af2bg6f61g4b01gbfd1g092a5933b497" 
 data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_Vamp_ArmoredTitan)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 //----------------------------Level 9 Blood Features----------------------------//
 
 new entry "Vamp_PassiveSacrificialSummoningLWR"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 new entry "Vamp_PassiveSacrificialSummoning"
 type "PassiveData"

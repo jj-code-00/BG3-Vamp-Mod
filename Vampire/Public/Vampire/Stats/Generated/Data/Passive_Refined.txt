@@ -105,23 +105,19 @@ data "StatsFunctors" "ApplyStatus(Vamp_StatusBloodofLazarusTechnical,100,-1);"
 
 new entry "Vamp_PassiveSmacktalk"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "hdb7cb080gb4cag440agbee0g0dd91e0fbd89"
 data "Description" "h90e4294agba32g4075ga7cbgabedc3efdf46"
 data "Icon" "Action_GoadingAttack_Melee"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Vamp_Smacktalk_Con)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 new entry "Vamp_PassiveSwindlingStrike"
 type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h722d31f6ge8dcg4740gb20ag1c6ba8612e61"
 data "Description" "hca6a1615gbf69g4517g8076gf81b012e20c9"
 data "Icon" "Action_FeintingAttack"
-data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Vamp_SwindlingStrike_Con)"
-data "StatsFunctorContext" "OnLongRest"
-data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
 
 //----------------------------Level 9 Blood Features----------------------------//
 
