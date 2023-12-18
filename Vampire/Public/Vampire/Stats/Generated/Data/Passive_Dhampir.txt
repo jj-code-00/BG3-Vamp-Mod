@@ -1,0 +1,32 @@
+//----------------------------Weevil's Dhampir race compatability----------------------------//
+
+new entry "Weev_Dhampir_Passives"
+type "PassiveData"
+using "Weev_Dhampir_Passives"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_TasteForBlood"
+type "PassiveData"
+using "Weev_TasteForBlood"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_RefinedTaste"
+type "PassiveData"
+using "Weev_RefinedTaste"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_DhampiricGrace"
+type "PassiveData"
+using "Weev_DhampiricGrace"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_Thirsty"
+type "PassiveData"
+using "Weev_Thirsty"
+data "StatsFunctors" "IF(not HasPassive('Sanguinare_Vampiris')):ApplyStatus(WEEV_THIRSTYSTATUS, 100, -1)"
+
+new entry "Sanguinare_Vampiris_WeevPatch"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasPassive('Weev_Dhampir_Passives')"
+data "Boosts" "ActionResource(Movement,9,0)"

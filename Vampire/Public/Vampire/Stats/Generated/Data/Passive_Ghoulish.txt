@@ -1,0 +1,89 @@
+//----------------------------Level 3 Ghoulish Passives----------------------------//
+
+new entry "Vamp_GhoulishClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_ClawsGhoulish"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Boosts" "UnlockSpell(Vamp_Claws_Ghoulish_Con);AttackSpellOverride(Vamp_Claws_Ghoulish_Unlinked, Target_UnarmedAttack);UnlockInterrupt(Interrupt_Vamp_Claws_Ghoulish)"
+
+//----------------------------Level 7 Ghoulish Passives----------------------------//
+
+new entry "Vamp_PassiveFeedingFrenzyTechnical"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "IsHidden"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsKillingBlow()"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusFeedingFrenzyTechnical,100,1)"
+
+new entry "Vamp_PassiveFeedingFrenzy"
+type "PassiveData"
+data "DisplayName" "hcfc7c9e9g2c97g4d2agad75g90660b42b3b4" 
+data "Description" "h250ee8a2g815cg476cga684gf12750d48dc8" 
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_FeedingFrenzyCon)"
+
+//----------------------------Level 11 Ghoulish Passives----------------------------//
+
+new entry "Vamp_ClawsGhoulish_1"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Vamp_Claws_Ghoulish);UnlockInterrupt(Interrupt_Vamp_Claws_Ghoulish_1)"
+
+//----------------------------Level 17 Ghoulish Passives----------------------------//
+
+new entry "Vamp_PassiveGhoulLord"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('Vamp_StatusGhoulLordTechnical_1',context.Target)"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusGhoulLordTechnical,100,1)"
+
+//----------------------------Level 3 Blood Features----------------------------//
+
+new entry "Vamp_PassiveAnimalism""
+type "PassiveData"
+data "DisplayName" "h56699d1dg4695g4cbdg8683gdf083b52f988" 
+data "Description" "he4e4ff78g79edg4041gb8d3g587f3db53260" 
+data "Icon" "Spell_Enchantment_DominateBeast"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Vamp_DominateBeast)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
+new entry "Vamp_PassiveLacedonBlood""
+type "PassiveData"
+data "DisplayName" "he4bcf0e1g6600g4d8fgae4eg56fa44120c07" 
+data "Description" "h914d40cfgdafdg45f8gbbdcg42fdeaba50dd" 
+data "Icon" "GenericIcon_DamageType_Cold"
+data "Properties" "Highlighted"
+data "Boosts" "Resistance(Cold, Resistant)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
+
+//----------------------------Level 7 Blood Features----------------------------//
+
+new entry "Vamp_PassiveGnawingHunger"
+type "PassiveData"
+data "DisplayName" "h8be266e5g1331g4f16gafe7gbd3427f6cccc" 
+data "Description" "h91d6e1f6gb06dg4a53ga875gf48073fd5884" 
+data "Icon" "Action_Monster_Bulette_Bite"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Vamp_GnawingHunger)"
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
