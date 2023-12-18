@@ -1,57 +1,4 @@
-new entry "Interrupt_Example"
-type "InterruptData"
-data "DisplayName" "b46f93019df6cfa3dc0372013057cd4ad296f;1" // From .loca file //
-data "Description" "dc6cc9b02903e8674849e37d7791a7a298f17;1" // From .lova file //
-data "Icon" "Spell_Shield" // Choose an ingame icon or an Icon you made or leave it blank //
-data "InterruptContext" "OnPostRoll;OnPreDamage" // what kind of trigger is this interrupt looking for //
-data "InterruptContextScope" "Self" // what is the scope of the trigger //
-data "Container" "YesNoDecision" // what kind of decision //
-data "Conditions" "" // what conditions has to be met for the interrupt to trigger //
-data "Properties" "" // what happens when you choose to use it //
-data "Cost" "" // what is the resource cost of the interrupt //
-data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in game //
-
-//SpellId('Target_UnarmedStrike_Monk') FIND SPELLS!!!
-
-new entry "Interrupt_Vamp_Claws"
-type "InterruptData"
-data "DisplayName" "hf0329964ga2d7g4d80gbc4eg7731d21131e5"
-data "Description" "h361b0b7fg98cdg4040g84bcg818772c52383;2"
-data "DescriptionParams" ""
-data "ExtraDescription" ""
-data "Icon" "Action_Imp_Claws"
-data "InterruptContext" "OnCastHit"
-data "InterruptContextScope" "Self"
-data "Container" "YesNoDecision"
-data "Conditions" "IsHit() and SpellId('Vamp_Claws') and Self(context.Source,context.Observer)"
-data "Properties" "IF(not HasPassive('Vamp_BloodPool6')):DealDamage(1d4+UnarmedMeleeAbilityModifier,Slashing);IF(HasPassive('Vamp_BloodPool6')):DealDamage(1d4+UnarmedMeleeAbilityModifier,Slashing,Magical)"
-data "Cost" ""
-data "Stack" "Interrupt_Vamp_Claws"
-data "EnableCondition" ""
-data "EnableContext" "OnStatusApplied"
-data "InterruptDefaultValue" "Ask;Enabled"
-
-new entry "Interrupt_Vamp_Claws_Grapple"
-type "InterruptData"
-data "DescriptionParams" ""
-data "ExtraDescription" ""
-data "InterruptContext" "OnCastHit"
-data "InterruptContextScope" "Self"
-data "Container" "YesNoDecision"
-data "Conditions" "IsHit() and not Item() and SpellId('Vamp_Claws') and Self(context.Source,context.Observer)"
-data "Cost" ""
-data "EnableCondition" ""
-data "EnableContext" "OnStatusApplied"
-data "InterruptDefaultValue" "Ask;Enabled"
-data "Icon" "Action_Grapple"
-data "DisplayName" "hf0329964ga2d7g4d80gbc4eg7731d21131e5"
-data "Description" "hd37461b7gd412g4b66gb7ffg9a79e6b4af31"
-data "Properties" "ApplyStatus(GRAPPLED,100,-1);ApplyStatus(SELF,GRAPPLING,100,-1)"
-data "Stack" "Interrupt_Vamp_Claws_Grapple"
-
-// Check Modifiers for additional things you can do with Interrupts //
-
-//Lvl 0 Blood Features
+//----------------------------Level 1 Blood Features----------------------------//
 
 new entry "Interrupt_Vamp_ShovingAttack_1"
 type "InterruptData"
@@ -156,7 +103,7 @@ data "Conditions" "HasPassive('Vamp_BloodPool17',context.Observer) and IsAbleToR
 data "Properties" "UseSpell(SWAP,Vamp_Claws,true,true,true);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_RIPOSTE,100,0);DealDamage(6,Slashing)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
 
-// Lvl 3 Blood Features
+//----------------------------Level 3 Blood Features----------------------------//
 
 new entry "Interrupt_Vamp_AssassinFang_1"
 type "InterruptData"
@@ -205,7 +152,8 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER'))"
 data "EnableContext" "OnStatusApplied"
 
-// Blood Barrier
+//----------------------------Level 3 Blood Features----------------------------//
+
 new entry "Interrupt_Vamp_BloodBarrier_1"
 type "InterruptData"
 data "DisplayName" "hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5"
@@ -234,8 +182,6 @@ using "Interrupt_Vamp_BloodBarrier_1"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not AnyEntityIsItem() and HasPassive('Vamp_BloodPool17',context.Observer)"
 data "Properties" "ApplyStatus(Vamp_StatusBloodBarrierTechnical_3,100,-1);UseSpell(SWAP,Target_BloodBarrierDamage,true,true,true)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
-
-// sanguine shield
 
 new entry "Interrupt_Vamp_SanguineShield_1"
 type "InterruptData"
@@ -279,6 +225,8 @@ using "Interrupt_Vamp_SanguineShield_1"
 data "Conditions" "not HasVerbalComponentBlocked(context.Observer) and IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(6, context.Source)) or IsSpellChildOrVariantFromContext('Projectile_MagicMissile')) and not AnyEntityIsItem() and not HasStatus('Vamp_StatusSanguineShieldTechnical_5',context.Observer) and HasPassive('Vamp_BloodPool17',context.Observer)"
 data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-6);IF(IsSpellChildOrVariantFromContext('Projectile_MagicMissile')):SetRoll(0);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,Vamp_StatusSanguineShieldTechnical_5,100,1)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
+
+//----------------------------Level 5 Blood Features----------------------------//
 
 new entry "Interrupt_Vamp_BackStabber_1"
 type "InterruptData"
@@ -332,8 +280,6 @@ using "Interrupt_Vamp_BackStabber_1"
 data "Conditions" "IsAttack() and IsAbleToReact(context.Observer) and IsHit() and not Item() and Self(context.Source,context.Observer) and not AnyEntityIsItem() and HasPassive('Vamp_BloodPool17',context.Observer)"
 data "Properties" "ApplyStatus(DISTRACTED,100,1);DealDamage(6,Necrotic,Magical)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
-
-// Knock Off
 
 new entry "Interrupt_Vamp_KnockOff_1"
 type "InterruptData"
@@ -438,6 +384,8 @@ data "Conditions" "HasPassive('Vamp_BloodPool17',context.Observer) and IsAbleToR
 data "Properties" "AdjustRoll(OBSERVER_OBSERVER,-(6+DexterityModifier))"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
 
+//----------------------------Level 7 Blood Features----------------------------//
+
 new entry "Interrupt_Vamp_FrighteningStrike_1"
 type "InterruptData"
 data "DisplayName" "h797c47bag8c88g4f23g8809g3bf1104b3fa8"
@@ -509,6 +457,8 @@ data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+//----------------------------Level 9 Blood Features----------------------------//
+
 new entry "Interrupt__Vamp_BloodThirsty"
 type "InterruptData"
 data "DisplayName" "h2d94c51dg5ad3g4d2dg8a0dg1dc7538d7a47"
@@ -525,6 +475,8 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
+//----------------------------Level 11 Blood Features----------------------------//
+
 new entry "Interrupt_Vamp_UndeadFortitude"
 type "InterruptData"
 data "DisplayName" "hd1afe285g28b9g4e4fgb492g3a8c434f1fed"
@@ -539,6 +491,8 @@ data "Cost" "Vamp_BloodPool:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+//----------------------------Level 3 Ghoulish----------------------------//
 
 new entry "Interrupt_Vamp_Claws_Ghoulish"
 type "InterruptData"
@@ -576,6 +530,8 @@ data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+//----------------------------Level 17 Impaler----------------------------//
+
 new entry "Interrupt_Vamp_Merciless"
 type "InterruptData"
 data "DisplayName" "h1d73deadg2c34g447fga490g6030f1ba2ea4"
@@ -592,21 +548,7 @@ data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')  o
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 data "InterruptDefaultValue" "Enabled"
 
-new entry "Interrupt_Vamp_ArmoredTitan"
-type "InterruptData"
-data "DisplayName" "h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8"
-data "Description" "h29f4af2bg6f61g4b01gbfd1g092a5933b497"
-data "DescriptionParams" "ProficiencyBonus"
-data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
-data "InterruptContext" "OnPostRoll"
-data "InterruptContextScope" "Self"
-data "Container" "YesNoDecision"
-data "Conditions" "IsAbleToReact(context.Observer) and HasInterruptedAttack() and Self(context.Target,context.Observer) and not AnyEntityIsItem() and (HasHeavyArmor(context.Observer) or HasMediumArmor(context.Observer)) and IsRerollInterruptInteresting(context.Source) and not InterruptHasAdvantage()"
-data "Properties" "SetDisadvantage()"
-data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:1"
-data "InterruptDefaultValue" "Enabled;Ask"
-data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
-data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+//----------------------------Level 3 Impaler Blood Features----------------------------//
 
 //may need to change interrupt context
 new entry "Interrupt_PointedStrike_1"
@@ -659,3 +601,21 @@ using "Interrupt_PointedStrike_1"
 data "Conditions" "HasPassive('Vamp_BloodPool17',context.Observer) and not Dead(context.Observer) and HasInterruptedAttack() and Self(context.Observer,context.Source) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(6, context.Source)"
 data "Properties" "AdjustRoll(6)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
+
+//----------------------------Level 7 Impaler Blood Features----------------------------//
+
+new entry "Interrupt_Vamp_ArmoredTitan"
+type "InterruptData"
+data "DisplayName" "h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8"
+data "Description" "h29f4af2bg6f61g4b01gbfd1g092a5933b497"
+data "DescriptionParams" "ProficiencyBonus"
+data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and HasInterruptedAttack() and Self(context.Target,context.Observer) and not AnyEntityIsItem() and (HasHeavyArmor(context.Observer) or HasMediumArmor(context.Observer)) and IsRerollInterruptInteresting(context.Source) and not InterruptHasAdvantage()"
+data "Properties" "SetDisadvantage()"
+data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:1"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
