@@ -232,7 +232,7 @@ data "Description" "h26dcd3aag4e7cg4c08g93f7g6f8343cfc567"
 data "Icon" "statIcons_Madness"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "Conditions" "not HasActionResource('Vamp_BloodPool', 1, 0, false, false, context.Source) and not HasStatus('Feral_Rage') and not HasStatus('Feral_Rage_Controlled')"
+data "Conditions" "not HasActionResource('Vamp_BloodPool', 1, 0, false, false, context.Source) and not HasStatus('Feral_Rage') and not HasStatus('Feral_Rage_Controlled') and not HasStatus('Vamp_RestoreBloodPool1') and not HasStatus('Vamp_RestoreBloodPool2')"
 data "StatsFunctors" "ApplyStatus(SELF,Feral_Rage_Controlled, 100, 600);IF(not SavingThrow(Ability.Wisdom,11)):ApplyStatus(SELF,Feral_Rage, 100, 600)"
 
 new entry "Vamp_FeralRage_Removal"
