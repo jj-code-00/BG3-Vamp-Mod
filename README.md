@@ -19,7 +19,7 @@ Vampire Class mod based on an updated version of this [Vampire Class](https://dr
 2. [Dynamic Appearance Framework](https://www.nexusmods.com/baldursgate3/mods/2276) + [Fangs and Horns](https://www.nexusmods.com/baldursgate3/mods/2279) - These can have some issues with differing body types
 3. [Vampire Ascendant](https://www.nexusmods.com/baldursgate3/mods/1914) - For making ascension more worth it for Astarion
 4. [Power Hunger - Story Buffs Enhanced](https://www.nexusmods.com/baldursgate3/mods/3989) - A more balanced take on Ascendancy
-5. [Become a Vampire](https://www.nexusmods.com/baldursgate3/mods/4907?tab=description) - Gives all NPC vampire powers and stat blocks to players (Made by yours truly)
+5. [Become a Vampire](https://www.nexusmods.com/baldursgate3/mods/4907?tab=description) - Gives all NPC vampire powers and stat blocks to players. Meant to be overpowered and will have considerable overlap with this class. (Made by yours truly)
 
 # Credits:
 - The Vampire class was written and created by [u/Zoodud254](https://www.reddit.com/user/Zoodud254/) And u/EldtrichKermit, with support from the users on r/UnearthedArcana.
