@@ -1,3 +1,36 @@
+//----------------------------Weevil's Dhampir race compatability----------------------------//
+
+new entry "Weev_Dhampir_Passives"
+type "PassiveData"
+using "Weev_Dhampir_Passives"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_TasteForBlood"
+type "PassiveData"
+using "Weev_TasteForBlood"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_RefinedTaste"
+type "PassiveData"
+using "Weev_RefinedTaste"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_DhampiricGrace"
+type "PassiveData"
+using "Weev_DhampiricGrace"
+data "BoostConditions" "not HasPassive('Sanguinare_Vampiris')"
+
+new entry "Weev_Thirsty"
+type "PassiveData"
+using "Weev_Thirsty"
+data "StatsFunctors" "IF(not HasPassive('Sanguinare_Vampiris')):ApplyStatus(WEEV_THIRSTYSTATUS, 100, -1)"
+
+new entry "Sanguinare_Vampiris_WeevPatch"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasPassive('Weev_Dhampir_Passives')"
+data "Boosts" "ActionResource(Movement,9,0)"
+
 //----------------------------Progression Vampire Passives----------------------------//
 
 new entry "Vamp_BloodPool_Feature1"
@@ -535,6 +568,68 @@ data "DisplayName" "h50ae14daga244g448dg971fg75718981b50b"
 data "Description" "ha7beb7c4gb37eg4e87g9b0egfe00ec28ea74"
 data "Boosts" "UnlockSpell(Shout_Shapechanger)"
 
+//----------------------------Blood Magic----------------------------//
+
+new entry "Vamp_PassiveBloodMagic"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
+data "Description" "h1a47f204gf965g4387g9a7dg8e5955eb5140"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "BoostConditions" "HasActionResource('Vamp_BloodFeature', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
+data "Boosts" "UnlockSpell(3Shout_SelectBloodMagicTechnical)"
+
+new entry "Vamp_PassiveBloodMagicCantripSel"
+type "PassiveData"
+data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
+data "Description" "h1a47f204gf965g4387g9a7dg8e5955eb5140"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasActionResource('Vamp_BloodMagicCantrips', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
+data "Boosts" "UnlockSpell(Shout_SelectBMCantrips)"
+
+new entry "Vamp_PassiveBloodMagicSpellSel"
+type "PassiveData"
+data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
+data "Description" "h1a47f204gf965g4387g9a7dg8e5955eb5140"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasActionResource('Vamp_BloodMagicLevelOne', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
+data "Boosts" "UnlockSpell(Shout_SelectBMSpells)"
+
+new entry "Vamp_PassiveBloodMagicTechnical_2"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_4"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_5"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_6"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveBloodMagicTechnical_7"
+type "PassiveData"
+using "Vamp_PassiveBloodMagic"
+data "Boosts" ""
+
 //----------------------------Level 4 Blood Features----------------------------//
 
 new entry "Vamp_PassiveBiluBlood"
@@ -658,6 +753,58 @@ data "Description" "h09865592g4b81g443cgbd0ag16c2cf671509"
 data "Icon" "Status_Poisoned" 
 data "Boosts" "UnlockInterrupt(Interrupt_Vamp_HemorrhagingClaws)"
 
+//----------------------------Greater Blood Magic----------------------------//
+
+new entry "Vamp_PassiveGreaterBloodMagic"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
+data "Description" "h1a47f204gf965g4387g9a7dg8e5955eb5140"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "BoostConditions" "HasActionResource('Vamp_BloodFeature', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
+data "Boosts" "UnlockSpell(7Shout_SelectGreaterBloodMagicTechnical)"
+
+new entry "Vamp_PassiveGreaterBloodMagicSpellSel"
+type "PassiveData"
+data "DisplayName" "h25393d84g4ea6g4e80g9d47gf15cf524d972"
+data "Description" "h1a47f204gf965g4387g9a7dg8e5955eb5140"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasActionResource('Vamp_BloodMagicLevelOne', 1, 0, false, false, context.Source)"
+data "BoostContext" "OnActionResourcesChanged;OnCreate"
+data "Boosts" "UnlockSpell(Shout_SelectGBMSpells)"
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_2"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_3"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_4"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_5"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
+new entry "Vamp_PassiveGreaterBloodMagicTechnical_6"
+type "PassiveData"
+using "Vamp_PassiveGreaterBloodMagic"
+data "Boosts" ""
+
 //----------------------------Level 9 Blood Features----------------------------//
 
 new entry "Vamp_PassiveBloodThirsty"
@@ -750,3 +897,477 @@ data "Icon" "PassiveFeature_UndeadThralls_BetterSummons"
 data "DisplayName" "h79e7b007g4853g4657gab36g044260b71d94"
 data "Description" "hd1d1c32cgf74eg4db1ga57bgcfb0d1e54fe2"
 data "Boosts" "UnlockSpell(Target_Dig_Grave)"
+
+//----------------------------Level 3 Beastial Passives----------------------------//
+
+new entry "Vamp_BestialClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveCreatureofTheNight"
+type "PassiveData"
+data "DisplayName" "ha5a132c0gbc49g487fgb59ag9cdc6186819a" 
+data "Description" "h2cd91d39g3ed0g402fg8e20gff03f950ce18" 
+data "Icon" "Action_DarkUrge"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_CreatureofTheNightCon)"
+
+new entry "Vamp_PassiveBestialBlindsight"
+type "PassiveData"
+using "Blindsight_9m"
+data "Conditions" "not IsDamageTypeThunder() and not HasPassive('Vamp_PassiveEcholocationTechnical') and not ClassLevelHigherOrEqualThan(17,'Vampire')"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveBestialBlindsightImproved"
+type "PassiveData"
+using "Blindsight_18m"
+data "Conditions" "not IsDamageTypeThunder() and not HasPassive('Vamp_PassiveEcholocationTechnical') and ClassLevelHigherOrEqualThan(17,'Vampire')"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveBestialThunderVun"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "IsDamageTypeThunder()"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusBestialThunderVun, 100, 2);ApplyStatus(STUNNED,100,1)"
+
+new entry "Vamp_PassiveCreatureofTheNightTechnical"
+type "PassiveData"
+data "DisplayName" "hcf652a63g4177g4d3fg9233g7258998f8d75;2"
+data "Description" "he0a1651bgd70eg4847g8a5eg9b219d1751a1;1"
+data "Icon" "PassiveFeature_TavernBrawler"
+data "Properties" "IsHidden"
+data "Boosts" ""
+data "Conditions" "(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood') or SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and not ClassLevelHigherOrEqualThan(17,'Vampire')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(SpellId('Vamp_Claws')):DealDamage(1d6,Slashing);IF(SpellId('Vamp_BiluBlood')):DealDamage(1d6,Acid);IF((SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang'))):DealDamage(1d6,Piercing)"
+
+new entry "Vamp_PassiveCreatureofTheNightTechnicalImproved"
+type "PassiveData"
+data "DisplayName" "hcf652a63g4177g4d3fg9233g7258998f8d75;2"
+data "Description" "he0a1651bgd70eg4847g8a5eg9b219d1751a1;1"
+data "Icon" "PassiveFeature_TavernBrawler"
+data "Properties" "IsHidden"
+data "Boosts" ""
+data "Conditions" "(SpellId('Vamp_Claws') or SpellId('Vamp_BiluBlood') or SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and ClassLevelHigherOrEqualThan(17,'Vampire')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(SpellId('Vamp_Claws')):DealDamage(3d6,Slashing);IF(SpellId('Vamp_BiluBlood')):DealDamage(3d6,Acid);IF((SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang'))):DealDamage(3d6,Piercing)"
+
+//----------------------------Level 7 Beastial Passives----------------------------//
+
+new entry "Vamp_BestialUnnervingTransformation"
+type "PassiveData"
+data "DisplayName" "h25c3d159g4ee7g4fcdg94ffg67c10c639307"
+data "Description" "h1b628671g9f2bg43d5gb00bgbfc792c10038"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted"
+
+//----------------------------Level 11 Beastial Passives----------------------------//
+
+new entry "Vamp_BestialRoaringThunder"
+type "PassiveData"
+data "DisplayName" "h9f2205a3gf19bg44b3g81d5g3e5ea0386d57"
+data "Description" "hb0e6b28egbb27g420agb21cgcc6a9227e617"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "Properties" "Highlighted"
+data "BoostConditions" "HasPassive('Vamp_BloodPool11')"
+data "Boosts" "UnlockSpell(Zone_Vamp_RoaringThunder);ObjectSize(+1);ScaleMultiplier(1.33);WeightCategory(+1);"
+
+//----------------------------Level 17 Beastial Passives----------------------------//
+
+new entry "Vamp_BestialDamageImmunity"
+type "PassiveData"
+data "DisplayName" "h9f2205a3gf19bg44b3g81d5g3e5ea0386d57"
+data "Description" "hb0e6b28egbb27g420agb21cgcc6a9227e617"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasPassive('Vamp_BloodPool17')"
+data "Boosts" "Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);Resistance(Fire,Resistant);Resistance(Cold,Resistant);Resistance(Lightning,Resistant);Resistance(Acid,Resistant);Resistance(Poison,Resistant);Resistance(Force,Resistant);Resistance(Psychic,Resistant);CriticalHit(AttackTarget,Success,Never)"
+
+new entry "Vamp_BestialSavingThrows"
+type "PassiveData"
+data "DisplayName" "h8cf5de3cg4f0cg4712gbf60g52e7a96a79f2"
+data "Description" "h5622b633g0084g47a6gbd1ege53efbc0bab0"
+data "Icon" "TadpoleSuperPower_MindSanctuary"
+data "Properties" "IsHidden"
+data "Conditions" "HasPassive('Vamp_BloodPool17')"
+data "StatsFunctorContext" "OnDamaged"
+data "StatsFunctors" "IF(IsSpell()):Advantage(AllSavingThrows)"
+
+new entry "Vamp_BestialGreaterCreature"
+type "PassiveData"
+data "DisplayName" "h5aeb95ffgba95g4890g8524g38da0b19e977"
+data "Description" "h8a37e1cbgba93g44b0gaf52g8c2503b69edc"
+data "Icon" "Skill_Druid_WildShape"
+data "Properties" "Highlighted"
+
+//----------------------------Level 3 Ghoulish Passives----------------------------//
+
+new entry "Vamp_GhoulishClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_ClawsGhoulish"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Boosts" "UnlockSpell(Vamp_Claws_Ghoulish_Con);AttackSpellOverride(Vamp_Claws_Ghoulish_Unlinked, Target_UnarmedAttack);UnlockInterrupt(Interrupt_Vamp_Claws_Ghoulish)"
+
+//----------------------------Level 7 Ghoulish Passives----------------------------//
+
+new entry "Vamp_PassiveFeedingFrenzyTechnical"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "IsHidden"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsKillingBlow()"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusFeedingFrenzyTechnical,100,1)"
+
+new entry "Vamp_PassiveFeedingFrenzy"
+type "PassiveData"
+data "DisplayName" "hcfc7c9e9g2c97g4d2agad75g90660b42b3b4" 
+data "Description" "h250ee8a2g815cg476cga684gf12750d48dc8" 
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_FeedingFrenzyCon)"
+
+//----------------------------Level 11 Ghoulish Passives----------------------------//
+
+new entry "Vamp_ClawsGhoulish_1"
+type "PassiveData"
+data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67" 
+data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Vamp_Claws_Ghoulish);UnlockInterrupt(Interrupt_Vamp_Claws_Ghoulish_1)"
+
+//----------------------------Level 17 Ghoulish Passives----------------------------//
+
+new entry "Vamp_PassiveGhoulLord"
+type "PassiveData"
+data "DisplayName" "hbfbaa147ge979g42a9g8083gf2db46f454b2"
+data "Description" "h1aa40631g67a8g4a6dgbd4eg6d750d27061b"
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('Vamp_StatusGhoulLordTechnical_1',context.Target)"
+data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusGhoulLordTechnical,100,1)"
+
+//----------------------------Level 3 Blood Features----------------------------//
+
+new entry "Vamp_PassiveAnimalism""
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h56699d1dg4695g4cbdg8683gdf083b52f988" 
+data "Description" "he4e4ff78g79edg4041gb8d3g587f3db53260" 
+data "Icon" "Spell_Enchantment_DominateBeast"
+data "Boosts" "UnlockSpell(Vamp_DominateBeast)"
+
+new entry "Vamp_PassiveLacedonBlood""
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "he4bcf0e1g6600g4d8fgae4eg56fa44120c07" 
+data "Description" "h914d40cfgdafdg45f8gbbdcg42fdeaba50dd" 
+data "Icon" "GenericIcon_DamageType_Cold"
+data "Boosts" "Resistance(Cold, Resistant)"
+
+//----------------------------Level 7 Blood Features----------------------------//
+
+new entry "Vamp_PassiveGnawingHunger"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h8be266e5g1331g4f16gafe7gbd3427f6cccc" 
+data "Description" "h91d6e1f6gb06dg4a53ga875gf48073fd5884" 
+data "Icon" "Action_Monster_Bulette_Bite"
+data "Boosts" "UnlockSpell(Vamp_GnawingHunger)"
+
+//----------------------------Level 3 Impaler Passives----------------------------//
+
+new entry "Vamp_ImpalerClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_DreadedWarrior"
+type "PassiveData"
+data "DisplayName" "h1a23885bg5f13g4aa4gae70g6b3e9e944abb" 
+data "Description" "h95a150ffg5fb7g4a92g87aegfbc72cef3f60" 
+data "Icon" "PassiveFeature_FiendishResilience"
+data "Properties" "Highlighted"
+data "Boosts" "IncreaseMaxHP(ClassLevel(Vampire))"
+
+new entry "Vamp_FlavouredEnemy"
+type "PassiveData"
+data "DisplayName" "h2bfc9ea9g4392g48cdg83ceg19b307c0cbb1"
+data "Description" "h6553653eg9256g40dcgb142g15f77ba1080b"
+data "Icon" "PassiveFeature_FavoredEnemy_KeeperOfTheVeil"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusFlavouredEnemy,100,-1)"
+
+//might need to apply different self vs target
+new entry "Vamp_FlavouredEnemyTechnical"
+type "PassiveData"
+data "DisplayName" "h2bfc9ea9g4392g48cdg83ceg19b307c0cbb1"
+data "Description" "h6553653eg9256g40dcgb142g15f77ba1080b"
+data "Icon" "TadpoleSuperPower_MindSanctuary"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged"
+data "Boosts" "ProficiencyBonus(Skill,Survival)"
+data "StatsFunctors" "IF(HasStatus('Vamp_StatusFlavouredEnemy',context.Self) and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(All,Half)"
+
+//----------------------------Level 7 Impaler Passives----------------------------//
+
+new entry "Vamp_PassiveCarnalRenewal"
+type "PassiveData"
+data "DisplayName" "ha2bb110bgf4d2g4a47gb141g1cda5ca09101"
+data "Description" "h77607cc5g4926g4718g8aa6g17dba1fb2347"
+data "DescriptionParams" "RegainHitPoints(0);GainTemporaryHitPoints(ConstitutionModifier+ProficiencyBonus)"
+data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
+data "Icon" "PassiveFeature_DarkOnesBlessing"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "IF(HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):RegainHitPoints(SELF, ConstitutionModifier+ProficiencyBonus);IF(not HasStatus('Vamp_StatusFlavouredEnemy',context.Target)):ApplyStatus(SELF,Vamp_StatusCarnalRenewal,100,-1);RestoreResource(SELF, Vamp_BloodPool,1,0)"
+
+//----------------------------Level 11 Impaler Passives----------------------------//
+
+new entry "Vamp_PassiveDecreeofDeath"
+type "PassiveData"
+data "DisplayName" "h2fe74485g2c73g4ce4g9256ge170815cade1"
+data "Description" "h20e83ee2g768fg4dbegb816gd13f591a6346"
+data "Icon" "Action_Paladin_AbjureEnemy"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Vamp_DecreeofDeath_Con)"
+
+//----------------------------Level 17 Impaler Passives----------------------------//
+
+new entry "Vamp_PassiveMerciless"
+type "PassiveData"
+data "DisplayName" "h1d73deadg2c34g447fga490g6030f1ba2ea4"
+data "Description" "h917ce4f7gf853g4a99ga31ag1a0fc01a86a4"
+data "Icon" "PassiveFeature_ImprovedCritical"
+data "Properties" "Highlighted"
+data "Boosts" "ReduceCriticalAttackThreshold(1);UnlockSpell(Shout_Vamp_Merciless);UnlockInterrupt(Interrupt_Vamp_Merciless)"
+
+//----------------------------Level 3 Blood Features----------------------------//
+
+new entry "Vamp_PassiveAcquiredTaste"
+type "PassiveData"
+data "DisplayName" "he2cd34b4gc790g47d6gbcfdg0249c4867095"
+data "Description" "h111a1330g0426g42b7gac62gfd3ad268e694"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(SpellId('Vamp_Bite') or SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')) and HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('Vamp_FlavouredEnemy', context.Target)"
+data "StatsFunctors" "IF(SpellId('Vamp_Bite')):RestoreResource(SELF, Vamp_BloodFeature,1,0);IF(SpellId('Vamp_Bonus_Bite') or SpellId('Vamp_AssassinFang')):ApplyStatus(SELF,Vamp_RestoreBloodPool1,100,1)"
+
+new entry "Vamp_PassiveAcquiredTaste_LRW"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassivePointedStrike"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h8ec5c189g2604g494egbd63gd0d311643c3d" 
+data "Description" "haee0725fgc6b7g4c79gbe7eg4460869c4fc0" 
+data "Icon" "Action_PrecisionAttack"
+data "Boosts" "UnlockInterrupt(Interrupt_PointedStrike_1);UnlockInterrupt(Interrupt_PointedStrike_2);UnlockInterrupt(Interrupt_PointedStrike_3);UnlockInterrupt(Interrupt_PointedStrike_4);UnlockInterrupt(Interrupt_PointedStrike_5);UnlockInterrupt(Interrupt_PointedStrike_6);"
+
+new entry "Vamp_PassiveBloodSpike"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h621cfeabga79bg4f69g8860g81e9b8feb2e8"
+data "Description" "hff595865g114bg4fe3gb3cbgb93a55f08642"
+data "Icon" "Spell_Conjuration_IceKnife"
+data "Boosts" "UnlockSpell(Target_Vamp_BloodSpike_Con)"
+
+//----------------------------Level 5 Blood Features----------------------------//
+
+new entry "Vamp_PassiveEscapeRoute"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "hd6323f71g0632g4631g9743gd61b6158f770" 
+data "Description" "h757b04b9g81d3g46cagb3d4ga13b4f17e7a6" 
+data "Icon" "Action_ManeuveringAttack_Melee"
+data "Boosts" "UnlockSpell(Target_Vamp_EscapeRoute_Con)"
+
+new entry "Vamp_PassiveImpalersCommand"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h5b6dca69g4443g457agbc38gd44e84dae5f1"
+data "Description" "h630846d1ga451g4b5fg9a7dg793891d449b6"
+data "Icon" "Action_CommandersStrike"
+data "Boosts" "UnlockSpell(Target_Vamp_ImpalersCommand_Con)"
+
+//----------------------------Level 7 Blood Features----------------------------//
+
+new entry "Vamp_PassiveArmoredTitan"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8" 
+data "Description" "h29f4af2bg6f61g4b01gbfd1g092a5933b497" 
+data "Icon" "Spell_Abjuration_GlobeOfInvulnerability"
+data "Boosts" "UnlockInterrupt(Interrupt_Vamp_ArmoredTitan)"
+
+//----------------------------Level 9 Blood Features----------------------------//
+
+new entry "Vamp_PassiveSacrificialSummoningLWR"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveSacrificialSummoning"
+type "PassiveData"
+data "DisplayName" "hbe34b4c4g2375g4a4egb7e8g21d39ce52831"
+data "Description" "h5de13ba2gb3cag4ca0g8395g5db83345b23c"
+data "DescriptionParams" ""
+data "Icon" "Action_SacrificeToLoviatar"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "RegainHitPoints(100);Resurrect(100,100);RestoreResource(Movement, 100%, 0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1);ApplyStatus(SacrificialSummon_UNDEAD_NEW,100,1)"
+
+//----------------------------Level 3 Refined Passives----------------------------//
+
+new entry "Vamp_RefinedClass"
+type "PassiveData"
+data "DisplayName" "h139819ecgf6b5g42bdg974fg71e23e9f4d51"
+data "Properties" "IsHidden"
+
+new entry "Vamp_PassiveHemorrhagicCasting_1"
+type "PassiveData"
+data "DisplayName" "h8a1ac902g523bg4a48g892eg03d6c0dd6766"
+data "Description" "h615c7d9dgade9g45f8gb7a3g6d843624cd78"
+data "Icon" "Status_Bleeding"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "Conditions" "SpellId('Vamp_Feed')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,1,0)"
+
+new entry "Vamp_PassiveHemorrhagicCasting_2"
+type "PassiveData"
+data "DisplayName" "h8a1ac902g523bg4a48g892eg03d6c0dd6766"
+data "Description" "h615c7d9dgade9g45f8gb7a3g6d843624cd78"
+data "Icon" "Status_Bleeding"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "Conditions" "SpellId('Vamp_Feed')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,2,0)"
+
+new entry "Vamp_PassiveHemorrhagicCasting_3"
+type "PassiveData"
+data "DisplayName" "h8a1ac902g523bg4a48g892eg03d6c0dd6766"
+data "Description" "h615c7d9dgade9g45f8gb7a3g6d843624cd78"
+data "Icon" "Status_Bleeding"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "Conditions" "SpellId('Vamp_Feed')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,3,0)"
+
+new entry "Vamp_PassiveHemorrhagicCasting_4"
+type "PassiveData"
+data "DisplayName" "h8a1ac902g523bg4a48g892eg03d6c0dd6766"
+data "Description" "h615c7d9dgade9g45f8gb7a3g6d843624cd78"
+data "Icon" "Status_Bleeding"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "Conditions" "SpellId('Vamp_Feed')"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "IF(Tagged('HUMANOID')):RestoreResource(SELF, Vamp_BloodPool,4,0)"
+
+new entry "Vamp_PassiveHemorrhagicCastingTechnical"
+type "PassiveData"
+data "DisplayName" "h8a1ac902g523bg4a48g892eg03d6c0dd6766"
+data "Description" "h615c7d9dgade9g45f8gb7a3g6d843624cd78"
+data "Icon" "Status_Bleeding"
+data "Properties" "IsHidden"
+data "Boosts" "IF(IsCantrip()):DamageBonus(max(0, CharismaModifier))"
+
+//----------------------------Level 7 Refined Passives----------------------------//
+
+new entry "Vamp_PassiveRoyalLineage"
+type "PassiveData"
+data "DisplayName" "h40e21dc4g7ddag4e4bg9592g025951ed2916"
+data "Description" "h84ab2a3bg3fe9g40efg83c2g21b832800fb2"
+data "Icon" "Skill_Fighter_ActionSurge"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Vamp_BeguilingGaze)"
+data "StatsFunctorContext" "OnCreate"
+data "StatsFunctors" "IF(HasStatus('Vamp_StatusBeguilingGaze')):RestoreResource(SELF, Vamp_BloodFeature,1,0);IF(HasStatus('Vamp_StatusBeguilingGaze')):RemoveStatus(Vamp_StatusBeguilingGaze);"
+
+//----------------------------Level 11 Refined Passives----------------------------//
+
+new entry "Vamp_PassivePhantomFangs"
+type "PassiveData"
+data "DisplayName" "h40191159gd449g4b4cg8c98ge809938b19d8" 
+data "Description" "h149c139agd76eg4bd5ga66bg85df3267ce6d" 
+data "Icon" "Action_VampireBite"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Vamp_PhantomFangs)"
+
+//----------------------------Level 17 Refined Passives----------------------------//
+
+new entry "Vamp_PassiveBloodofLazarus"
+type "PassiveData"
+data "DisplayName" "h1f58c9bdge5fcg47d1gb04bg2df40d974961"
+data "Description" "h3e195634g56ebg4873ga75ag3d70434f725e"
+data "Conditions" "HasHPLessThan(1) and Character()"
+data "Properties" "OncePerLongRest;Highlighted"
+data "Icon" "PassiveFeature_Generic_Death"
+data "StatsFunctors" "ApplyStatus(Vamp_BloodBlock,100,2);ApplyStatus(Vamp_BlockLazarus,100,-1);RestoreResource(SELF, Vamp_BloodPool,-100%,0);ApplyStatus(Vamp_BlockBloodofLazarusTechnical1,100,0)"
+data "StatsFunctorContext" "OnDamaged"
+
+new entry "Vamp_PassiveBloodofLazarusTechnical"
+type "PassiveData"
+data "DisplayName" "h40191159gd449g4b4cg8c98ge809938b19d8" 
+data "Description" "h149c139agd76eg4bd5ga66bg85df3267ce6d" 
+data "Icon" "Action_VampireBite"
+data "Properties" "IsHidden"
+data "Conditions" "not HasStatus('Vamp_BlockLazarus') and not HasStatus('Vamp_StatusBloodofLazarusTechnical')"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(Vamp_StatusBloodofLazarusTechnical,100,-1);"
+
+//----------------------------Level 3 Blood Features----------------------------//
+
+new entry "Vamp_PassiveSmacktalk"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "hdb7cb080gb4cag440agbee0g0dd91e0fbd89"
+data "Description" "h90e4294agba32g4075ga7cbgabedc3efdf46"
+data "Icon" "Action_GoadingAttack_Melee"
+data "Boosts" "UnlockSpell(Target_Vamp_Smacktalk_Con)"
+
+new entry "Vamp_PassiveSwindlingStrike"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h722d31f6ge8dcg4740gb20ag1c6ba8612e61"
+data "Description" "hca6a1615gbf69g4517g8076gf81b012e20c9"
+data "Icon" "Action_FeintingAttack"
+data "Boosts" "UnlockSpell(Target_Vamp_SwindlingStrike_Con)"
+
+//----------------------------Level 9 Blood Features----------------------------//
+
+// new entry "Vamp_PassiveExsanguination"
+// type "PassiveData"
+// data "Icon" "Skill_Wizard_ArcaneRecovery"
+// data "DisplayName" "h3d6cf6a5g1cb6g4262g9424gce060bb03c65"
+// data "Description" "h75fd0cd3g172fg4f3cgbd14g7a41ab3eff05"
+// data "Properties" "Highlighted"
+// data "Boosts" "UnlockSpell(Shout_Exsanguination)"
+// data "StatsFunctorContext" "OnLongRest"
+// data "StatsFunctors" "RestoreResource(SELF, Vamp_BloodFeature,-1,0)"
