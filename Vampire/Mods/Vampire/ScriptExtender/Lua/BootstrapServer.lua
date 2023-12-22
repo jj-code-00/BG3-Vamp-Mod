@@ -169,7 +169,7 @@ end)
 --Start: Functions for feeding on lover bonus
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
-    if Osi.IsPlayer(object) == 1 then
+    if Osi.IsPlayer(object) == 1 and Osi.IsTagged(object, "Avatar") == 0 then
         if status == "Vamp_Fed" and Osi.GetApprovalRating(object, causee) >= 81 then
             Osi.ApplyStatus(causee,"Vamp_Fed_HAPPYLover",-1, 100,object)
         end
