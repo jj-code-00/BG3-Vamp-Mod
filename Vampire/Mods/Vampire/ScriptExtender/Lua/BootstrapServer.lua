@@ -95,23 +95,56 @@ end)
 --Start: Functions for what characters a vampire can feed on
 
 Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function (character)
-    Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+    if Osi.HasActiveStatus(character, "Vamp_StatusCanFeed") == 0 and Osi.HasPassive(character,"Sanguinare_Vampiris") == 0 then
+        Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+    end
 end)
 
 Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", function (character)
-    Osi.RemoveStatus(character, "Vamp_StatusCanFeed", character)
+    if Osi.HasActiveStatus(character, "Vamp_StatusCanFeed") == 1 then
+        Osi.RemoveStatus(character, "Vamp_StatusCanFeed", character)
+    end
 end)
 
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function ()
     for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
         local character = string.sub(v[1],-36)
-        if (Osi.HasPassive(character,"Sanguinare_Vampiris") == 0) then
+        if Osi.HasPassive(character,"Sanguinare_Vampiris") == 0 and Osi.HasActiveStatus(character, "Vamp_StatusCanFeed") == 0 then
+            Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+        end
+    end
+end)
+
+Ext.Osiris.RegisterListener("CombatEnded", 1, "after", function (combatGuid)
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        local character = string.sub(v[1],-36)
+        if Osi.HasPassive(character,"Sanguinare_Vampiris") == 0 and Osi.HasActiveStatus(character, "Vamp_StatusCanFeed") == 0 then
+            Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
+        end
+    end
+end)
+
+Ext.Osiris.RegisterListener("TeleportToFromCamp", 1, "after", function (_character)
+    for i,v in ipairs(Osi.DB_PartyMembers:Get(nil)) do
+        local character = string.sub(v[1],-36)
+        if Osi.HasPassive(character,"Sanguinare_Vampiris") == 0 and Osi.HasActiveStatus(character, "Vamp_StatusCanFeed") == 0 then
             Osi.ApplyStatus(character, "Vamp_StatusCanFeed", -1, 100, character)
         end
     end
 end)
 
 --End: Functions for what characters a vampire can feed on
+
+--Start: Function for changing feed status if player
+
+Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
+    if Osi.IsPlayer(object) == 1 and status == "Vamp_Fed" then
+         Osi.RemoveStatus(object, "Vamp_Fed", object)
+         Osi.ApplyStatus(object, "Vamp_Fed_Player", -1, 100, object)
+    end
+end)
+
+--End: Function for changing feed status if player
 
 --Start: Functions for if the vampire can respec
 
@@ -136,7 +169,7 @@ end)
 --Start: Functions for feeding on lover bonus
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
-    if Osi.IsPlayer(object) == 0 and Osi.IsCharacter(object) == 1 then
+    if Osi.IsPlayer(object) == 1 and Osi.IsTagged(object, "Avatar") == 0 then
         if status == "Vamp_Fed" and Osi.GetApprovalRating(object, causee) >= 81 then
             Osi.ApplyStatus(causee,"Vamp_Fed_HAPPYLover",-1, 100,object)
         end
