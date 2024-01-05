@@ -202,7 +202,7 @@ data "DisplayName" "h3e4c291fg39f2g441eg8e9egd9d4c1781f67"
 data "Description" "h4259269ag1168g4572g8dfcgd79c7ef58425" 
 data "Properties" "IsHidden"
 data "BoostConditions" "not HasPassive('Vamp_PassiveLacedonBlood',context.Source)"
-data "Boosts" "Vamp_RUNNING_WATER_VAMPIRE"
+data "Boosts" ""
 
 new entry "Vamp_SunlightSensitivity"
 type "PassiveData"
@@ -301,7 +301,8 @@ data "Description" "hefeccc68g4494g434cga16ag42a1ef5cf193"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCreate"
 data "Icon" "Spell_Divination_SeeInvisibility"
-data "StatsFunctors" "ApplyStatus(Vamp_SEE_INVISIBILITY, 100, -1);StatusImmunity(TURNED)"
+data "StatsFunctors" "ApplyStatus(Vamp_SEE_INVISIBILITY, 100, -1)"
+data "Boosts" "StatusImmunity(TURNED)"
 
 //----------------------------Level 13 Vampire Passives----------------------------//
 
@@ -1062,7 +1063,7 @@ data "StatsFunctors" "ApplyStatus(SELF,Vamp_StatusGhoulLordTechnical,100,1)"
 
 //----------------------------Level 3 Blood Features----------------------------//
 
-new entry "Vamp_PassiveAnimalism""
+new entry "Vamp_PassiveAnimalism"
 type "PassiveData"
 using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "h56699d1dg4695g4cbdg8683gdf083b52f988" 
@@ -1070,7 +1071,7 @@ data "Description" "he4e4ff78g79edg4041gb8d3g587f3db53260"
 data "Icon" "Spell_Enchantment_DominateBeast"
 data "Boosts" "UnlockSpell(Vamp_DominateBeast)"
 
-new entry "Vamp_PassiveLacedonBlood""
+new entry "Vamp_PassiveLacedonBlood"
 type "PassiveData"
 using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "he4bcf0e1g6600g4d8fgae4eg56fa44120c07" 
