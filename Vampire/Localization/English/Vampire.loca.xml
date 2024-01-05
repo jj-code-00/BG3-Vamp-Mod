@@ -219,4 +219,5 @@
 	<content contentuid="hcbb266d8gb969g4a41g8e7bg3cc2de2cae75" version="1">Controlled Thirst</content>
 	<content contentuid="h8cf388cdg47aag48beg936dgb9f504c1a339" version="1">This vampire has controlled their thirst for blood. At least for the moment.</content>
 	<content contentuid="he6d29198g7905g41baga375g97421af4038a" version="1">This Vampire's hunger has been temporarily sated. +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h57e34742g2506g4335gbf51g7ae778331b81" version="1">Skulkling: Creepy Crawler</content>
 </contentList>
