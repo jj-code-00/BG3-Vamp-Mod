@@ -525,7 +525,7 @@ new entry "Vamp_PassiveMistyEscape"
 type "PassiveData"
 using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "he7875c02gd065g4febg83a9g8dbbe4470aca"
-data "Description" "ha7b80c7cg5bd5g4398g84b8g218709171b1f"
+data "Description" "h0ec60b34gf7e0g4cbbg91f7gf9c5e781a48d;1"
 data "Icon" "PassiveFeature_MistyEscape"
 data "Boosts" "UnlockInterrupt(Interrupt_Vamp_MistyEscape)"
 

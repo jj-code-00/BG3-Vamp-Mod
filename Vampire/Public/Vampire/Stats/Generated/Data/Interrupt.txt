@@ -137,20 +137,13 @@ data "Conditions" "IsAbleToReact(context.Observer) and not Item() and SpellId('V
 data "Properties" "DealDamage(3d6,Piercing)"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:6"
 
+//add requirement for mist form mb?//
 new entry "Interrupt_Vamp_MistyEscape"
 type "InterruptData"
-data "DisplayName" "he7875c02gd065g4febg83a9g8dbbe4470aca"
-data "Description" "ha7b80c7cg5bd5g4398g84b8g218709171b1f"
-data "Icon" "PassiveFeature_MistyEscape"
-data "InterruptContext" "OnPreDamage"
-data "InterruptContextScope" "Self"
-data "Container" "YesNoDecision"
-data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not AnyEntityIsItem()"
-data "Properties" "ApplyStatus(GASEOUS_FORM,100,1)"
+using "Interrupt_MistyEscape"
 data "Cost" "ReactionActionPoint:1;Vamp_BloodPool:2"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "(not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER'))"
-data "EnableContext" "OnStatusApplied"
+data "EnableCondition" "HasActionResource('Vamp_BloodPool', 2, 0, false, false, context.Source) and (not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER') or HasStatus('SG_Disguise'))"
 
 //----------------------------Level 3 Blood Features----------------------------//
 

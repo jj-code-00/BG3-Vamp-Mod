@@ -38,8 +38,8 @@
 	<content contentuid="h98e5c053g7160g48b0g9f6ag6f123613c14b" version="1">Immunity to poison damage and poisoned and dieseased statuses. Req: lvl 1.</content>
 	<content contentuid="hce9e36f8g6fbeg4f5ega0efg016e789cc143" version="1">Skulkling: NightStalker</content>
 	<content contentuid="hce4e0d93ge91bg4454ga2d4gc691687d33a7" version="1">Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. Your Base speed increases by 10 feet. In addition, you can spend 2 Blood to gain advantage on Dexterity (Stealth) checks for 1 hour.</content>
-	<content contentuid="h3cb906c4g5540g407egb369gac39c71bd43c" version="1">Nimble Movement</content>
-	<content contentuid="h951885e9ge864g4570gbd77ge60dad4fe5ea" version="1">Allows the vampire to spend 2 blood points to take the Dash or Disengage action as a bonus action. Req: lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="h3cb906c4g5540g407egb369gac39c71bd43c" version="1">Skulkling: Nimble Movement</content>
+	<content contentuid="h951885e9ge864g4570gbd77ge60dad4fe5ea" version="1">You spend this Blood as a Bonus Action; you can take the Dash, Disengage, or Dodge action as part of this Bonus Action on your turn after you spend this Blood.</content>
 	<content contentuid="hda170f8cg1297g4e25g9c31g7e5178919d78" version="1">Shoving Attack</content>
 	<content contentuid="h79032d1dga5d0g4803ga7ccg4306c545540f" version="1">Pushes the creature back, and deals extra damage based on blood points. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="hb3d447c9gb2e2g40d7ga41dga80f26823e34" version="1">Spies In The Night</content>
@@ -50,7 +50,7 @@
 	<content contentuid="h0b8c0913g9219g41a3g8a45g3bd9cf679d58" version="1">When a target misses you can spend 1 blood point to attack them with your claws. Req: lvl 1, 1 blood pool points to use.</content>
 	<content contentuid="h2c323f38gc077g497dg8b66gd1babf395ef4" version="1">Assassin's Fangs</content>
 	<content contentuid="hba29a213g8bffg4a67gb214gd647f16ebfbc" version="1">You may use your Bite attack against a surprised or unaware target, even if they don't meet the normal requirements for your Bite. Req: lvl 3, 2 blood pool points to use.</content>
-	<content contentuid="he7875c02gd065g4febg83a9g8dbbe4470aca" version="1">Misty Escape</content>
+	<content contentuid="he7875c02gd065g4febg83a9g8dbbe4470aca" version="1">Skulking: Misty Escape</content>
 	<content contentuid="ha7b80c7cg5bd5g4398g84b8g218709171b1f" version="1">When you are targeted by an attack from a creature that you can see, you can use your reaction to turn into mist.</content>
 	<content contentuid="hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5" version="1">Blood Barrier</content>
 	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp based on bp spent and retaliating with 1d10 necrotic damage.</content>
@@ -66,8 +66,8 @@
 	<content contentuid="he6c5a0aeg3cabg4526ga2c4gbda25e38a8d4" version="1">By spending this Blood, you can have your next unarmed Claw attack deal Acid damage instead of Slashing damage.</content>
 	<content contentuid="h2570d1e9gf833g4b89gb428g04739ff647d6" version="1">Backstabber</content>
 	<content contentuid="h6bd1752dg4805g47a9ga94fg6b34261e240e" version="1">When you hit a creature with a weapon or spell attack, you can spend Blood to distract the creature, giving your allies an opening. You add the Blood spent to the attack’s damage roll in the form of necrotic damage. The next attack roll against the target by an attacker other than you has advantage for the next turn.</content>
-	<content contentuid="hc228648cge98eg489dgbc06g15e130535145" version="1">Mist Form</content>
-	<content contentuid="h660cf75cg9742g4f9agb36cgf9b154391546" version="1">You can use an action to turn into Mist by spending 2 Blood. Requires Misty Escape.</content>
+	<content contentuid="hc228648cge98eg489dgbc06g15e130535145" version="1">Skulking: Mist Form</content>
+	<content contentuid="h660cf75cg9742g4f9agb36cgf9b154391546" version="1">You can use an action to turn into a Medium Mist by spending 2 Blood.</content>
 	<content contentuid="h56a8848bgd486g441cgaf5egc41f5bb58ace" version="1">Knock-Off</content>
 	<content contentuid="h7a071563gd161g4afagae33gfde4a72745c3" version="1">When you hit a creature with an attack, you can spend Blood to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the Blood spent to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</content>
 	<content contentuid="h5e381460ga211g4608gb6ddg50f8204911a5" version="1">Parry</content>
@@ -85,8 +85,8 @@
 	<content contentuid="h7ee922bbg90e3g4fddgac54ge15e9730d845" version="1">When you hit a creature with a weapon attack, you can spend Blood to attempt to frighten the target. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</content>
 	<content contentuid="he0d7fa58g63deg46dfg8eb9gfb57e5937811" version="1">Innate Weaponry: Hemorrhaging Claws</content>
 	<content contentuid="h09865592g4b81g443cgbd0ag16c2cf671509" version="1">Before you make an unarmed attack on your turn, you can spend 2 Blood to cause your attacks to make the target bleed viciously. On a hit, they make a Constitution saving throw at the start of their turns for the next minute. On a failed save, they take additional Necrotic damage equal to your Constitution Modifier. On a success, they do not take this damage. They repeat this saving throw at the start of their turns for the entire duration.</content>
-	<content contentuid="h05870fc3g1c87g444dgb98bg45003413ca25" version="1">Supernatural Reflexes</content>
-	<content contentuid="hfbd8e981g68b9g4354gaaa8g5bc39ba63f1f" version="1">Your vampiric agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can instead take no damage if you succeed on the saving throw, and only half damage if you fail.</content>
+	<content contentuid="h05870fc3g1c87g444dgb98bg45003413ca25" version="1">Skulking: Supernatural Reflexes</content>
+	<content contentuid="hfbd8e981g68b9g4354gaaa8g5bc39ba63f1f" version="1">Your vampiric agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can spend a Blood as a reaction and instead take no damage if you succeed on the saving throw, and only half damage if you fail. This Blood may be spent after you roll, but before the effects of that roll take place.</content>
 	<content contentuid="hf415764eg7d99g45b2gbc36gdd0bb9e9c1f2" version="1">Vampire Feed</content>
 	<content contentuid="h11a15bafg5edcg464fgb62dga6df378fc33f" version="1">Feed on a willing, charmed, or incapacitated creature that isn't an Undead, Construct, Plant or Ooze. When you Feed in this way, the creature takes no damage. You recover one Blood for each Hit Die lost in this way; humanoids restore twice as much Blood.</content>
 	<content contentuid="h4555e802g55ffg4b46gbad5g603f5d72e889" version="1">Vampire Drained</content>
