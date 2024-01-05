@@ -36,8 +36,8 @@
 	<content contentuid="h81b54b34g2229g4578gb1e0g1269dbba2c6b" version="1">Spend Blood Feature points to use your vampiric powers in new ways. If you fail to meet the requirements for a feature your point will be refunded after a turn.</content>
 	<content contentuid="he5093590g7576g4172g8419gb789085ad728" version="1">Necrology</content>
 	<content contentuid="h98e5c053g7160g48b0g9f6ag6f123613c14b" version="1">Immunity to poison damage and poisoned and dieseased statuses. Req: lvl 1.</content>
-	<content contentuid="hce9e36f8g6fbeg4f5ega0efg016e789cc143" version="1">NightStalker</content>
-	<content contentuid="hce4e0d93ge91bg4454ga2d4gc691687d33a7" version="1">Spend two Blood points to get advantage on stealth checks for one hour. Req: lvl 1, 2 blood pool points to use.</content>
+	<content contentuid="hce9e36f8g6fbeg4f5ega0efg016e789cc143" version="1">Skulkling: NightStalker</content>
+	<content contentuid="hce4e0d93ge91bg4454ga2d4gc691687d33a7" version="1">Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. Your Base speed increases by 10 feet. In addition, you can spend 2 Blood to gain advantage on Dexterity (Stealth) checks for 1 hour.</content>
 	<content contentuid="h3cb906c4g5540g407egb369gac39c71bd43c" version="1">Nimble Movement</content>
 	<content contentuid="h951885e9ge864g4570gbd77ge60dad4fe5ea" version="1">Allows the vampire to spend 2 blood points to take the Dash or Disengage action as a bonus action. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="hda170f8cg1297g4e25g9c31g7e5178919d78" version="1">Shoving Attack</content>
@@ -220,4 +220,6 @@
 	<content contentuid="h8cf388cdg47aag48beg936dgb9f504c1a339" version="1">This vampire has controlled their thirst for blood. At least for the moment.</content>
 	<content contentuid="he6d29198g7905g41baga375g97421af4038a" version="1">This Vampire's hunger has been temporarily sated. +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h57e34742g2506g4335gbf51g7ae778331b81" version="1">Skulkling: Creepy Crawler</content>
+	<content contentuid="h914c6482g48ebg4af6gbc80g1d16f317dec5" version="1">Dark Leather Armor</content>
+	<content contentuid="hb9bdc147g8c6ag44f1ga835gb40ef7207d8a" version="1">A red and black leather outfit that smells slightly of blood.</content>
 </contentList>

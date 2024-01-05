@@ -1,0 +1,9 @@
+new entry "ARM_Robe_Vampire"
+type "Armor"
+using "ARM_Leather_Body"
+data "RootTemplate" "bae3547c-b4ec-4395-ab36-d2aa1e9cffad"
+
+new entry "ARM_Shoes_Vampire"
+type "Armor"
+using "ARM_Shoes"
+data "RootTemplate" "6cf41910-0a9d-4adb-9697-32fa069d7e29"

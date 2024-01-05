@@ -36,9 +36,9 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Shortsword"
 add equipmentgroup
-add equipment entry "ARM_Leather_Body"
+add equipment entry "ARM_Robe_Vampire"
 add equipmentgroup
-add equipment entry "ARM_Boots_Leather"
+add equipment entry "ARM_Shoes_Vampire"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
