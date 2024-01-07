@@ -15,18 +15,18 @@
 	<content contentuid="h5ed098cag2d2ag4318g93f2g66996e876e95" version="1">Blood Pool</content>
 	<content contentuid="h139819ecgf6b5g42bdg974fg71e23e9f4d51" version="1">Blood Pool Feature</content>
 	<content contentuid="ha77841fbg925eg4aa4gbd5aga6c535530d05" version="1">This resource allows you to select blood features. The number of blood feature points you have dictates how many features you can have at once.</content>
-	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
+	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Magical: Sanguine Talons</content>
 	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws and bite now count as magical for the purposes of overcoming resistances.</content>
 	<content contentuid="hbfbaa147ge979g42a9g8083gf2db46f454b2" version="1">Innate Weaponry: Agonizing Vampire Bite</content>
 	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">Your fangs become longer and deadlier. You add your Constitution modifier to the amount of Necrotic damage dealt by your Bite.</content>
-	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Beguiling Gaze</content>
+	<content contentuid="h081f33ecg527ag4357ga6a3gb5cb77f69bff" version="1">Magical: Beguiling Gaze</content>
 	<content contentuid="h66800adbgb5a1g44fdg8ce2g7b8c7cb6286d" version="1">Vampiric ability to charm people. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h7a3508acga44eg4603g9fb7ge182386402da" version="1">Innate Weaponry: Draining Vampire Bite</content>
 	<content contentuid="h4ddaa83fgff27g4bd9g894fgf657e0702afb" version="1">You can spend Blood to Bite a creature as a Bonus action, regardless of the normal restrictions of your Bite attack.</content>
 	<content contentuid="h70dc31c1g9129g44eeg93c1g0b388dc5479b" version="1">Grappled</content>
 	<content contentuid="haa2bcf5ag5c7ag4f16gb565gcaadbdfd5fcc" version="1">Grappling</content>
 	<content contentuid="he763b48ag813cg479ega464gfb86c2b3e3bf" version="1">Target cannot Move</content>
-	<content contentuid="h7f7db409g26feg4f5dg9e3bgf0f91c79957f" version="1">Echolocation</content>
+	<content contentuid="h7f7db409g26feg4f5dg9e3bgf0f91c79957f" version="1">Shapechanger: Echolocation</content>
 	<content contentuid="h6fcfb624g4d4bg4823g8883g6f228d619a61" version="1">Gives the vampire blindsight for one minute. Req: lvl 1, 2 blood pool points to use.</content>
 	<content contentuid="h5096965eg2130g40fdgb947gc6bf40a1c985" version="1">Access to Vampire Echolocation.</content>
 	<content contentuid="hfd449628g897fg41abgaf65gc739620ddfdc" version="1">Gives Blindsight.</content>
@@ -34,7 +34,7 @@
 	<content contentuid="h45c74bfbga54cg4bd3gaad3ga0b97dbe88b0" version="1">Refunds all Blood Features to select new ones.</content>
 	<content contentuid="hb8c1d92fg8bffg4811ga2cegf1d6cd014ddf" version="1">Choose Blood Features</content>
 	<content contentuid="h81b54b34g2229g4578gb1e0g1269dbba2c6b" version="1">Spend Blood Feature points to use your vampiric powers in new ways. If you fail to meet the requirements for a feature your point will be refunded after a turn.</content>
-	<content contentuid="he5093590g7576g4172g8419gb789085ad728" version="1">Necrology</content>
+	<content contentuid="he5093590g7576g4172g8419gb789085ad728" version="1">Shapechanger: Necrology</content>
 	<content contentuid="h98e5c053g7160g48b0g9f6ag6f123613c14b" version="1">Immunity to poison damage and poisoned and dieseased statuses. Req: lvl 1.</content>
 	<content contentuid="hce9e36f8g6fbeg4f5ega0efg016e789cc143" version="1">Skulkling: NightStalker</content>
 	<content contentuid="hce4e0d93ge91bg4454ga2d4gc691687d33a7" version="1">Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. Your Base speed increases by 10 feet. In addition, you can spend 2 Blood to gain advantage on Dexterity (Stealth) checks for 1 hour.</content>
@@ -42,13 +42,13 @@
 	<content contentuid="h951885e9ge864g4570gbd77ge60dad4fe5ea" version="1">You spend this Blood as a Bonus Action; you can take the Dash, Disengage, or Dodge action as part of this Bonus Action on your turn after you spend this Blood.</content>
 	<content contentuid="hda170f8cg1297g4e25g9c31g7e5178919d78" version="1">Shoving Attack</content>
 	<content contentuid="h79032d1dga5d0g4803ga7ccg4306c545540f" version="1">Pushes the creature back, and deals extra damage based on blood points. Req: lvl 1, 2 blood pool points to use.</content>
-	<content contentuid="hb3d447c9gb2e2g40d7ga41dga80f26823e34" version="1">Spies In The Night</content>
+	<content contentuid="hb3d447c9gb2e2g40d7ga41dga80f26823e34" version="1">Masterful: Spies In The Night</content>
 	<content contentuid="h2b1184ecge9f5g4312g86a4gd6301b2b80a4" version="1">Bat</content>
 	<content contentuid="hb8890138g2805g4e87ga272g26b787c4fcb6" version="1">Allows you to summon either an invisible raven or rat.</content>
 	<content contentuid="h37b48a26g78ecg4feag84a5g55acdde99f1b" version="1">Vampiric Agility</content>
 	<content contentuid="h2a8850f4g8856g467bg92cag6a1d8267412b" version="1">Jump distance increased by 25ft and movement speed increased by 10ft. Req: lvl 1.</content>
 	<content contentuid="h0b8c0913g9219g41a3g8a45g3bd9cf679d58" version="1">When a target misses you can spend 1 blood point to attack them with your claws. Req: lvl 1, 1 blood pool points to use.</content>
-	<content contentuid="h2c323f38gc077g497dg8b66gd1babf395ef4" version="1">Assassin's Fangs</content>
+	<content contentuid="h2c323f38gc077g497dg8b66gd1babf395ef4" version="1">Ghoulish: Assassin's Fangs</content>
 	<content contentuid="hba29a213g8bffg4a67gb214gd647f16ebfbc" version="1">You may use your Bite attack against a surprised or unaware target, even if they don't meet the normal requirements for your Bite. Req: lvl 3, 2 blood pool points to use.</content>
 	<content contentuid="he7875c02gd065g4febg83a9g8dbbe4470aca" version="1">Skulking: Misty Escape</content>
 	<content contentuid="ha7b80c7cg5bd5g4398g84b8g218709171b1f" version="1">When you are targeted by an attack from a creature that you can see, you can use your reaction to turn into mist.</content>
@@ -56,11 +56,11 @@
 	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp based on bp spent and retaliating with 1d10 necrotic damage.</content>
 	<content contentuid="h2e4b4437geb58g45d7g87ffg2c248e185621" version="1">Sanguine Shield</content>
 	<content contentuid="hb575bc65g1f04g44fdg91e9gf7c175bfeef2" version="1">As a reaction to an attack, you may expend 2 or more Blood, up to your proficiency bonus. You gain a bonus to your AC equal to the number of Blood spent until the beginning of your next turn, including against the triggering attack.</content>
-	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Children of the Night</content>
+	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Masterful: Children of the Night</content>
 	<content contentuid="h38b5d4aeg1dd2g4ba8gb389g7fcf057ebaf3" version="1">You can use your Blood to summon a number of animals to you. You spend Blood equal to the number of animals you are trying to summon (Maximum of 5). You can summon wolves and the beasts remain for 1 hour.</content>
-	<content contentuid="haee10b6ag0e21g4fa1g9126g0413fcec2655" version="1">Booster Shot</content>
+	<content contentuid="haee10b6ag0e21g4fa1g9126g0413fcec2655" version="1">Magical: Booster Shot</content>
 	<content contentuid="h72e1c982gfb50g4d28g9457g897265c0d63a" version="1">You can use a bonus action and spend Blood to infuse a companion with some of your undead ichor. When you do so, choose a friendly creature within 30 feet of you. That creature gains temporary hit points equal to the Blood spent + your Charisma modifier.</content>
-	<content contentuid="h3432b89cgdd05g432ag9b18g437e9fc106d9" version="1">Healing Saliva</content>
+	<content contentuid="h3432b89cgdd05g432ag9b18g437e9fc106d9" version="1">Magical: Healing Saliva</content>
 	<content contentuid="h9eb280fcg219cg4754gb6ceg1cfa97d91a6c" version="1">Your vampire saliva heals non-undead creatures, ensuring you can feed from them later. You can take an action to lick a wound; the creature gains 1d4 + your Charisma Modifer in Temporary Hit Points. By spending a Blood, you can convert those into regular Hit Points.</content>
 	<content contentuid="h082b46f0g8663g4fb3gafc7ge9db4ac6778c" version="1">Innate Weaponry: Bilu Blood</content>
 	<content contentuid="he6c5a0aeg3cabg4526ga2c4gbda25e38a8d4" version="1">By spending this Blood, you can have your next unarmed Claw attack deal Acid damage instead of Slashing damage.</content>
@@ -74,10 +74,10 @@
 	<content contentuid="h4df91e4bg330bg421ag842cgc74ff549cd81" version="1">When another creature damages you with a melee attack, you can use your reaction and spend Blood to reduce the damage by the number of Blood spent + your Dexterity modifier.</content>
 	<content contentuid="h2e221defgb440g4113gb0d4gbf6da9f6d7d6" version="1">Summon Servant</content>
 	<content contentuid="h7c1aa02bg1130g414fg8fbeged507ae9f80c" version="1">You can animate an undead servant as an action. Select a pile of humanoid bones or a humanoid corpse within 10 feet, and spend a Blood.</content>
-	<content contentuid="h83c3b3cfg96bag4129gaf16g360b3f22044b" version="1">Sparkly</content>
+	<content contentuid="h83c3b3cfg96bag4129gaf16g360b3f22044b" version="1">Shapechanger: Sparkly</content>
 	<content contentuid="hd23ae4fbg7c37g4193g8319gfa12eb1e9c67" version="1">You grow a strange covering over your skin that glitters in light. For each hour you spend in sunlight, you must spend Blood to force yourself to resist the effects of sunlight. Each time you spend these Blood, you sparkle dramatically for 1 minute, gaining disadvantage on Stealth checks.</content>
 	<content contentuid="he0a93e35g1675g4ba5g93b2gbc09926bb44c" version="1"> </content>
-	<content contentuid="hcdcef85cg969bg4bd5gbeb8g8dda2bd6b71c" version="1">Transfusion</content>
+	<content contentuid="hcdcef85cg969bg4bd5gbeb8g8dda2bd6b71c" version="1">Shapechanger: Transfusion</content>
 	<content contentuid="h60cd8e11g501eg4f3eg9da7gb3f255fa5fc0" version="1">As a bonus action, you can spend two blood to heal yourself for 1d4 plus your charisma modifier.</content>
 	<content contentuid="h1618c0c1gbbc2g4e93g9f4eg14c0caaabe05" version="1">Detect Life</content>
 	<content contentuid="hefeccc68g4494g434cga16ag42a1ef5cf193" version="1">You can see invisibility and are now immune to being turned.</content>
@@ -95,9 +95,9 @@
 	<content contentuid="h26dcd3aag4e7cg4c08g93f7g6f8343cfc567" version="1">If you have zero Blood, you instead must make a Wisdom save of 11 or enter a feral rage for 1 turn.</content>
 	<content contentuid="h2d94c51dg5ad3g4d2dg8a0dg1dc7538d7a47" version="1">Bloodthirsty</content>
 	<content contentuid="h9723f21dg51ceg4278ga627g38b73c3ff5ec" version="1">By spending a Blood as part of your action when you make an unarmed attack against a target that has been damaged by your Hemorrhaging Claws feature, you can make the attack with advantage. You spend this Blood each time you make this part of your attack action.</content>
-	<content contentuid="hfc8c556fgbf70g4427g8d6bgb68dc05706c8" version="1">Supernatural Resilience</content>
+	<content contentuid="hfc8c556fgbf70g4427g8d6bgb68dc05706c8" version="1">Shapechanger: Supernatural Resilience</content>
 	<content contentuid="hffeaa544g1218g47f0g917egc8207dabb802" version="1">Your vampiric curse strengthens your physical prowess. You gain resistance to bludgeoning, piercing and slashing from non-magical attacks.</content>
-	<content contentuid="hd1afe285g28b9g4e4fgb492g3a8c434f1fed" version="1">Undead Fortitude</content>
+	<content contentuid="hd1afe285g28b9g4e4fgb492g3a8c434f1fed" version="1">Shapechanger: Undead Fortitude</content>
 	<content contentuid="h714867b8gf2c6g4936ga48fg395e9facac41" version="1">When you are reduced to 0 hit points, you can expend 1 Blood (no action required) to have 1 hit point instead.</content>
 	<content contentuid="hd7a1a2eag2d7dg42f9gb3e7g9fc48f9484f6" version="1">Skulking: What We Do in the Shadows</content>
 	<content contentuid="h3fda1ec0g9189g456agbcc4g15e25fd7665b" version="1">You can meld your essence into darkness itself. By spending 3 Blood as an action, you step into a shadow large enough to fully contain your body, melding yourself and all the equipment you carry with the shadows. You must use 5 feet of movement to enter a shadow. You instantly know the location of all other shadows within 500 feet and as part of the move used to enter the shadow, can either pass into one of those shadows or step out of the shadow you are in. You appear in a spot of your choice within 5 feet of the  shadow that you chose, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the shadow you entered.</content>
@@ -125,13 +125,13 @@
 	<content contentuid="h0e314659g3c79g4cb5ga481gf02cfdcf0511" version="1">When you make your first unarmed strike on your turn, you can decide to throw caution to the wind, biting and scratching relentlessly. Doing so gives you advantage on unarmed strike attack rolls during this turn, but attack rolls against you have advantage until your next turn.</content>
 	<content contentuid="h34770787g68a3g4b23g8569gf4bb89a9bb74" version="1">Feeding Frenzy(Dismiss)</content>
 	<content contentuid="hfe92489cg4dd7g4416g9b70g9b0588a269be" version="1">Dismiss Feeding Frenzy</content>
-	<content contentuid="h56699d1dg4695g4cbdg8683gdf083b52f988" version="1">Animalism</content>
+	<content contentuid="h56699d1dg4695g4cbdg8683gdf083b52f988" version="1">Ghoulish: Animalism</content>
 	<content contentuid="he4e4ff78g79edg4041gb8d3g587f3db53260" version="1">Allows you to spend blood to dominate a beast.</content>
-	<content contentuid="he4bcf0e1g6600g4d8fgae4eg56fa44120c07" version="1">Lacedon Blood</content>
+	<content contentuid="he4bcf0e1g6600g4d8fgae4eg56fa44120c07" version="1">Ghoulish: Lacedon Blood</content>
 	<content contentuid="h914d40cfgdafdg45f8gbbdcg42fdeaba50dd" version="1">Legends speak of certain ghouls who could not only ignore the fear of running water, but learned to thrive in it. You are immune to the acid damage caused by running water and resistant to cold damage.</content>
 	<content contentuid="he62585dag1596g4ce7g9498gcfdedc2fadb6" version="1">Stench Aura</content>
 	<content contentuid="h35c0610bg7d86g4b85ga6feg1d6eac94903b" version="1">You spend this Blood as a bonus action. For one minute after you spend this Blood, creatures that enter into a 10 foot radius around you for the first time make a Constitution saving throw. On a failed save, they are poisoned until they leave this radius. On a success or if they leave this radius, they are immune to this poisoned effect for 24 hours.</content>
-	<content contentuid="h8be266e5g1331g4f16gafe7gbd3427f6cccc" version="1">Gnawing Hunger</content>
+	<content contentuid="h8be266e5g1331g4f16gafe7gbd3427f6cccc" version="1">Ghoulish: Gnawing Hunger</content>
 	<content contentuid="h91d6e1f6gb06dg4a53ga875gf48073fd5884" version="1">Your feral nature manifests as the ability to extract nutrients out of any former living thing; the nutrients in question however, are not always fulfilling. You can restore Blood from consuming dead flesh. You can take use this ability outside of combat to consume a corpse. This specialized Feeding does not restore any hit points, but does restore your Blood as if you had Fed off a living creature of that type.</content>
 	<content contentuid="h1a23885bg5f13g4aa4gae70g6b3e9e944abb" version="1">Dreaded Warrior</content>
 	<content contentuid="h95a150ffg5fb7g4a92g87aegfbc72cef3f60" version="1">Starting at 3rd level, you gain proficiency in Heavy armor and your hit point maximum increases by 3. It also increases by 1 whenever you gain a level in this class. You also pick one Fighting Style.</content>
@@ -143,9 +143,9 @@
 	<content contentuid="h917ce4f7gf853g4a99ga31ag1a0fc01a86a4" version="1">At 17th level, you score a critical hit on a 19 or 20. You can spend 1 Blood as a bonus action to increase this to 18-20 for one minute, or until you score a critical hit on an 18. Whenever you score a critical hit, you recover Blood as if you had used your Bite attack against the target (Minimum of 2).</content>
 	<content contentuid="ha5a132c0gbc49g487fgb59ag9cdc6186819a" version="1">Creature of The Night</content>
 	<content contentuid="h2cd91d39g3ed0g402fg8e20gff03f950ce18" version="1">At 3rd level, you can spend half your maximum Blood (rounded up) to transform into a bat-like Creature and gain the following features for 10 minutes per Blood spent on this transformation: Your AC while in Creature form is equal to 10 + Your Dexterity + Your Constitution modifier. You cannot use a shield. You gain a number of Temporary Hit Points equal to your Constitution Modifier + half your vampire level when you Transform. Your unarmed strikes deal an additional 1d6 damage on a hit. This damage bonus does not apply to the Necrotic damage. You gain a flying speed equal to your walking speed. You have advantage on Wisdom (Perception) checks. You gain Blindsight for 30 feet. Any clothing or equipment you are wearing melds into your Creature form; you cannot wield manufactured weapons while in this form. You have vulnerability to Thunder damage while in Creature form. If you are deafened, you lose your blindsight. You cannot recover or spend Blood while deafened or the turn after you have taken Thunder damage. This Transformation ends early if you are knocked unconscious, killed, or stunned. You can couple this Transformation with Vampire Lord at 20th level.</content>
-	<content contentuid="h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8" version="1">Armored Titan</content>
+	<content contentuid="h29c18c08g24c6g4726g8ac6g94bdc4a7a2f8" version="1">Impaler: Armored Titan</content>
 	<content contentuid="h29f4af2bg6f61g4b01gbfd1g092a5933b497" version="1">While you are wearing Heavy or Medium Armor, you can spend 1 Blood as a reaction to impose disadvantage on a single attack roll made against you.</content>
-	<content contentuid="he2cd34b4gc790g47d6gbcfdg0249c4867095" version="1">Acquired Taste</content>
+	<content contentuid="he2cd34b4gc790g47d6gbcfdg0249c4867095" version="1">Impaler: Acquired Taste</content>
 	<content contentuid="h111a1330g0426g42b7gac62gfd3ad268e694" version="1">When you hit your Flavoured Enemy with a Bite attack, you regain 1 additional Blood.</content>
 	<content contentuid="h8cf5de3cg4f0cg4712gbf60g52e7a96a79f2" version="1">Unearthly Will</content>
 	<content contentuid="h5622b633g0084g47a6gbd1ege53efbc0bab0" version="1">At 13th level, your vampiric will is stronger than most mortals can comprehend. You gain proficiency in Wisdom saving throws, and you have advantage on saving throws against being Frightened or Charmed. Additionally, when you consume blood from a target with Spell Slots and/or the Innate Spellcasting trait, you have resistance to magical damage dealt by that targets' spells (not magical weapons they wield), and advantage on spells that require you to make a saving throw cast by that target.</content>
@@ -157,7 +157,7 @@
 	<content contentuid="h757b04b9g81d3g46cagb3d4ga13b4f17e7a6" version="1">When you hit a creature with a weapon attack, you can spend Blood to maneuver one of your comrades into a more advantageous position. You add the Blood spent to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</content>
 	<content contentuid="h5b6dca69g4443g457agbc38gd44e84dae5f1" version="1">Impaler’s Command</content>
 	<content contentuid="h630846d1ga451g4b5fg9a7dg793891d449b6" version="1">When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike, spending the Blood to do so. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack, adding the number of Blood spent to the attack roll.</content>
-	<content contentuid="h621cfeabga79bg4f69g8860g81e9b8feb2e8" version="1">Blood Spike</content>
+	<content contentuid="h621cfeabga79bg4f69g8860g81e9b8feb2e8" version="1">Impaler: Blood Spike</content>
 	<content contentuid="hff595865g114bg4fe3gb3cbgb93a55f08642" version="1">You create a spike of blood and fling it at one creature within range. Make a ranged attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the blood exploded must succeed on a Dexterity saving throw or take 2d6 necrotic damage. When you spend additional Blood on this feature, the necrotic damage increases by 1d6 for each additional Blood spent.</content>
 	<content contentuid="hbe34b4c4g2375g4a4egb7e8g21d39ce52831" version="1">Sacrificial Summoning</content>
 	<content contentuid="h5de13ba2gb3cag4ca0g8395g5db83345b23c" version="1">When you drop a creature to 0 Hit Points on your turn, you can use Summon Servant as a Bonus action by spending Blood, instead of the normal action. At least one of the corpses you target to create these undead must be the creature you reduced to 0 hit points.</content>
@@ -169,7 +169,7 @@
 	<content contentuid="h259cc6fbg6c17g42f3ga14bg889c81aab3aa" version="1">Vampire's hunger has been temporarily sated. +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5aeb95ffgba95g4890g8524g38da0b19e977" version="1">Greater Creature</content>
 	<content contentuid="h8a37e1cbgba93g44b0gaf52g8c2503b69edc" version="1">At 17th level, your Transformation is truly terrifying to behold, a nigh unstoppable Creature. You gain the following benefits when you Transform; Your Blindsight in Creature form increases to 60 feet. Your unarmed strikes damage bonus increases to 3d6. You have immunity to damage from weapons that aren't silvered, including magical weapons. You have advantage on saving throws against spells and other magical effects.</content>
-	<content contentuid="hb71ae707gb417g4527g874agccd039c6aa4f" version="1">Hemophilia</content>
+	<content contentuid="hb71ae707gb417g4527g874agccd039c6aa4f" version="1">Shapechanger: Hemophilia</content>
 	<content contentuid="ha48252eag8f54g4262g9baag326e57317d95" version="1">Whenever you spend Blood, you recover 1 Hit Point per Blood spent.</content>
 	<content contentuid="h8a1ac902g523bg4a48g892eg03d6c0dd6766" version="1">Hemorrhagic Casting</content>
 	<content contentuid="h615c7d9dgade9g45f8gb7a3g6d843624cd78" version="1">At 3rd Level, you regain 1 extra Blood when you feed on sleeping, Charmed, or willing Humanoid targets. This increases to 2 at 7th level, 3 at 11th level, and 4 at 17th level. When you cast a damage dealing Cantrip, the spell deals additional damage of the spell’s type equal to your Charisma Modifier.</content>
@@ -183,7 +183,7 @@
 	<content contentuid="h90e4294agba32g4075ga7cbgabedc3efdf46" version="1">When you hit a creature with a weapon or single target spell attack, you can spend Blood to attempt to goad the target into attacking you. You add the Blood spent to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</content>
 	<content contentuid="h722d31f6ge8dcg4740gb20ag1c6ba8612e61" version="1">Swindling Strike</content>
 	<content contentuid="hca6a1615gbf69g4517g8076gf81b012e20c9" version="1">As a bonus action, you spend Blood and perform a feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the Blood spent to the attack’s damage roll.</content>
-	<content contentuid="h25393d84g4ea6g4e80g9d47gf15cf524d972" version="1">Blood Magic</content>
+	<content contentuid="h25393d84g4ea6g4e80g9d47gf15cf524d972" version="1">Magical: Blood Magic</content>
 	<content contentuid="h1a47f204gf965g4387g9a7dg8e5955eb5140" version="1">You learn 2 cantrips from the Warlock spell list. In addition, you may prepare a 1st level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 2 Blood. When you reach 6th level in this class, you may prepare an additional spell of 2nd level that is in the school of Enchantment, Illusion or Necromancy. Casting a 2nd level spell in this way costs 4 Blood. You may take this Feature multiple times to gain additional cantrips and prepare multiple spells.</content>
 	<content contentuid="h8f2fba07g04f7g4c6bg803agb2027b07f461" version="1">Blood Magic (Select Cantrips)</content>
 	<content contentuid="h24de2221ge1d3g4826ga27eg556ff5959e05" version="1">Blood Magic (Select Spells)</content>
@@ -203,13 +203,13 @@
 	<content contentuid="heddd4f3fge986g4af6gbcf6g9c0c553fe096" version="1">Vampire's hunger has been temporarily sated by their Lover. Extra +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h3d6cf6a5g1cb6g4262g9424gce060bb03c65" version="1">Exsanguination</content>
 	<content contentuid="h75fd0cd3g172fg4f3cgbd14g7a41ab3eff05" version="1">As an action, you can expend a spell slot to recover Blood. The amount of Blood is equal to the level of the spell slot expended.</content>
-	<content contentuid="h50ae14daga244g448dg971fg75718981b50b" version="1">Shapechanger</content>
+	<content contentuid="h50ae14daga244g448dg971fg75718981b50b" version="1">Shapechanger: Shapechanger</content>
 	<content contentuid="ha7beb7c4gb37eg4e87g9b0egfe00ec28ea74" version="1">As an action, you can transform into a Tiny Bat or a Medium Wolf, following the Druid’s Wild Shape rules (ignoring the Flight speed limitation).</content>
-	<content contentuid="hc4fdb5f2g2d3fg486dg9aa7g663cbac5188d" version="1">Shapechanger (Bat)</content>
+	<content contentuid="hc4fdb5f2g2d3fg486dg9aa7g663cbac5188d" version="1">Shapechange (Bat)</content>
 	<content contentuid="h363dffaegad03g4852gaf96g0612a46206bd" version="1">Become a Tiny Bat</content>
-	<content contentuid="hb35d4bc2gcb49g489bgb25dg2a6b07277bc9" version="1">Shapechanger (Wolf)</content>
+	<content contentuid="hb35d4bc2gcb49g489bgb25dg2a6b07277bc9" version="1">Shapechange (Wolf)</content>
 	<content contentuid="hff2c589ag6c57g4870g8ad3g430f2adc3cfc" version="1">Become a Medium Wolf</content>
-	<content contentuid="h79e7b007g4853g4657gab36g044260b71d94" version="1">Create Spawn</content>
+	<content contentuid="h79e7b007g4853g4657gab36g044260b71d94" version="1">Masterful: Create Spawn</content>
 	<content contentuid="hd1d1c32cgf74eg4db1ga57bgcfb0d1e54fe2" version="1">Once per week, when you kill a humanoid with your bite attack, you can bury the body. The following night, the body rises up as a Vampire Spawn under your control. Your Vampire Spawn counts for your total number of Thralls. You can free a Vampire Spawn to create a full Vampire by feeding them some of your Blood. The newly created Vampire is under no obligation to serve you, but will attempt to assist you as best it can if properly motivated. In order to create a Spawn, you must maintain this feature for the entire process.</content>
 	<content contentuid="h6e6cb8b0g215ag46d0g9cfcg9465a27c6a42" version="1">Buried</content>
 	<content contentuid="h7490402fgb77eg4dabg8847gc504cfc9b785" version="1">This entity is changing...</content>
