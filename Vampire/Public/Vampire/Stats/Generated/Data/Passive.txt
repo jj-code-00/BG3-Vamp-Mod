@@ -759,8 +759,23 @@ type "PassiveData"
 using "Vamp_PassiveBloodFeatureBase"
 data "DisplayName" "he0d7fa58g63deg46dfg8eb9gfb57e5937811"
 data "Description" "h09865592g4b81g443cgbd0ag16c2cf671509"
-data "Icon" "Status_Poisoned" 
+data "Icon" "Action_Monster_Orin_DeathbringerAssault" 
 data "Boosts" "UnlockInterrupt(Interrupt_Vamp_HemorrhagingClaws)"
+
+//May need to be context.Target //
+new entry "Vamp_PassiveBloodlettingTechnical"
+type "PassiveData"
+data "DisplayName" "h6ba674f2g83b2g49a6ga1a5gaff3846e63be"
+data "Description" "hbb535b5age764g4abag80d2ga81f087346ea"
+data "Properties" "IsHidden"
+data "Boosts" "IF(HasStatus('Vamp_StatusBloodletting', context.Source) and IsUnarmedAttack()):Advantage(AttackTarget)"
+
+new entry "Vamp_PassiveBloodletting"
+type "PassiveData"
+using "Vamp_PassiveBloodFeatureBase"
+data "DisplayName" "h6ba674f2g83b2g49a6ga1a5gaff3846e63be"
+data "Description" "hbb535b5age764g4abag80d2ga81f087346ea"
+data "Icon" "Status_Bleeding" 
 
 //----------------------------Greater Blood Magic----------------------------//
 

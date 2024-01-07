@@ -15,7 +15,7 @@
 	<content contentuid="h5ed098cag2d2ag4318g93f2g66996e876e95" version="1">Blood Pool</content>
 	<content contentuid="h139819ecgf6b5g42bdg974fg71e23e9f4d51" version="1">Blood Pool Feature</content>
 	<content contentuid="ha77841fbg925eg4aa4gbd5aga6c535530d05" version="1">This resource allows you to select blood features. The number of blood feature points you have dictates how many features you can have at once.</content>
-	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Magical: Sanguine Talons</content>
+	<content contentuid="h1900db0ag8f81g4505gaf72gf07f081dc559" version="1">Sanguine Talons</content>
 	<content contentuid="hc6476c44ge687g4dd8gbf23g3d845e8c339f" version="1">Your claws and bite now count as magical for the purposes of overcoming resistances.</content>
 	<content contentuid="hbfbaa147ge979g42a9g8083gf2db46f454b2" version="1">Innate Weaponry: Agonizing Vampire Bite</content>
 	<content contentuid="h1aa40631g67a8g4a6dgbd4eg6d750d27061b" version="1">Your fangs become longer and deadlier. You add your Constitution modifier to the amount of Necrotic damage dealt by your Bite.</content>
@@ -54,7 +54,7 @@
 	<content contentuid="ha7b80c7cg5bd5g4398g84b8g218709171b1f" version="1">When you are targeted by an attack from a creature that you can see, you can use your reaction to turn into mist.</content>
 	<content contentuid="hfd3c6c9fg3bd9g4eb0gb7f0g410432af10f5" version="1">Blood Barrier</content>
 	<content contentuid="hda484ec3ge30fg4902g9c3bgbd2d03abd4c7" version="1">Spend Blood as a reaction, getting temporary hp based on bp spent and retaliating with 1d10 necrotic damage.</content>
-	<content contentuid="h2e4b4437geb58g45d7g87ffg2c248e185621" version="1">Sanguine Shield</content>
+	<content contentuid="h2e4b4437geb58g45d7g87ffg2c248e185621" version="1">Magical: Sanguine Shield</content>
 	<content contentuid="hb575bc65g1f04g44fdg91e9gf7c175bfeef2" version="1">As a reaction to an attack, you may expend 2 or more Blood, up to your proficiency bonus. You gain a bonus to your AC equal to the number of Blood spent until the beginning of your next turn, including against the triggering attack.</content>
 	<content contentuid="hc9d4d058g21bag49c7g9adag9b1c6bfba720" version="1">Masterful: Children of the Night</content>
 	<content contentuid="h38b5d4aeg1dd2g4ba8gb389g7fcf057ebaf3" version="1">You can use your Blood to summon a number of animals to you. You spend Blood equal to the number of animals you are trying to summon (Maximum of 5). You can summon wolves and the beasts remain for 1 hour.</content>
@@ -197,7 +197,7 @@
 	<content contentuid="h75b48673gc283g42e6ga03bg4ed1083a026b" version="1">Used to select Greater Blood Magic Spells</content>
 	<content contentuid="h43196f87g6603g489cgbcc4gaa37b687b0b2" version="1">Re-Select Greater Blood Magic</content>
 	<content contentuid="h650c29ffg5c0eg49d5gb5f3g173f6a02e518" version="1">Allows you to select Greater Blood Magic multiple times.</content>
-	<content contentuid="h663943d6gdb73g4b0dg9743ga6999457b0ea" version="1">Greater Blood Magic</content>
+	<content contentuid="h663943d6gdb73g4b0dg9743ga6999457b0ea" version="1">Magical: Greater Blood Magic</content>
 	<content contentuid="h7e467607g1ee9g4eefga61bgba8d6e962fb0" version="1">You may prepare a 3rd level Enchantment, Illusion or Necromancy spell when you finish a long rest. Casting this spell costs 5 Blood. You may take this Feature multiple times to prepare multiple spells.</content>
 	<content contentuid="hfc81060eg8f27g43d8g8c1ega7e1911d4e1c" version="1">My Bloody Romance</content>
 	<content contentuid="heddd4f3fge986g4af6gbcf6g9c0c553fe096" version="1">Vampire's hunger has been temporarily sated by their Lover. Extra +1 to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
@@ -222,4 +222,6 @@
 	<content contentuid="h57e34742g2506g4335gbf51g7ae778331b81" version="1">Skulkling: Creepy Crawler</content>
 	<content contentuid="h914c6482g48ebg4af6gbc80g1d16f317dec5" version="1">Dark Leather Armor</content>
 	<content contentuid="hb9bdc147g8c6ag44f1ga835gb40ef7207d8a" version="1">A red and black leather outfit that smells slightly of blood.</content>
+	<content contentuid="h6ba674f2g83b2g49a6ga1a5gaff3846e63be" version="1">Innate Weaponry: BloodLetting</content>
+	<content contentuid="hbb535b5age764g4abag80d2ga81f087346ea" version="1">When you make an unarmed attack against a target that has been damaged by your Hemorrhaging Claws feature, you can make the attack with advantage.</content>
 </contentList>
