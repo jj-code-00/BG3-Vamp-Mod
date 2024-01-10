@@ -1553,7 +1553,7 @@ data "Boosts" "UnlockSpell(Shout_CreatureofTheNight_Dismiss);ACOverrideFormula(1
 data "Passives" "Vamp_PassiveBestialBlindsight;Vamp_PassiveBestialThunderVun;Vamp_PassiveCreatureofTheNightTechnical;Vamp_BestialRoaringThunder;Vamp_PassiveBestialBlindsightImproved;Vamp_PassiveCreatureofTheNightTechnicalImproved;Vamp_BestialDamageImmunity;Vamp_BestialSavingThrows"
 data "OnApplyFunctors" ""
 data "OnRemoveFunctors" "ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);IF(not HasPassive('Vamp_PassiveEcholocationTechnical')):RemoveStatus(SELF,Blindsight_9m_Status);RemoveStatus(SELF,Blindsight_18m_Status)"
-data "TemplateID" "04c73996-d79f-45a3-bdf0-58d14830f17f"
+data "TemplateID" "7f3da60c-48c6-4b32-8c14-4aa8671ba7d8"
 data "Rules" "0c9236bb-6eab-4a2a-bb2e-aa7183a24946"
 data "StatusGroups" "SG_Polymorph;SG_DropForNonMutingDialog;SG_RemoveOnRespec"
 data "StatusEffect" "a2f59d12-02d6-418d-8b23-e5fc111846b0"
